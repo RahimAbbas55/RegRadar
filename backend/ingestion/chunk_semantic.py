@@ -47,12 +47,14 @@ def chunk_document(doc: dict) -> list[dict]:
         pieces = group_sentences(sentences) if sentences else ([provision["text"]] if provision["text"] else [])
 
         for i, piece in enumerate(pieces):
-            chunks.append({**base_meta, "chunk_id": f"{provision['provision_id']}_{i}",
+            source_stem = doc["source_file"].replace(".html", "").replace(".json", "")
+            chunks.append({**base_meta, "chunk_id": f"{source_stem}::{provision['provision_id']}_{i}",
                             "text": piece, "contains_table": False})
 
         # Each table becomes its own atomic chunk — never split, never merged with prose
         for t_idx, table_md in enumerate(provision.get("tables", [])):
-            chunks.append({**base_meta, "chunk_id": f"{provision['provision_id']}_table_{t_idx}",
+            source_stem = doc["source_file"].replace(".html", "").replace(".json", "")
+            chunks.append({**base_meta, "chunk_id": f"{source_stem}::{provision['provision_id']}_table_{t_idx}",
                             "text": table_md, "contains_table": True})
     return chunks
 
