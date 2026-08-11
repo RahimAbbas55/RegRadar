@@ -34,19 +34,26 @@ def group_sentences(sentences: list[str], target_size: int = TARGET_CHUNK_SIZE) 
 def chunk_document(doc: dict) -> list[dict]:
     chunks = []
     for provision in doc["provisions"]:
+        base_meta = {
+            "provision_id": provision["provision_id"],
+            "heading": provision["heading"],
+            "date": provision["date"],
+            "tag": provision["tag"],
+            "source_file": doc["source_file"],
+        }
+
+        # Prose text gets sentence-grouped as before
         sentences = split_into_sentences(provision["text"])
-        pieces = group_sentences(sentences) if sentences else [provision["text"]]
+        pieces = group_sentences(sentences) if sentences else ([provision["text"]] if provision["text"] else [])
 
         for i, piece in enumerate(pieces):
-            chunks.append({
-                "chunk_id": f"{provision['provision_id']}_{i}",
-                "provision_id": provision["provision_id"],
-                "heading": provision["heading"],
-                "date": provision["date"],
-                "tag": provision["tag"],
-                "text": piece,
-                "source_file": doc["source_file"],
-            })
+            chunks.append({**base_meta, "chunk_id": f"{provision['provision_id']}_{i}",
+                            "text": piece, "contains_table": False})
+
+        # Each table becomes its own atomic chunk — never split, never merged with prose
+        for t_idx, table_md in enumerate(provision.get("tables", [])):
+            chunks.append({**base_meta, "chunk_id": f"{provision['provision_id']}_table_{t_idx}",
+                            "text": table_md, "contains_table": True})
     return chunks
 
 if __name__ == "__main__":

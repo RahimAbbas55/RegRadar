@@ -9,6 +9,7 @@ TARGET_SECTIONS = [
     ("sysc4_general_org_requirements", "https://handbook.fca.org.uk/handbook/sysc4"),
     ("sysc6_compliance_internal_audit", "https://handbook.fca.org.uk/handbook/sysc6"),
     ("sysc10_conflicts_of_interest", "https://handbook.fca.org.uk/handbook/SYSC/10/"),
+    ("sysc1_1a_application_table", "https://handbook.fca.org.uk/handbook/sysc1/sysc1s5"),
 ]
 
 RAW_DATA_DIR = Path(__file__).parent.parent.parent / "data" / "raw"

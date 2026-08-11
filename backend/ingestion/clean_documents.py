@@ -6,7 +6,7 @@ from bs4 import BeautifulSoup
 
 RAW_DIR = Path(__file__).parent.parent.parent / "data" / "raw"
 PROCESSED_DIR = Path(__file__).parent.parent.parent / "data" / "processed"
-PROVISION_PATTERN = re.compile(r"^SYSC\s+\d+(\.\d+)+[A-Z]?$")
+PROVISION_PATTERN = re.compile(r"^SYSC\s+\d+[A-Z]?(\.\d+[A-Z]?)+$")
 
 def find_heading_for(label_tag):
     """Walks backward through preceding siblings/ancestors to find the nearest heading text."""
@@ -36,16 +36,21 @@ def parse_provisions_from_soup(soup: BeautifulSoup) -> list[dict]:
         tag_span = header_container.find("span", class_="provison-type")
         tag_text = tag_span.get_text(strip=True) if tag_span else None
 
-        # Body text lives in a sibling <div class="provision-meta">
+       # Body text lives in a sibling <div class="provision-meta">
         meta_div = header_container.find_next_sibling("div", class_="provision-meta")
-        body_text = meta_div.get_text(separator=" ", strip=True) if meta_div else ""
+        if meta_div:
+            body_text, tables = extract_tables_and_text(meta_div)
+        else:
+            body_text, tables = "", []
 
         provisions.append({
             "provision_id": provision_id,
             "date": date_text,
-            "tag": tag_text,  # "G" = Guidance, "R" = Rule
+            "tag": tag_text,
             "heading": find_heading_for(label),
             "text": body_text,
+            "tables": tables,              
+            "contains_table": len(tables) > 0,
         })
 
     return provisions
@@ -60,6 +65,43 @@ def clean_file(raw_path: Path) -> dict:
         "provision_count": len(provisions),
         "provisions": provisions,
     }
+    
+def clean_cell_text(cell) -> str:
+    """Extracts cell text with proper spacing between sibling nodes, then tidies punctuation spacing."""
+    text = cell.get_text(separator=" ", strip=True)
+    text = re.sub(r"\s+", " ", text)           
+    text = re.sub(r"\s+([,.;:])", r"\1", text) 
+    return text
+
+def table_to_markdown(table_tag) -> str:
+    """Converts an HTML table into a markdown table string, preserving row/column structure."""
+    headers = [clean_cell_text(th) for th in table_tag.select("thead th")]
+    rows = []
+    for tr in table_tag.select("tbody tr"):
+        cells = [clean_cell_text(td) for td in tr.find_all("td")]
+        rows.append(cells)
+
+    if not headers or not rows:
+        return ""
+
+    lines = ["| " + " | ".join(headers) + " |"]
+    lines.append("| " + " | ".join(["---"] * len(headers)) + " |")
+    for row in rows:
+        lines.append("| " + " | ".join(row) + " |")
+
+    return "\n".join(lines)
+
+def extract_tables_and_text(meta_div) -> tuple[str, list[str]]:
+    """Pulls tables out of the content before flattening to text, so they don't get mangled."""
+    tables_markdown = []
+    for table_tag in meta_div.find_all("table"):
+        md = table_to_markdown(table_tag)
+        if md:
+            tables_markdown.append(md)
+        table_tag.decompose()  # remove from the tree so it's not double-counted in get_text()
+
+    remaining_text = meta_div.get_text(separator=" ", strip=True)
+    return remaining_text, tables_markdown
 
 if __name__ == "__main__":
     PROCESSED_DIR.mkdir(parents=True, exist_ok=True)
