@@ -2,16 +2,12 @@
 import json
 from pathlib import Path
 from collections import Counter
-CHUNKS_DIR = Path(__file__).parent.parent.parent / "data" / "processed" / "chunks_semantic"
+from collections import Counter
+from chunk_utils import load_all_chunks
 MIN_REASONABLE_CHUNK_LEN = 20    # chunks shorter than this are likely extraction failures
-MAX_REASONABLE_CHUNK_LEN = 2500  # chunks longer than this likely failed to split properly
+MAX_REASONABLE_CHUNK_LEN = 2500   # chunks longer than this likely failed to split properly
 
-def load_all_chunks() -> list[dict]:
-    all_chunks = []
-    for path in CHUNKS_DIR.glob("*.json"):
-        chunks = json.loads(path.read_text(encoding="utf-8"))
-        all_chunks.extend(chunks)
-    return all_chunks
+chunks = load_all_chunks()
 
 def check_empty_or_tiny(chunks: list[dict]) -> list[dict]:
     return [c for c in chunks if len(c["text"].strip()) < MIN_REASONABLE_CHUNK_LEN]
