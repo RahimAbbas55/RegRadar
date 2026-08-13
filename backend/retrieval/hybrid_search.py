@@ -9,6 +9,7 @@ from qdrant_client import QdrantClient
 from config import settings
 from retrieval.bm25_index import tokenize
 from qdrant_client.models import Filter, FieldCondition, MatchValue
+from retrieval.reranker import rerank
 EMBEDDING_MODEL = "text-embedding-3-small"
 BM25_INDEX_PATH = Path(__file__).parent.parent.parent / "data" / "processed" / "bm25_index.pkl"
 RRF_K = 60  # standard damping constant for reciprocal rank fusion
@@ -75,8 +76,11 @@ def hybrid_search(
         candidate_pool: int = 20,
         tag: str | None = None,
         source_file: str | None = None,
+        use_reranker: bool = True
     ) -> list[dict]:
     dense_results = dense_search(query, top_k=candidate_pool, tag=tag, source_file=source_file)
     sparse_results = sparse_search(query, top_k=candidate_pool, tag=tag, source_file=source_file)
     fused = reciprocal_rank_fusion([dense_results, sparse_results])
+    if use_reranker:
+        return rerank(query, fused , top_k = top_k)
     return fused[:top_k]
