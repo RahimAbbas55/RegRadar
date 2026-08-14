@@ -1,0 +1,1 @@
+{"event": "query_processed", "query": "test question", "search_query": "rewritten test question", "answer_length": 16, "source_count": 1, "source_provision_ids": ["SYSC 1.1.1"], "timestamp": "2026-08-14T11:26:41.649447+00:00", "level": "INFO"}
