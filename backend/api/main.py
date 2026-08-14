@@ -9,6 +9,7 @@ from generation.generate import generate_answer
 from retrieval.reranker import get_model as get_reranker_model
 from qdrant_client.http.exceptions import UnexpectedResponse, ResponseHandlingException
 from openai import APIError as OpenAIAPIError
+from observability.logger import log_query
 import httpx
 
 @asynccontextmanager
@@ -51,6 +52,14 @@ def query(request: QueryRequest):
     except Exception as e:
         print(f"Unexpected error in /query: {type(e).__module__}.{type(e).__name__}: {e}")
         raise HTTPException(status_code=500, detail="An unexpected error occurred while processing your query.")
+
+    log_query(
+        query=result["query"],
+        search_query=result["search_query"],
+        answer=result["answer"],
+        sources=result["sources"],
+        timings=result.get("timings", {}),
+    )
 
     return QueryResponse(
         query=result["query"],
