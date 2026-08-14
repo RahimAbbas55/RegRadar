@@ -26,6 +26,7 @@ def log_query(query: str, search_query: str, answer: str, sources: list[dict], *
         "event": "query_processed",
         "query": query,
         "search_query": search_query,
+        "answer": answer, 
         "answer_length": len(answer),
         "source_count": len(sources),
         "source_provision_ids": [s.get("provision_id") for s in sources],
