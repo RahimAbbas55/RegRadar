@@ -31,5 +31,5 @@ def generate_answer(query: str, top_k: int = 5, **retrieve_kwargs) -> dict:
         "query": query,
         "search_query": retrieval_result["search_query"],
         "answer": answer,
-        "sources": [{"provision_id": c["provision_id"], "tag": c.get("tag")} for c in chunks],
+        "sources": [{"provision_id": c["provision_id"], "tag": c.get("tag"), "text": c["text"]} for c in chunks],
     }

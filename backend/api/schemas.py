@@ -9,6 +9,7 @@ class QueryRequest(BaseModel):
 class Source(BaseModel):
     provision_id: str
     tag: str | None
+    text: str
 
 class QueryResponse(BaseModel):
     query: str

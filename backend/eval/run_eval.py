@@ -20,6 +20,7 @@ def run_all() -> list[dict]:
             "question": item["question"],
             "expected_provision_ids": item["expected_provision_ids"],
             "retrieved_provision_ids": retrieved_provision_ids,
+            "retrieved_texts": [s["text"] for s in pipeline_result["sources"]],
             "answer": pipeline_result["answer"],
             "difficulty": item["difficulty"],
         })
