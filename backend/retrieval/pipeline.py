@@ -16,7 +16,10 @@ def retrieve(
 ) -> dict:
     timings = {}
     rewrite_start = time.perf_counter()
-    search_query = rewrite_query(query) if use_query_rewriting else query
+    if use_query_rewriting:
+        search_query, rewrite_usage = rewrite_query(query)
+    else:
+        search_query, rewrite_usage = query, {"prompt_tokens": 0, "completion_tokens": 0}
     timings["rewrite_ms"] = round((time.perf_counter() - rewrite_start) * 1000, 1)
     search_start = time.perf_counter()
     results = hybrid_search(
@@ -32,4 +35,5 @@ def retrieve(
         "search_query": search_query,
         "results": results,
         "timings": timings,
+        "token_usage": {"rewrite": rewrite_usage},
     }

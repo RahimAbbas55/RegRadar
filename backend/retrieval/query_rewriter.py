@@ -13,11 +13,15 @@ Return ONLY the rewritten query, nothing else — no preamble, no explanation.
 User question: {query}
 Rewritten query:"""
 
-def rewrite_query(query: str) -> str:
+def rewrite_query(query: str) -> tuple[str, dict]:
     response = client.chat.completions.create(
         model="gpt-4o-mini",
         max_tokens=100,
         messages=[{"role": "user", "content": REWRITE_PROMPT.format(query=query)}],
     )
     rewritten = response.choices[0].message.content.strip()
-    return rewritten if rewritten else query  # fallback to original if the model returns empty
+    usage = {
+        "prompt_tokens": response.usage.prompt_tokens,
+        "completion_tokens": response.usage.completion_tokens,
+    }
+    return (rewritten if rewritten else query), usage# fallback to original if the model returns empty
