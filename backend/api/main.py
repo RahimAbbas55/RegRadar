@@ -59,6 +59,7 @@ def query(request: QueryRequest):
         answer=result["answer"],
         sources=result["sources"],
         timings=result.get("timings", {}),
+        cost_usd=result.get("cost_usd", 0),
     )
 
     return QueryResponse(
