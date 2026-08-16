@@ -1,16 +1,19 @@
-# FastAPI app entrypoint for RegRadar.
+"""FastAPI app entrypoint for RegRadar."""
 import sys
 from pathlib import Path
 from contextlib import asynccontextmanager
+
 sys.path.insert(0, str(Path(__file__).parent.parent))
+
 from fastapi import FastAPI, HTTPException
+from fastapi.middleware.cors import CORSMiddleware
 from api.schemas import QueryRequest, QueryResponse, Source
 from generation.generate import generate_answer
 from retrieval.reranker import get_model as get_reranker_model
 from qdrant_client.http.exceptions import UnexpectedResponse, ResponseHandlingException
 from openai import APIError as OpenAIAPIError
 from observability.logger import log_query
-import httpx
+
 
 @asynccontextmanager
 async def lifespan(app: FastAPI):
@@ -20,6 +23,7 @@ async def lifespan(app: FastAPI):
     print("Reranker ready.")
     yield
 
+
 app = FastAPI(
     title="RegRadar API",
     description="AI compliance assistant for UK financial regulation (FCA Handbook)",
@@ -27,9 +31,18 @@ app = FastAPI(
     lifespan=lifespan,
 )
 
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=["http://localhost:5173"],  # Vite dev server — tighten this for production later
+    allow_methods=["*"],
+    allow_headers=["*"],
+)
+
+
 @app.get("/health")
 def health_check():
     return {"status": "ok"}
+
 
 @app.post("/query", response_model=QueryResponse)
 def query(request: QueryRequest):
@@ -42,10 +55,8 @@ def query(request: QueryRequest):
     try:
         result = generate_answer(request.query, top_k=request.top_k, tag=request.tag)
     except ResponseHandlingException as e:
-        # Qdrant unreachable entirely — server down, wrong host/port, network issue
         raise HTTPException(status_code=503, detail=f"Vector database unreachable: {e}")
     except UnexpectedResponse as e:
-        # Qdrant reachable but returned an error response
         raise HTTPException(status_code=503, detail=f"Vector database error: {e}")
     except OpenAIAPIError as e:
         raise HTTPException(status_code=503, detail=f"LLM provider error: {e}")

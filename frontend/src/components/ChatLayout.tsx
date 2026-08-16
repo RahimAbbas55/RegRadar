@@ -1,7 +1,45 @@
-import { CitationStamp } from './CitationStamp';
+import { useState } from 'react';
 import styles from './ChatLayout.module.css';
+import { CitationStamp } from './CitationStamp';
+import { submitQuery, ApiRequestError } from '../api/client';
+import type { ChatMessage } from '../types/chat';
 
 export function ChatLayout() {
+  const [messages, setMessages] = useState<ChatMessage[]>([]);
+  const [inputValue, setInputValue] = useState('');
+
+  async function handleSend() {
+    const trimmed = inputValue.trim();
+    if (!trimmed) return;
+
+    const userMessage: ChatMessage = {
+      id: crypto.randomUUID(),
+      role: 'user',
+      content: trimmed,
+    };
+    setMessages((prev) => [...prev, userMessage]);
+    setInputValue('');
+
+    try {
+      const response = await submitQuery({ query: trimmed });
+      const assistantMessage: ChatMessage = {
+        id: crypto.randomUUID(),
+        role: 'assistant',
+        content: response.answer,
+        sources: response.sources,
+      };
+      setMessages((prev) => [...prev, assistantMessage]);
+    } catch (err) {
+      const errorText = err instanceof ApiRequestError ? err.message : 'Something went wrong. Please try again.';
+      const errorMessage: ChatMessage = {
+        id: crypto.randomUUID(),
+        role: 'assistant',
+        content: errorText,
+      };
+      setMessages((prev) => [...prev, errorMessage]);
+    }
+  }
+
   return (
     <div className={styles.container}>
       <header className={styles.header}>
@@ -10,21 +48,24 @@ export function ChatLayout() {
       </header>
 
       <main className={styles.messageList}>
-        <div className={styles.messageUser}>
-          <p>Do I need to train my staff on money laundering?</p>
-        </div>
-
-        <div className={styles.messageAssistant}>
-          <p>
-            Staff training on anti-money laundering is described as Guidance rather than a
-            binding Rule — the FCA expects it as best practice, but it is not a strict legal
-            requirement.
-          </p>
-          <div style={{ display: 'flex', gap: 'var(--space-2)', marginTop: 'var(--space-3)', flexWrap: 'wrap' }}>
-            <CitationStamp source={{ provision_id: 'SYSC 6.3.7', tag: 'G', text: 'Sample guidance text for hover preview.' }} />
-            <CitationStamp source={{ provision_id: 'SYSC 3.2.6H', tag: 'R', text: 'Sample rule text for hover preview.' }} />
-          </div>
-        </div>
+        {messages.map((message) =>
+          message.role === 'user' ? (
+            <div key={message.id} className={styles.messageUser}>
+              <p>{message.content}</p>
+            </div>
+          ) : (
+            <div key={message.id} className={styles.messageAssistant}>
+              <p>{message.content}</p>
+              {message.sources && message.sources.length > 0 && (
+                <div className={styles.citations}>
+                  {message.sources.map((source) => (
+                    <CitationStamp key={source.provision_id} source={source} />
+                  ))}
+                </div>
+              )}
+            </div>
+          )
+        )}
       </main>
 
       <footer className={styles.inputArea}>
@@ -32,8 +73,12 @@ export function ChatLayout() {
           type="text"
           className={styles.input}
           placeholder="Ask a compliance question…"
+          value={inputValue}
+          onChange={(e) => setInputValue(e.target.value)}
         />
-        <button className={styles.sendButton}>Ask</button>
+        <button className={styles.sendButton} onClick={handleSend}>
+          Ask
+        </button>
       </footer>
     </div>
   );
