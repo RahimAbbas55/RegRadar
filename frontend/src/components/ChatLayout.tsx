@@ -7,10 +7,11 @@ import type { ChatMessage } from '../types/chat';
 export function ChatLayout() {
   const [messages, setMessages] = useState<ChatMessage[]>([]);
   const [inputValue, setInputValue] = useState('');
+  const [isLoading, setIsLoading] = useState(false);
 
   async function handleSend() {
     const trimmed = inputValue.trim();
-    if (!trimmed) return;
+    if (!trimmed || isLoading) return;
 
     const userMessage: ChatMessage = {
       id: crypto.randomUUID(),
@@ -19,6 +20,7 @@ export function ChatLayout() {
     };
     setMessages((prev) => [...prev, userMessage]);
     setInputValue('');
+    setIsLoading(true);
 
     try {
       const response = await submitQuery({ query: trimmed });
@@ -37,6 +39,8 @@ export function ChatLayout() {
         content: errorText,
       };
       setMessages((prev) => [...prev, errorMessage]);
+    } finally {
+      setIsLoading(false);
     }
   }
 
@@ -66,6 +70,17 @@ export function ChatLayout() {
             </div>
           )
         )}
+
+        {isLoading && (
+          <div className={styles.messageAssistant}>
+            <div className={styles.loadingIndicator}>
+              <span className={styles.loadingDot} />
+              <span className={styles.loadingDot} />
+              <span className={styles.loadingDot} />
+              <span className={styles.loadingText}>Searching the FCA Handbook…</span>
+            </div>
+          </div>
+        )}
       </main>
 
       <footer className={styles.inputArea}>
@@ -75,9 +90,11 @@ export function ChatLayout() {
           placeholder="Ask a compliance question…"
           value={inputValue}
           onChange={(e) => setInputValue(e.target.value)}
+          onKeyDown={(e) => e.key === 'Enter' && handleSend()}
+          disabled={isLoading}
         />
-        <button className={styles.sendButton} onClick={handleSend}>
-          Ask
+        <button className={styles.sendButton} onClick={handleSend} disabled={isLoading}>
+          {isLoading ? 'Asking…' : 'Ask'}
         </button>
       </footer>
     </div>
