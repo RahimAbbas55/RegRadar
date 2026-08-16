@@ -3,7 +3,7 @@
 A retrieval-augmented generation (RAG) system for querying UK financial regulation — FCA Handbook, AML/KYC guidance, and PSD2/PSR text — with grounded, cited answers.
 
 ## Status
-🚧 In active development. Backend is feature-complete (Stages 1-11 of 16). Frontend, deployment, and docs remain.
+🚧 In active development. Backend and frontend are both functional (Stages 1-12 of 16). Streaming, richer citations, deployment, and final docs remain.
 
 ## What it does
 RegRadar answers compliance questions against the FCA Handbook (SYSC sourcebook) with:
@@ -11,7 +11,7 @@ RegRadar answers compliance questions against the FCA Handbook (SYSC sourcebook)
 - Cross-encoder reranking for precision
 - LLM query rewriting (casual questions → precise regulatory phrasing)
 - Citation-grounded generation — every claim traces back to a specific provision ID
-- Explicit Rule vs. Guidance distinction (binding vs. non-binding FCA text)
+- Explicit Rule vs. Guidance distinction (binding vs. non-binding FCA text), visually encoded in the UI
 - Refuses to answer questions outside its ingested scope, rather than guessing
 
 ## Stack
@@ -22,16 +22,12 @@ RegRadar answers compliance questions against the FCA Handbook (SYSC sourcebook)
 - **Generation**: OpenAI `gpt-4o` (query rewriting via `gpt-4o-mini`)
 - **Evaluation**: RAGAS (faithfulness, answer relevancy), custom retrieval precision/recall
 - **Observability**: Structured JSON logging, per-stage latency tracking, per-query cost tracking
-- **Frontend** (in progress): React + TypeScript
+- **Frontend**: React + TypeScript, Vite
 - **Deployment** (planned): Docker, AWS EC2, GitHub Actions CI/CD
 
 ## Architecture
 
-**Ingestion pipeline:**
-FCA Handbook scraping → DOM-accurate provision parsing (provision ID, date, Rule/Guidance tag) → table-aware sentence chunking → deduplication → embedding generation → Qdrant + BM25 index upsert
-
-**Query pipeline:**
-Query rewriting → hybrid search (dense + BM25 + RRF fusion) → cross-encoder reranking → citation-grounded generation → structured response with sources
+See `docs/ARCHITECTURE.md` for the full system design, including the ingestion pipeline, query pipeline, and frontend structure.
 
 See `docs/eval_report.md` for current evaluation metrics and known limitations.
 
@@ -39,6 +35,8 @@ See `docs/eval_report.md` for current evaluation metrics and known limitations.
 7 FCA Handbook SYSC sections (governance, systems/controls, financial crime, AML), 298 deduplicated chunks — a starting corpus, not the full Handbook.
 
 ## Running locally
+
+**Backend:**
 ```bash
 # Start Qdrant
 cd docker && docker compose up -d
@@ -63,7 +61,16 @@ python3 retrieval/bm25_index.py
 uvicorn api.main:app --reload
 ```
 
-Query the API:
+**Frontend:**
+```bash
+cd frontend
+npm install
+npm run dev
+```
+
+Visit `http://localhost:5173`. The frontend expects the backend running at `http://localhost:8000` (configurable via `frontend/.env`, see `.env.example`).
+
+Query the API directly:
 ```bash
 curl -X POST http://localhost:8000/query \
   -H "Content-Type: application/json" \
@@ -76,6 +83,9 @@ cd backend
 python3 eval/run_eval.py       # run golden dataset through the pipeline
 python3 eval/eval_report.py    # generate metrics report -> docs/eval_report.md
 ```
+
+## Frontend QA
+See `frontend/QA_CHECKLIST.md` for the manual verification checklist covering all UI states (empty, loading, error, mobile, keyboard accessibility).
 
 ## Why
 Built to demonstrate production-grade RAG architecture — hybrid retrieval, reranking, query rewriting, citation-grounded generation, and a formal evaluation harness — not just embed-and-stuff-into-prompt. Designed around UK fintech compliance use cases (Revolut, Monzo, Citi-style risk/regulatory tooling).
