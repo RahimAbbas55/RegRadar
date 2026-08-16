@@ -2,9 +2,7 @@
 import sys
 from pathlib import Path
 from contextlib import asynccontextmanager
-
 sys.path.insert(0, str(Path(__file__).parent.parent))
-
 from fastapi import FastAPI, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
 from api.schemas import QueryRequest, QueryResponse, Source
@@ -13,7 +11,9 @@ from retrieval.reranker import get_model as get_reranker_model
 from qdrant_client.http.exceptions import UnexpectedResponse, ResponseHandlingException
 from openai import APIError as OpenAIAPIError
 from observability.logger import log_query
-
+import json
+from fastapi.responses import StreamingResponse
+from generation.generate import generate_answer_stream
 
 @asynccontextmanager
 async def lifespan(app: FastAPI):
@@ -22,7 +22,6 @@ async def lifespan(app: FastAPI):
     get_reranker_model()
     print("Reranker ready.")
     yield
-
 
 app = FastAPI(
     title="RegRadar API",
@@ -38,11 +37,9 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
-
 @app.get("/health")
 def health_check():
     return {"status": "ok"}
-
 
 @app.post("/query", response_model=QueryResponse)
 def query(request: QueryRequest):
@@ -79,3 +76,36 @@ def query(request: QueryRequest):
         answer=result["answer"],
         sources=[Source(**s) for s in result["sources"]],
     )
+    
+@app.post("/query/stream")
+def query_stream(request: QueryRequest):
+    if not request.query.strip():
+        raise HTTPException(status_code=400, detail="Query cannot be empty or whitespace only.")
+
+    if request.tag and request.tag not in ("R", "G"):
+        raise HTTPException(status_code=400, detail="tag must be 'R' or 'G' if provided.")
+
+    def event_generator():
+        try:
+            full_answer = ""
+            sources = []
+            for event in generate_answer_stream(request.query, top_k=request.top_k, tag=request.tag):
+                if event["type"] == "sources":
+                    sources = event["sources"]
+                elif event["type"] == "token":
+                    full_answer += event["text"]
+                yield f"data: {json.dumps(event)}\n\n"
+
+            log_query(
+                query=request.query,
+                search_query=request.query,  # rewritten query not surfaced mid-stream in this version
+                answer=full_answer,
+                sources=sources,
+                timings={},
+                cost_usd=0,
+            )
+        except Exception as e:
+            error_event = {"type": "error", "message": str(e)}
+            yield f"data: {json.dumps(error_event)}\n\n"
+
+    return StreamingResponse(event_generator(), media_type="text/event-stream")
