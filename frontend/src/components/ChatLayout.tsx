@@ -129,10 +129,17 @@ export function ChatLayout() {
             >
               <p>{message.content}</p>
               {message.sources && message.sources.length > 0 && (
-                <div className={styles.citations}>
-                  {message.sources.map((source) => (
-                    <CitationStamp key={source.provision_id} source={source} />
-                  ))}
+                <div className={styles.citationsWrapper}>
+                  {message.sources.length > 2 && (
+                    <span className={styles.citationsLabel}>
+                      {message.sources.length} sources cited
+                    </span>
+                  )}
+                  <div className={styles.citations}>
+                    {message.sources.map((source) => (
+                      <CitationStamp key={source.provision_id} source={source} />
+                    ))}
+                  </div>
                 </div>
               )}
             </div>
