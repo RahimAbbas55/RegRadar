@@ -9,6 +9,7 @@ export function ChatLayout() {
   const [messages, setMessages] = useState<ChatMessage[]>([]);
   const [inputValue, setInputValue] = useState("");
   const [isLoading, setIsLoading] = useState(false);
+  const [isAwaitingFirstToken, setIsAwaitingFirstToken] = useState(false);
   const inputRef = useRef<HTMLInputElement>(null);
 
   useEffect(() => {
@@ -37,6 +38,7 @@ export function ChatLayout() {
     setMessages((prev) => [...prev, userMessage]);
     setInputValue("");
     setIsLoading(true);
+    setIsAwaitingFirstToken(true);
 
     const assistantMessageId = crypto.randomUUID();
     let hasAddedAssistantMessage = false;
@@ -49,6 +51,7 @@ export function ChatLayout() {
             { id: assistantMessageId, role: "assistant", content: "", sources: event.sources },
           ]);
           hasAddedAssistantMessage = true;
+          setIsAwaitingFirstToken(false);
         } else if (event.type === "token") {
           setMessages((prev) =>
             prev.map((m) =>
@@ -77,6 +80,7 @@ export function ChatLayout() {
       }
     } finally {
       setIsLoading(false);
+      setIsAwaitingFirstToken(false);
     }
   }
 
@@ -135,7 +139,7 @@ export function ChatLayout() {
           ),
         )}
 
-        {isLoading && (
+        {isAwaitingFirstToken && (
           <div className={styles.messageAssistant}>
             <div className={styles.loadingIndicator}>
               <span className={styles.loadingDot} />
