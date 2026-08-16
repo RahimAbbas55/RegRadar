@@ -1,8 +1,9 @@
 import { useState, useRef, useEffect } from "react";
 import styles from "./ChatLayout.module.css";
 import { CitationStamp } from "./CitationStamp";
-import { submitQuery, ApiRequestError } from "../api/client";
-import type { ChatMessage } from "../types/chat";
+import { ApiRequestError } from '../api/client';
+import { streamQuery } from '../api/StreamClient';
+import type { ChatMessage } from '../types/chat';
 
 export function ChatLayout() {
   const [messages, setMessages] = useState<ChatMessage[]>([]);
@@ -37,27 +38,43 @@ export function ChatLayout() {
     setInputValue("");
     setIsLoading(true);
 
+    const assistantMessageId = crypto.randomUUID();
+    let hasAddedAssistantMessage = false;
+
     try {
-      const response = await submitQuery({ query: trimmed });
-      const assistantMessage: ChatMessage = {
-        id: crypto.randomUUID(),
-        role: "assistant",
-        content: response.answer,
-        sources: response.sources,
-      };
-      setMessages((prev) => [...prev, assistantMessage]);
+      for await (const event of streamQuery(trimmed)) {
+        if (event.type === "sources") {
+          setMessages((prev) => [
+            ...prev,
+            { id: assistantMessageId, role: "assistant", content: "", sources: event.sources },
+          ]);
+          hasAddedAssistantMessage = true;
+        } else if (event.type === "token") {
+          setMessages((prev) =>
+            prev.map((m) =>
+              m.id === assistantMessageId ? { ...m, content: m.content + event.text } : m
+            )
+          );
+        } else if (event.type === "error") {
+          if (!hasAddedAssistantMessage) {
+            setMessages((prev) => [
+              ...prev,
+              { id: assistantMessageId, role: "assistant", content: event.message, isError: true },
+            ]);
+          }
+        }
+      }
     } catch (err) {
       const errorText =
         err instanceof ApiRequestError
           ? err.message
           : "Something went wrong. Please try again.";
-      const errorMessage: ChatMessage = {
-        id: crypto.randomUUID(),
-        role: "assistant",
-        content: errorText,
-        isError: true,
-      };
-      setMessages((prev) => [...prev, errorMessage]);
+      if (!hasAddedAssistantMessage) {
+        setMessages((prev) => [
+          ...prev,
+          { id: assistantMessageId, role: "assistant", content: errorText, isError: true },
+        ]);
+      }
     } finally {
       setIsLoading(false);
     }
