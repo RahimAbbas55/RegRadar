@@ -1,3 +1,4 @@
+import { CitationStamp } from './CitationStamp';
 import styles from './ChatLayout.module.css';
 
 export function ChatLayout() {
@@ -19,6 +20,10 @@ export function ChatLayout() {
             binding Rule — the FCA expects it as best practice, but it is not a strict legal
             requirement.
           </p>
+          <div style={{ display: 'flex', gap: 'var(--space-2)', marginTop: 'var(--space-3)', flexWrap: 'wrap' }}>
+            <CitationStamp source={{ provision_id: 'SYSC 6.3.7', tag: 'G', text: 'Sample guidance text for hover preview.' }} />
+            <CitationStamp source={{ provision_id: 'SYSC 3.2.6H', tag: 'R', text: 'Sample rule text for hover preview.' }} />
+          </div>
         </div>
       </main>
 
