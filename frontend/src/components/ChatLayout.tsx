@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useState, useRef, useEffect } from "react";
 import styles from "./ChatLayout.module.css";
 import { CitationStamp } from "./CitationStamp";
 import { submitQuery, ApiRequestError } from "../api/client";
@@ -8,6 +8,12 @@ export function ChatLayout() {
   const [messages, setMessages] = useState<ChatMessage[]>([]);
   const [inputValue, setInputValue] = useState("");
   const [isLoading, setIsLoading] = useState(false);
+  const inputRef = useRef<HTMLInputElement>(null);
+
+  useEffect(() => {
+    inputRef.current?.focus();
+  }, []);
+
   const exampleQuestions = [
     "Do I need to train my staff on money laundering?",
     "Who is responsible for outsourcing decisions?",
@@ -128,6 +134,7 @@ export function ChatLayout() {
 
       <footer className={styles.inputArea}>
         <input
+          ref={inputRef}
           type="text"
           className={styles.input}
           placeholder="Ask a compliance question…"

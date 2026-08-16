@@ -10,7 +10,13 @@ export function CitationStamp({ source }: CitationStampProps) {
   const tagClass = source.tag === 'R' ? styles.rule : source.tag === 'G' ? styles.guidance : styles.unknown;
 
   return (
-    <div className={`${styles.stamp} ${tagClass}`} title={source.text}>
+    <div
+      className={`${styles.stamp} ${tagClass}`}
+      tabIndex={0}
+      role="button"
+      aria-label={`${source.provision_id}, ${tagLabel}. ${source.text}`}
+      title={source.text}
+    >
       <span className={styles.provisionId}>{source.provision_id}</span>
       <span className={styles.tagLabel}>{tagLabel}</span>
     </div>
