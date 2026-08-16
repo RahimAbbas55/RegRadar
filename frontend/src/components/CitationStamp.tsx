@@ -1,3 +1,4 @@
+import { useState } from 'react';
 import styles from './CitationStamp.module.css';
 import type { Source } from '../api/types';
 
@@ -6,19 +7,30 @@ interface CitationStampProps {
 }
 
 export function CitationStamp({ source }: CitationStampProps) {
+  const [isExpanded, setIsExpanded] = useState(false);
+
   const tagLabel = source.tag === 'R' ? 'Rule' : source.tag === 'G' ? 'Guidance' : 'Unknown';
   const tagClass = source.tag === 'R' ? styles.rule : source.tag === 'G' ? styles.guidance : styles.unknown;
 
   return (
-    <div
-      className={`${styles.stamp} ${tagClass}`}
-      tabIndex={0}
-      role="button"
-      aria-label={`${source.provision_id}, ${tagLabel}. ${source.text}`}
-      title={source.text}
-    >
-      <span className={styles.provisionId}>{source.provision_id}</span>
-      <span className={styles.tagLabel}>{tagLabel}</span>
+    <div className={styles.wrapper}>
+      <div
+        className={`${styles.stamp} ${tagClass}`}
+        tabIndex={0}
+        role="button"
+        aria-expanded={isExpanded}
+        aria-label={`${source.provision_id}, ${tagLabel}. ${isExpanded ? 'Collapse' : 'Expand'} to read full text.`}
+        onClick={() => setIsExpanded((prev) => !prev)}
+      >
+        <span className={styles.provisionId}>{source.provision_id}</span>
+        <span className={styles.tagLabel}>{tagLabel}</span>
+      </div>
+
+      {isExpanded && (
+        <div className={styles.panel}>
+          <p className={styles.panelText}>{source.text}</p>
+        </div>
+      )}
     </div>
   );
 }
