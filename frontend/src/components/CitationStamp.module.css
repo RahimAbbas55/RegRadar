@@ -1,3 +1,9 @@
+.wrapper {
+  display: inline-flex;
+  flex-direction: column;
+  max-width: 100%;
+}
+
 .stamp {
   display: inline-flex;
   align-items: center;
@@ -7,7 +13,17 @@
   border-left-width: 3px;
   border-radius: var(--radius-sm);
   padding: var(--space-1) var(--space-3);
-  cursor: default;
+  cursor: pointer;
+  transition: border-color 0.15s ease;
+}
+
+.stamp:hover {
+  border-color: var(--color-accent);
+}
+
+.stamp:focus-visible {
+  outline: 2px solid var(--color-accent);
+  outline-offset: 2px;
 }
 
 .stamp.rule {
@@ -37,16 +53,20 @@
   letter-spacing: 0.04em;
 }
 
-.stamp:focus-visible {
-  outline: 2px solid var(--color-accent);
-  outline-offset: 2px;
+.panel {
+  background: var(--color-ink-light);
+  border: 1px solid rgba(237, 238, 242, 0.15);
+  border-top: none;
+  border-radius: 0 0 var(--radius-sm) var(--radius-sm);
+  padding: var(--space-3);
+  margin-top: -1px;
+  max-width: 480px;
 }
 
-.wrapper {
-  display: inline-flex;
-  flex-direction: column;
-}
-
-.stamp {
-  cursor: pointer;
+.panelText {
+  margin: 0;
+  font-family: var(--font-body);
+  font-size: var(--text-sm);
+  line-height: 1.6;
+  color: var(--color-text-on-ink);
 }
