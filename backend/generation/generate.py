@@ -7,6 +7,8 @@ from openai import OpenAI
 from config import settings
 from generation.prompts import SYSTEM_PROMPT, build_user_prompt
 from retrieval.pipeline import retrieve
+from typing import Iterator
+
 client = OpenAI(api_key=settings.openai_api_key)
 GENERATION_MODEL = "gpt-4o"
 
@@ -68,3 +70,35 @@ def generate_answer(query: str, top_k: int = 5, **retrieve_kwargs) -> dict:
 def calculate_cost(model: str, prompt_tokens: int, completion_tokens: int) -> float:
     rates = PRICING.get(model, {"input": 0, "output": 0})
     return (prompt_tokens / 1_000_000 * rates["input"]) + (completion_tokens / 1_000_000 * rates["output"])
+
+def generate_answer_stream(query: str, top_k: int = 5, **retrieve_kwargs) -> Iterator[dict]:
+    # Streams a citation-grounded answer token by token.
+    retrieval_result = retrieve(query, top_k=top_k, **retrieve_kwargs)
+    chunks = retrieval_result["results"]
+
+    if not chunks:
+        yield {"type": "sources", "sources": []}
+        yield {"type": "token", "text": "No relevant provisions were found in the FCA Handbook for this question."}
+        yield {"type": "done"}
+        return
+
+    sources = [{"provision_id": c["provision_id"], "tag": c.get("tag"), "text": c["text"]} for c in chunks]
+    yield {"type": "sources", "sources": sources}
+
+    user_prompt = build_user_prompt(retrieval_result["search_query"], chunks)
+
+    stream = client.chat.completions.create(
+        model=GENERATION_MODEL,
+        messages=[
+            {"role": "system", "content": SYSTEM_PROMPT},
+            {"role": "user", "content": user_prompt},
+        ],
+        stream=True,
+    )
+
+    for chunk in stream:
+        delta = chunk.choices[0].delta.content
+        if delta:
+            yield {"type": "token", "text": delta}
+
+    yield {"type": "done"}
