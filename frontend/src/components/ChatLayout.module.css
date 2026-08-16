@@ -150,3 +150,20 @@
   opacity: 0.5;
   cursor: not-allowed;
 }
+
+.messageError {
+  align-self: flex-start;
+  max-width: 85%;
+  background: rgba(122, 46, 46, 0.15);
+  border: 1px solid var(--color-rule);
+  border-radius: var(--radius-md);
+  padding: var(--space-4);
+}
+
+.messageError p {
+  margin: 0;
+  color: var(--color-text-on-ink);
+  font-family: var(--font-body);
+  font-size: var(--text-base);
+  line-height: 1.6;
+}

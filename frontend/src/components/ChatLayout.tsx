@@ -37,6 +37,7 @@ export function ChatLayout() {
         id: crypto.randomUUID(),
         role: 'assistant',
         content: errorText,
+        isError: true,
       };
       setMessages((prev) => [...prev, errorMessage]);
     } finally {
@@ -58,7 +59,7 @@ export function ChatLayout() {
               <p>{message.content}</p>
             </div>
           ) : (
-            <div key={message.id} className={styles.messageAssistant}>
+            <div key={message.id} className={message.isError ? styles.messageError : styles.messageAssistant}>
               <p>{message.content}</p>
               {message.sources && message.sources.length > 0 && (
                 <div className={styles.citations}>
