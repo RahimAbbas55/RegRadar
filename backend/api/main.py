@@ -86,9 +86,9 @@ def query_stream(request: QueryRequest):
         raise HTTPException(status_code=400, detail="tag must be 'R' or 'G' if provided.")
 
     def event_generator():
+        full_answer = ""
+        sources = []
         try:
-            full_answer = ""
-            sources = []
             for event in generate_answer_stream(request.query, top_k=request.top_k, tag=request.tag):
                 if event["type"] == "sources":
                     sources = event["sources"]
@@ -98,14 +98,20 @@ def query_stream(request: QueryRequest):
 
             log_query(
                 query=request.query,
-                search_query=request.query,  # rewritten query not surfaced mid-stream in this version
+                search_query=request.query,
                 answer=full_answer,
                 sources=sources,
                 timings={},
                 cost_usd=0,
             )
+        except ResponseHandlingException as e:
+            yield f"data: {json.dumps({'type': 'error', 'message': f'Vector database unreachable: {e}'})}\n\n"
+        except UnexpectedResponse as e:
+            yield f"data: {json.dumps({'type': 'error', 'message': f'Vector database error: {e}'})}\n\n"
+        except OpenAIAPIError as e:
+            yield f"data: {json.dumps({'type': 'error', 'message': f'LLM provider error: {e}'})}\n\n"
         except Exception as e:
-            error_event = {"type": "error", "message": str(e)}
-            yield f"data: {json.dumps(error_event)}\n\n"
+            print(f"Unexpected error in /query/stream: {type(e).__module__}.{type(e).__name__}: {e}")
+            yield f"data: {json.dumps({'type': 'error', 'message': 'An unexpected error occurred while processing your query.'})}\n\n"
 
     return StreamingResponse(event_generator(), media_type="text/event-stream")
