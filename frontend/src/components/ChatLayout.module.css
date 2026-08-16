@@ -210,3 +210,44 @@
 .exampleButton:hover {
   border-color: var(--color-accent);
 }
+
+@media (max-width: 640px) {
+  .container {
+    max-width: 100%;
+  }
+
+  .header {
+    padding: var(--space-4) var(--space-3) var(--space-3);
+  }
+
+  .wordmark {
+    font-size: var(--text-lg);
+  }
+
+  .messageList {
+    padding: var(--space-4) var(--space-3);
+    gap: var(--space-3);
+  }
+
+  .messageUser,
+  .messageAssistant,
+  .messageError {
+    max-width: 92%;
+  }
+
+  .inputArea {
+    padding: var(--space-3);
+  }
+
+  .sendButton {
+    padding: var(--space-3) var(--space-4);
+  }
+
+  .emptyStateText {
+    font-size: var(--text-base);
+  }
+
+  .citations {
+    gap: var(--space-1);
+  }
+}
