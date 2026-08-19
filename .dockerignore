@@ -1,0 +1,21 @@
+# Backend
+backend/venv/
+backend/__pycache__/
+backend/**/__pycache__/
+backend/.env
+
+# Frontend
+frontend/node_modules/
+frontend/dist/
+frontend/.env
+
+# Data we don't want baked in (raw scraped HTML, logs — only data/processed/ is needed)
+data/raw/
+data/logs/
+
+# Git
+.git/
+.gitignore
+
+# OS
+.DS_Store
