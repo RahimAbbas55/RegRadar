@@ -1,0 +1,942 @@
+[
+  {
+    "provision_id": "SYSC 4.1.1",
+    "heading": "General requirements",
+    "date": "03/01/2018",
+    "tag": "R",
+    "source_file": "sysc4_general_org_requirements.html",
+    "chunk_id": "sysc4_general_org_requirements::SYSC 4.1.1_0",
+    "text": "(1) A firm must have robust governance arrangements, which include a clear organisational structure with well defined, transparent and consistent lines of responsibility, effective processes to identify, manage, monitor and report the risks it is or might be exposed to, and internal control mechanisms, including sound administrative and accounting procedures and effective control and safeguard arrangements for information processing systems.",
+    "contains_table": false
+  },
+  {
+    "provision_id": "SYSC 4.1.1",
+    "heading": "General requirements",
+    "date": "03/01/2018",
+    "tag": "R",
+    "source_file": "sysc4_general_org_requirements.html",
+    "chunk_id": "sysc4_general_org_requirements::SYSC 4.1.1_1",
+    "text": "(2) [deleted] [ Note : article 74 (1) of CRD , article 16(5) second paragraph of MiFID , article 12(1)(a) of the UCITS Directive , and article 18(1) of AIFMD ] (3) Without prejudice to the ability of the FCA or any other relevant competent authority to require access to communications in accordance with MiFID and MiFIR , a common platform firm must have sound security mechanisms in place for the following, while maintaining the confidentiality of the data at all times: (a) to guarantee the security and authentication of the means of transfer of information; (b) to minimise the risk of data corruption and unauthorised access; and (c) to prevent information leakage. [ Note: article 16(5) third paragraph of MiFID ]",
+    "contains_table": false
+  },
+  {
+    "provision_id": "SYSC 4.1.1A",
+    "heading": "General requirements",
+    "date": "22/07/2013",
+    "tag": "R",
+    "source_file": "sysc4_general_org_requirements.html",
+    "chunk_id": "sysc4_general_org_requirements::SYSC 4.1.1A_0",
+    "text": "A full-scope UK AIFM must comply with the AIFM Remuneration Code . [ Note : article 13(1) of AIFMD ]",
+    "contains_table": false
+  },
+  {
+    "provision_id": "SYSC 4.1.1B",
+    "heading": "General requirements",
+    "date": "22/07/2013",
+    "tag": "R",
+    "source_file": "sysc4_general_org_requirements.html",
+    "chunk_id": "sysc4_general_org_requirements::SYSC 4.1.1B_0",
+    "text": "A full-scope UK AIFM must, in particular: (1) have rules for personal transactions by its employees or for the holding or management of investments it invests on its own account; (2) ensure that each transaction involving the AIFs may be reconstructed according to its origin, the parties to it, its nature, and the time and place at which it was effected; and (3) ensure that the assets of the AIFs managed by the AIFM are invested in accordance with the instrument constituting the fund and the legal provisions in force. [ Note : article 18(1) second paragraph of AIFMD ]",
+    "contains_table": false
+  },
+  {
+    "provision_id": "SYSC 4.1.1D",
+    "heading": "General requirements",
+    "date": "01/01/2021",
+    "tag": "R",
+    "source_file": "sysc4_general_org_requirements.html",
+    "chunk_id": "sysc4_general_org_requirements::SYSC 4.1.1D_0",
+    "text": "A UK UCITS management company must comply with the UCITS Remuneration Code if it manages a UCITS scheme . [ Note : article 14a(1) of the UCITS Directive ]",
+    "contains_table": false
+  },
+  {
+    "provision_id": "SYSC 4.1.1E",
+    "heading": "General requirements",
+    "date": "01/01/2021",
+    "tag": "R",
+    "source_file": "sysc4_general_org_requirements.html",
+    "chunk_id": "sysc4_general_org_requirements::SYSC 4.1.1E_0",
+    "text": "A UK UCITS management company must have appropriate procedures for its employees to report potential or actual breaches of UK provisions which implemented the UCITS Directive internally through a specific, independent and autonomous channel. [ Note : article 99d(5) of the UCITS Directive ]",
+    "contains_table": false
+  },
+  {
+    "provision_id": "SYSC 4.1.1F",
+    "heading": "General requirements",
+    "date": "18/03/2016",
+    "tag": "G",
+    "source_file": "sysc4_general_org_requirements.html",
+    "chunk_id": "sysc4_general_org_requirements::SYSC 4.1.1F_0",
+    "text": "SYSC 18 (Guidance on Public Interest Disclosure Act: Whistleblowing) contains further guidance on the effect of the Public Interest Disclosure Act 1998 in the context of the relationship between firms and the FCA .",
+    "contains_table": false
+  },
+  {
+    "provision_id": "SYSC 4.1.2",
+    "heading": "General requirements",
+    "date": "23/10/2025",
+    "tag": "R",
+    "source_file": "sysc4_general_org_requirements.html",
+    "chunk_id": "sysc4_general_org_requirements::SYSC 4.1.2_0",
+    "text": "For a common platform firm , the arrangements, processes and mechanisms referred to in SYSC 4.1.1 R must be comprehensive and proportionate to the nature, scale and complexity of the risks inherent in the business model and of the common platform firm's activities and must take into account the specific technical criteria described in SYSC 4.1.1-AR(3) , SYSC 5.1.7 R , SYSC 7 and whichever of the following is applicable: (1) [deleted]; (2) (for a full-scope UK AIFM ) SYSC 19B (AIFM Remuneration Code); (3) [deleted]; (4) (for a firm to which SYSC 19D applies) SYSC 19D (Dual-regulated firms Remuneration Code); (5) (for a firm to which the remuneration part of the PRA Rulebook applies) the remuneration part of the PRA Rulebook ; or (6) (for a firm to which SYSC 19G applies) SYSC 19G (MIFIDPRU Remuneration Code).",
+    "contains_table": false
+  },
+  {
+    "provision_id": "SYSC 4.1.2A",
+    "heading": "General requirements",
+    "date": "03/01/2018",
+    "tag": "G",
+    "source_file": "sysc4_general_org_requirements.html",
+    "chunk_id": "sysc4_general_org_requirements::SYSC 4.1.2A_0",
+    "text": "Other firms should take account of the comprehensiveness and proportionality rule ( SYSC 4.1.2 R ) as if it were guidance (and as if \"should\" appeared in that rule instead of \"must\") as explained in SYSC 1 Annex 1 3.3 R(1).",
+    "contains_table": false
+  },
+  {
+    "provision_id": "SYSC 4.1.2B",
+    "heading": "General requirements",
+    "date": "01/01/2021",
+    "tag": "R",
+    "source_file": "sysc4_general_org_requirements.html",
+    "chunk_id": "sysc4_general_org_requirements::SYSC 4.1.2B_0",
+    "text": "For a management company or a full-scope UK AIFM , the arrangements, processes and mechanisms referred to in SYSC 4.1.1 R and SYSC 4.1.1A R must also take account of the UCITS schemes managed by the management company or the AIFs managed by the full-scope UK AIFM . [ Note: article 12(1) second paragraph of the UCITS Directive and article 18(1) second paragraph of AIFMD ]",
+    "contains_table": false
+  },
+  {
+    "provision_id": "SYSC 4.1.2C",
+    "heading": "Resources for management companies and AIFMs",
+    "date": "01/01/2021",
+    "tag": "R",
+    "source_file": "sysc4_general_org_requirements.html",
+    "chunk_id": "sysc4_general_org_requirements::SYSC 4.1.2C_0",
+    "text": "A management company and a full-scope UK AIFM must have, and employ effectively, the resources and procedures that are necessary for the proper performance of its business activities. [ Note: articles 12(1)(a) and 14(1)(c) of the UCITS Directive and article 12(1)(c) of AIFMD ]",
+    "contains_table": false
+  },
+  {
+    "provision_id": "SYSC 4.1.2D",
+    "heading": "Resources for management companies and AIFMs",
+    "date": "22/07/2013",
+    "tag": "R",
+    "source_file": "sysc4_general_org_requirements.html",
+    "chunk_id": "sysc4_general_org_requirements::SYSC 4.1.2D_0",
+    "text": "A full-scope UK AIFM must use, at all times, adequate and appropriate human and technical resources that are necessary for the proper management of AIFs . [ Note : article 18(1) first paragraph of AIFMD ]",
+    "contains_table": false
+  },
+  {
+    "provision_id": "SYSC 4.1.2E",
+    "heading": "Subordinate measures relating to provisions implementing article 12(1) of AIFMD",
+    "date": "01/01/2021",
+    "tag": "G",
+    "source_file": "sysc4_general_org_requirements.html",
+    "chunk_id": "sysc4_general_org_requirements::SYSC 4.1.2E_0",
+    "text": "Articles 16 to 29 of the AIFMD level 2 regulation provide detailed rules supplementing the UK provisions which implemented article 12(1) of AIFMD , and articles 57 to 66 of the AIFMD level 2 regulation provide detailed rules supplementing the UK provisions which implemented articles 12 and 18 of AIFMD .",
+    "contains_table": false
+  },
+  {
+    "provision_id": "SYSC 4.1.4",
+    "heading": "Mechanisms and procedures for a firm",
+    "date": "01/04/2019",
+    "tag": "R",
+    "source_file": "sysc4_general_org_requirements.html",
+    "chunk_id": "sysc4_general_org_requirements::SYSC 4.1.4_0",
+    "text": "A firm (with the exception of a common platform firm and a sole trader who does not employ any person who is required to be approved under section 59 of the Act (Approval for particular arrangements)) must, taking into account the nature, scale and complexity of the business of the firm , and the nature and range of the financial services, claims management services and other activities undertaken in the course of that business: (1) (if it is a management company ) establish, implement and maintain decision-making procedures and an organisational structure which clearly and in a documented manner specifies reporting lines and allocates functions and responsibilities; (2) establish, implement and maintain adequate internal control mechanisms designed to secure compliance with decisions and procedures at all levels of the firm ; (3) establish, implement and maintain effective internal reporting and communication of information at all relevant levels of the firm ; and (4) (if it is a management company ) establish, implement and maintain effective internal reporting and communication of information at all relevant levels of the management company as well as effective information flows with any third party involved. [ Note : articles 4(1) final paragraph, 4(1)(a), 4(1)(c) and 4(1)(d) of the UCITS implementing Directive ]",
+    "contains_table": false
+  },
+  {
+    "provision_id": "SYSC 4.1.4A",
+    "heading": "Mechanisms and procedures for a firm",
+    "date": "03/01/2018",
+    "tag": "G",
+    "source_file": "sysc4_general_org_requirements.html",
+    "chunk_id": "sysc4_general_org_requirements::SYSC 4.1.4A_0",
+    "text": "A firm that is not a common platform firm or a management company should take into account the decision-making procedures and effective internal reporting rules ( SYSC 4.1.4R (1) , (3) and (4) ) as if they were guidance (and as if \"should\" appeared in those rules instead of \"must\") as explained in SYSC 1 Annex 1 3.3 R(1).",
+    "contains_table": false
+  },
+  {
+    "provision_id": "SYSC 4.1.5",
+    "heading": "Mechanisms and procedures for a firm",
+    "date": "03/01/2018",
+    "tag": "R",
+    "source_file": "sysc4_general_org_requirements.html",
+    "chunk_id": "sysc4_general_org_requirements::SYSC 4.1.5_0",
+    "text": "A management company must establish, implement and maintain systems and procedures that are adequate to safeguard the security, integrity and confidentiality of information, taking into account the nature of the information in question. [ Note : article 4(2) of the UCITS implementing Directive ]",
+    "contains_table": false
+  },
+  {
+    "provision_id": "SYSC 4.1.5A",
+    "heading": "Operators of pensions dashboard services: security, integrity and confidentiality",
+    "date": "30/11/2024",
+    "tag": "R",
+    "source_file": "sysc4_general_org_requirements.html",
+    "chunk_id": "sysc4_general_org_requirements::SYSC 4.1.5A_0",
+    "text": "A firm carrying on regulated pensions dashboard activity must establish, implement and maintain systems and procedures that are adequate to safeguard the security, integrity and confidentiality of any personal or pensions information held by the firm , taking into the account the nature of the information in question.",
+    "contains_table": false
+  },
+  {
+    "provision_id": "SYSC 4.1.5B",
+    "heading": "Operators of pensions dashboard services: security, integrity and confidentiality",
+    "date": "30/11/2024",
+    "tag": "R",
+    "source_file": "sysc4_general_org_requirements.html",
+    "chunk_id": "sysc4_general_org_requirements::SYSC 4.1.5B_0",
+    "text": "A firm carrying on regulated pensions dashboard activity must keep appropriate records to demonstrate compliance with SYSC 4.1.5AR .",
+    "contains_table": false
+  },
+  {
+    "provision_id": "SYSC 4.1.5C",
+    "heading": "Operators of pensions dashboard services: security, integrity and confidentiality",
+    "date": "30/11/2024",
+    "tag": "R",
+    "source_file": "sysc4_general_org_requirements.html",
+    "chunk_id": "sysc4_general_org_requirements::SYSC 4.1.5C_0",
+    "text": "(1) If there is an incident which may compromise the security, integrity or confidentiality of any personal or pensions information held by the firm , the firm must immediately notify the FCA using the relevant form in Connect. (2) A notification under (1) must contain: (a) a description of the incident; (b) the time of the incident (where known); and (c) a description of the steps the firm is taking since being made aware of the incident (where applicable).",
+    "contains_table": false
+  },
+  {
+    "provision_id": "SYSC 4.1.6",
+    "heading": "Business continuity",
+    "date": "03/01/2018",
+    "tag": "R",
+    "source_file": "sysc4_general_org_requirements.html",
+    "chunk_id": "sysc4_general_org_requirements::SYSC 4.1.6_0",
+    "text": "A common platform firm must take reasonable steps to ensure continuity and regularity in the performance of its regulated activities . To this end the common platform firm must employ appropriate and proportionate systems, resources and procedures. [ Note : article 16(4) of MiFID ]",
+    "contains_table": false
+  },
+  {
+    "provision_id": "SYSC 4.1.7",
+    "heading": "Business continuity",
+    "date": "03/01/2018",
+    "tag": "R",
+    "source_file": "sysc4_general_org_requirements.html",
+    "chunk_id": "sysc4_general_org_requirements::SYSC 4.1.7_0",
+    "text": "A CRR firm and a management company must establish, implement and maintain an adequate business continuity policy aimed at ensuring, in the case of an interruption to its systems and procedures, that any losses are limited, the preservation of essential data and functions, and the maintenance of its regulated activities , or, in the case of a management company , its collective portfolio management activities, or, where that is not possible, the timely recovery of such data and functions and the timely resumption of those activities. [ Note : article 4(3) of the UCITS implementing Directive and article 85(2) of CRD ]",
+    "contains_table": false
+  },
+  {
+    "provision_id": "SYSC 4.1.7A",
+    "heading": "Business continuity",
+    "date": "03/01/2018",
+    "tag": "G",
+    "source_file": "sysc4_general_org_requirements.html",
+    "chunk_id": "sysc4_general_org_requirements::SYSC 4.1.7A_0",
+    "text": "Other firms should take account of the business continuity rules ( SYSC 4.1.6 R and 4.1.7 R ) as if they were guidance (and as if \"should\" appeared in those rules instead of \"must\") as explained in SYSC 1 Annex 1 3.3 R(1).",
+    "contains_table": false
+  },
+  {
+    "provision_id": "SYSC 4.1.8",
+    "heading": "Business continuity",
+    "date": "23/10/2025",
+    "tag": "G",
+    "source_file": "sysc4_general_org_requirements.html",
+    "chunk_id": "sysc4_general_org_requirements::SYSC 4.1.8_0",
+    "text": "The matters dealt with in a business continuity policy should include: (1) resource requirements such as people, systems and other assets, and arrangements for obtaining these resources; (2) the recovery priorities for the firm's operations; (3) communication arrangements for internal and external concerned parties (including the FCA , clients and the press); (4) escalation and invocation plans that outline the processes for implementing the business continuity plans, together with relevant contact information; (5) processes to validate the integrity of information affected by the disruption; and (6) regular testing of the business continuity policy in an appropriate and proportionate manner in accordance with SYSC 4.1.10R and for a common platform firm with SYSC 4.1.1-AR(5) and SYSC 5.1.14R .",
+    "contains_table": false
+  },
+  {
+    "provision_id": "SYSC 4.1.8A",
+    "heading": "Operators of electronic systems in relation to lending: arrangements to administer loans in the event of platform failure",
+    "date": "09/12/2019",
+    "tag": "R",
+    "source_file": "sysc4_general_org_requirements.html",
+    "chunk_id": "sysc4_general_org_requirements::SYSC 4.1.8A_0",
+    "text": "(1) An operator of an electronic system in relation to lending must have arrangements in place to ensure that P2P agreements facilitated by it will have a reasonable likelihood of being managed and administered, in accordance with the contract terms between the firm and its relevant borrower and lender customers, if at any time it ceases to manage and administer those P2P agreements .",
+    "contains_table": false
+  },
+  {
+    "provision_id": "SYSC 4.1.8A",
+    "heading": "Operators of electronic systems in relation to lending: arrangements to administer loans in the event of platform failure",
+    "date": "09/12/2019",
+    "tag": "R",
+    "source_file": "sysc4_general_org_requirements.html",
+    "chunk_id": "sysc4_general_org_requirements::SYSC 4.1.8A_1",
+    "text": "(2) Under (1), and wherever the requirement in (1) is referenced in the FCA\u2019s rules and guidance , the reference to P2P agreements includes any non-P2P agreement included in a P2P portfolio . (3) The arrangements under (1) must not be designed to prefer any particular customers or class of customers for whom it manages and administers P2P agreements or non-P2P agreements .",
+    "contains_table": false
+  },
+  {
+    "provision_id": "SYSC 4.1.8C",
+    "heading": "Operators of electronic systems in relation to lending: arrangements to administer loans in the event of platform failure",
+    "date": "09/12/2019",
+    "tag": "G",
+    "source_file": "sysc4_general_org_requirements.html",
+    "chunk_id": "sysc4_general_org_requirements::SYSC 4.1.8C_0",
+    "text": "Arrangements that are required to be put in place under SYSC 4.1.8AR may include any one or more of the following: (1) entering into an arrangement with another firm that has the appropriate permissions to take over the management and administration of P2P agreements if the operator ceases to operate the electronic system in relation to lending and, where appropriate: (a) obtaining prior and informed consent from lender clients to fund the continued cost of management and administration of their respective loans, for example through increased commissions; and/or (b) obtaining prior and informed consent from lender clients and borrower clients for the transfer of the service of managing and administration of P2P agreements from the firm to that other firm ; or (2) holding sufficient collateral to cover the cost of management and administration while the loan book is wound down, ensuring that the collateral is held through a structure that is ring-fenced in the event of the firm\u2019s insolvency; or (3) [deleted] (4) managing the loan book in a way that ensures that income from P2P agreements facilitated by the firm is sufficient to cover the costs of managing and administering those agreements during the winding down process, taking into account the reduction of the loan pool and fee income from it.",
+    "contains_table": false
+  },
+  {
+    "provision_id": "SYSC 4.1.8D",
+    "heading": "Operators of electronic systems in relation to lending: arrangements to administer loans in the event of platform failure",
+    "date": "09/12/2019",
+    "tag": "G",
+    "source_file": "sysc4_general_org_requirements.html",
+    "chunk_id": "sysc4_general_org_requirements::SYSC 4.1.8D_0",
+    "text": "(1) When designing its arrangements, a firm should take into account the general law to ensure that the insolvency of the firm does not prejudice the operation of arrangements that the firm has put in place. (2) A firm should consider the need to obtain professional advice on the adequacy of its arrangements.",
+    "contains_table": false
+  },
+  {
+    "provision_id": "SYSC 4.1.8D",
+    "heading": "Operators of electronic systems in relation to lending: arrangements to administer loans in the event of platform failure",
+    "date": "09/12/2019",
+    "tag": "G",
+    "source_file": "sysc4_general_org_requirements.html",
+    "chunk_id": "sysc4_general_org_requirements::SYSC 4.1.8D_1",
+    "text": "For example, a firm may benefit from obtaining legal advice or advice from a qualified insolvency practitioner on the likelihood of its arrangements securing the required outcome for continuity of management and administration of P2P agreements .",
+    "contains_table": false
+  },
+  {
+    "provision_id": "SYSC 4.1.8D",
+    "heading": "Operators of electronic systems in relation to lending: arrangements to administer loans in the event of platform failure",
+    "date": "09/12/2019",
+    "tag": "G",
+    "source_file": "sysc4_general_org_requirements.html",
+    "chunk_id": "sysc4_general_org_requirements::SYSC 4.1.8D_2",
+    "text": "(3) In assessing the adequacy of its arrangements, a firm should consider, in particular: (a) whether any terms included in relevant contracts as part of its arrangements are enforceable, for example terms in customer, service and supplier contracts; (b) the extent to which other practical obstacles could foreseeably prevent the implementation of the arrangements or frustrate the required outcome, including whether the firm will be likely to have sufficient financial resources to fund the implementation of the arrangements at the relevant time; (c) whether the arrangements make adequate provision for any activities that are ancillary to the management and administration of P2P agreements upon which the required outcome is, or could be, dependent; (d) whether, having regard to SYSC 4.1.8AR(3) , its arrangements are designed so as not to produce a better outcome for its customers who are party to non-P2P agreements than for customers who are party to P2P agreements ; (e) whether its arrangements take into account any relevant security arrangements in relation to loans; and (f) whether its arrangements take into account any relevant tax arrangements for lender clients .",
+    "contains_table": false
+  },
+  {
+    "provision_id": "SYSC 4.1.8D",
+    "heading": "Operators of electronic systems in relation to lending: arrangements to administer loans in the event of platform failure",
+    "date": "09/12/2019",
+    "tag": "G",
+    "source_file": "sysc4_general_org_requirements.html",
+    "chunk_id": "sysc4_general_org_requirements::SYSC 4.1.8D_3",
+    "text": "(4) Firms are reminded of the disclosure requirements in COBS 18.12.28R (Information concerning platform failure). (5) Firms may find it useful to refer to the FCA\u2019s Wind-down Planning Guide ( WDPG ) when designing their arrangements.",
+    "contains_table": false
+  },
+  {
+    "provision_id": "SYSC 4.1.8E",
+    "heading": "Operators of electronic systems in relation to lending: title transfer",
+    "date": "21/03/2016",
+    "tag": "R",
+    "source_file": "sysc4_general_org_requirements.html",
+    "chunk_id": "sysc4_general_org_requirements::SYSC 4.1.8E_0",
+    "text": "(1) An operator of an electronic system in relation to lending must not accept, take, or receive the transfer of full ownership of money relating to P2P agreements . (2) If an operator of an electronic system in relation to lending has made a client money election under CASS 7.10.7AR , when it is operating an electronic system in relation to non-P2P agreements it must also not accept, take, or receive the transfer of full ownership of money relating to non-P2P agreements .",
+    "contains_table": false
+  },
+  {
+    "provision_id": "SYSC 4.1.9",
+    "heading": "Accounting policies: management company",
+    "date": "03/01/2018",
+    "tag": "R",
+    "source_file": "sysc4_general_org_requirements.html",
+    "chunk_id": "sysc4_general_org_requirements::SYSC 4.1.9_0",
+    "text": "A management company must establish, implement and maintain accounting policies and procedures that enable it, at the request of the FCA , to deliver in a timely manner to the FCA financial reports which reflect a true and fair view of its financial position and which comply with all applicable accounting standards and rules. [ Note : article 4(4) of the UCITS implementing Directive ]",
+    "contains_table": false
+  },
+  {
+    "provision_id": "SYSC 4.1.10",
+    "heading": "Regular monitoring: management company",
+    "date": "03/01/2018",
+    "tag": "R",
+    "source_file": "sysc4_general_org_requirements.html",
+    "chunk_id": "sysc4_general_org_requirements::SYSC 4.1.10_0",
+    "text": "A management company must monitor and, on a regular basis, evaluate the adequacy and effectiveness of its systems, internal control mechanisms and arrangements established in accordance with SYSC 4.1.4 R to SYSC 4.1.9 R and take appropriate measures to address any deficiencies. [ Note : article 4(5) of the UCITS implementing Directive ]",
+    "contains_table": false
+  },
+  {
+    "provision_id": "SYSC 4.1.10A",
+    "heading": "Regular monitoring: other firms",
+    "date": "03/01/2018",
+    "tag": "G",
+    "source_file": "sysc4_general_org_requirements.html",
+    "chunk_id": "sysc4_general_org_requirements::SYSC 4.1.10A_0",
+    "text": "Other firms should take account of the regular monitoring rule ( SYSC 4.1.10 R ) as if it were guidance (and as if \"should\" appeared in that rule instead of \"must\") as explained in SYSC 1 Annex 1 3.3 R(1), but ignoring the cross-reference to SYSC 4.1.5 R and SYSC 4.1.9R .",
+    "contains_table": false
+  },
+  {
+    "provision_id": "SYSC 4.1.11",
+    "heading": "Audit committee",
+    "date": "01/01/2007",
+    "tag": "G",
+    "source_file": "sysc4_general_org_requirements.html",
+    "chunk_id": "sysc4_general_org_requirements::SYSC 4.1.11_0",
+    "text": "Depending on the nature, scale and complexity of its business, it may be appropriate for a firm to form an audit committee.",
+    "contains_table": false
+  },
+  {
+    "provision_id": "SYSC 4.1.11",
+    "heading": "Audit committee",
+    "date": "01/01/2007",
+    "tag": "G",
+    "source_file": "sysc4_general_org_requirements.html",
+    "chunk_id": "sysc4_general_org_requirements::SYSC 4.1.11_1",
+    "text": "An audit committee could typically examine management's process for ensuring the appropriateness and effectiveness of systems and controls, examine the arrangements made by management to ensure compliance with requirements and standards under the regulatory system , oversee the functioning of the internal audit function (if applicable) and provide an interface between management and external auditors.",
+    "contains_table": false
+  },
+  {
+    "provision_id": "SYSC 4.1.11",
+    "heading": "Audit committee",
+    "date": "01/01/2007",
+    "tag": "G",
+    "source_file": "sysc4_general_org_requirements.html",
+    "chunk_id": "sysc4_general_org_requirements::SYSC 4.1.11_2",
+    "text": "It should have an appropriate number of non-executive directors and it should have formal terms of reference.",
+    "contains_table": false
+  },
+  {
+    "provision_id": "SYSC 4.1.13",
+    "heading": "Risk control: additional guidance",
+    "date": "01/05/2011",
+    "tag": "G",
+    "source_file": "sysc4_general_org_requirements.html",
+    "chunk_id": "sysc4_general_org_requirements::SYSC 4.1.13_0",
+    "text": "Firms should also consider the additional guidance on risk-centric governance arrangements for effective risk management contained in SYSC 21 .",
+    "contains_table": false
+  },
+  {
+    "provision_id": "SYSC 4.1.14",
+    "heading": "Apportionment of responsibilities: the role of the non-executive director",
+    "date": "07/12/2020",
+    "tag": "G",
+    "source_file": "sysc4_general_org_requirements.html",
+    "chunk_id": "sysc4_general_org_requirements::SYSC 4.1.14_0",
+    "text": "The role undertaken by a non-executive director will vary from one firm to another.",
+    "contains_table": false
+  },
+  {
+    "provision_id": "SYSC 4.1.15",
+    "heading": "Investment strategy and investment decision making of an operator of a personal pension scheme or stakeholder pension scheme",
+    "date": "26/06/2026",
+    "tag": "G",
+    "source_file": "sysc4_general_org_requirements.html",
+    "chunk_id": "sysc4_general_org_requirements::SYSC 4.1.15_0",
+    "text": "(1) This guidance sets out the FCA\u2019s expectation on how an operator of a personal pension scheme or a stakeholder pension scheme may take into account ESG financial considerations and other financial considerations and non-financial matters as part of its investment strategy or investment decision making, to demonstrate compliance with Principles 2, 3, 6, 8 or 12.",
+    "contains_table": false
+  },
+  {
+    "provision_id": "SYSC 4.1.15",
+    "heading": "Investment strategy and investment decision making of an operator of a personal pension scheme or stakeholder pension scheme",
+    "date": "26/06/2026",
+    "tag": "G",
+    "source_file": "sysc4_general_org_requirements.html",
+    "chunk_id": "sysc4_general_org_requirements::SYSC 4.1.15_1",
+    "text": "(2) This guidance only applies where the personal pension scheme or stakeholder pension scheme operator\u2019s investment strategy or investment decision could have a material impact on a client or a relevant policyholder\u2019s investment returns and relates to a product where: (a) the primary purpose of the product is to provide an investment return; and (b) the investment risk is borne by a client who is a natural person or a relevant policyholder .",
+    "contains_table": false
+  },
+  {
+    "provision_id": "SYSC 4.1.15",
+    "heading": "Investment strategy and investment decision making of an operator of a personal pension scheme or stakeholder pension scheme",
+    "date": "26/06/2026",
+    "tag": "G",
+    "source_file": "sysc4_general_org_requirements.html",
+    "chunk_id": "sysc4_general_org_requirements::SYSC 4.1.15_2",
+    "text": "(3) As part of its investment strategy or investment decision making, an operator of a personal pension scheme or a stakeholder pension scheme should take into account ESG financial considerations and other financial considerations , over the period of time that the firm reasonably considers is needed to achieve the objective of the investment or the investment strategy.",
+    "contains_table": false
+  },
+  {
+    "provision_id": "SYSC 4.1.15",
+    "heading": "Investment strategy and investment decision making of an operator of a personal pension scheme or stakeholder pension scheme",
+    "date": "26/06/2026",
+    "tag": "G",
+    "source_file": "sysc4_general_org_requirements.html",
+    "chunk_id": "sysc4_general_org_requirements::SYSC 4.1.15_3",
+    "text": "(4) References to other financial considerations in (3) may include (but are not limited to) interest rates, liquidity, concentration, exchange rate, political and counterparty risks.",
+    "contains_table": false
+  },
+  {
+    "provision_id": "SYSC 4.1.15",
+    "heading": "Investment strategy and investment decision making of an operator of a personal pension scheme or stakeholder pension scheme",
+    "date": "26/06/2026",
+    "tag": "G",
+    "source_file": "sysc4_general_org_requirements.html",
+    "chunk_id": "sysc4_general_org_requirements::SYSC 4.1.15_4",
+    "text": "(5) As part of its investment strategy or investment decision making in relation to a product, an operator of a personal pension scheme or a stakeholder pension scheme may take into account non-financial matters if: (a) the firm has good reason to consider that affected clients or relevant policyholders would generally share the views on which the non-financial matters are based; and (b) taking those matters into account would not involve a risk of a significant financial detriment to an affected investment .",
+    "contains_table": false
+  },
+  {
+    "provision_id": "SYSC 4.1.15",
+    "heading": "Investment strategy and investment decision making of an operator of a personal pension scheme or stakeholder pension scheme",
+    "date": "26/06/2026",
+    "tag": "G",
+    "source_file": "sysc4_general_org_requirements.html",
+    "chunk_id": "sysc4_general_org_requirements::SYSC 4.1.15_5",
+    "text": "(6) (5) does not apply to a firm\u2019s investment strategy or investment decision making in relation to a product (other than in relation to a relevant scheme or a pathway investment ) that has been deliberately designed by the firm to take into account non-financial matters , and clients or relevant policyholders make an active decision to select that product.",
+    "contains_table": false
+  },
+  {
+    "provision_id": "SYSC 4.2.1",
+    "heading": "General requirement",
+    "date": "01/01/2021",
+    "tag": "R",
+    "source_file": "sysc4_general_org_requirements.html",
+    "chunk_id": "sysc4_general_org_requirements::SYSC 4.2.1_0",
+    "text": "The senior personnel of a common platform firm , a management company , a full-scope UK AIFM , or of the UK branch of a non-UK bank must be of sufficiently good repute and sufficiently experienced as to ensure the sound and prudent management of the firm . [ Note : article 9(1)(4) of MiFID , article 7(1)(b) of the UCITS Directive , article 8(1)(c) of AIFMD and article 91(1) of CRD ]",
+    "contains_table": false
+  },
+  {
+    "provision_id": "SYSC 4.2.1A",
+    "heading": "General requirement",
+    "date": "03/01/2018",
+    "tag": "G",
+    "source_file": "sysc4_general_org_requirements.html",
+    "chunk_id": "sysc4_general_org_requirements::SYSC 4.2.1A_0",
+    "text": "Other firms should take account of the senior personnel rule ( SYSC 4.2.1 R ) as if it were guidance (and as if \"should\" appeared in that rule instead of \"must\") as explained in SYSC 1 Annex 1 3.3 R(1).",
+    "contains_table": false
+  },
+  {
+    "provision_id": "SYSC 4.2.1B",
+    "heading": "Responsibility of senior personnel of an AIFM",
+    "date": "22/07/2013",
+    "tag": "R",
+    "source_file": "sysc4_general_org_requirements.html",
+    "chunk_id": "sysc4_general_org_requirements::SYSC 4.2.1B_0",
+    "text": "For a full-scope UK AIFM , the senior personnel must, in complying with SYSC 4.2.1 R , be sufficiently experienced in relation to the investment strategies pursued by the AIFs it manages. [ Note : article 8(1)(c) of AIFMD ]",
+    "contains_table": false
+  },
+  {
+    "provision_id": "SYSC 4.2.2",
+    "heading": "Composition of management",
+    "date": "01/01/2021",
+    "tag": "R",
+    "source_file": "sysc4_general_org_requirements.html",
+    "chunk_id": "sysc4_general_org_requirements::SYSC 4.2.2_0",
+    "text": "A common platform firm , a management company , a full-scope UK AIFM and the UK branch of a non-UK bank must ensure that its management is undertaken by at least two persons meeting the requirements laid down in SYSC 4.2.1 R and: (a) for a full-scope UK AIFM , SYSC 4.2.7R ; or (b) for a common platform firm , SYSC 4.3A.3R . [ Note : article 9(6) first paragraph of MiFID , article 7(1)(b) of the UCITS Directive , article 8(1)(c) of AIFMD and article 13(1) of CRD ]",
+    "contains_table": false
+  },
+  {
+    "provision_id": "SYSC 4.2.3",
+    "heading": "Composition of management",
+    "date": "01/01/2007",
+    "tag": "G",
+    "source_file": "sysc4_general_org_requirements.html",
+    "chunk_id": "sysc4_general_org_requirements::SYSC 4.2.3_0",
+    "text": "In the case of a body corporate , the persons referred to in SYSC 4.2.2 R should either be executive directors or persons granted executive powers by, and reporting immediately to, the governing body . In the case of a partnership , they should be active partners .",
+    "contains_table": false
+  },
+  {
+    "provision_id": "SYSC 4.2.4",
+    "heading": "Composition of management",
+    "date": "03/01/2018",
+    "tag": "G",
+    "source_file": "sysc4_general_org_requirements.html",
+    "chunk_id": "sysc4_general_org_requirements::SYSC 4.2.4_0",
+    "text": "At least two independent minds should be applied to the formulation and implementation of the policies of a common platform firm , a management company , a full-scope UK AIFM and the UK branch of a third country firm . Where a firm nominates just two individuals to direct its business, the FCA will not regard them as both effectively directing the business where one of them makes some, albeit significant, decisions relating to only a few aspects of the business.",
+    "contains_table": false
+  },
+  {
+    "provision_id": "SYSC 4.2.4",
+    "heading": "Composition of management",
+    "date": "03/01/2018",
+    "tag": "G",
+    "source_file": "sysc4_general_org_requirements.html",
+    "chunk_id": "sysc4_general_org_requirements::SYSC 4.2.4_1",
+    "text": "Each should play a part in the decision-making process on all significant decisions. Both should demonstrate the qualities and application to influence strategy, day-to-day policy and its implementation. This does not require their day-to-day involvement in the execution and implementation of policy. It does, however, require involvement in strategy and general direction, as well as knowledge of, and influence on, the way in which strategy is being implemented through day-to-day policy.",
+    "contains_table": false
+  },
+  {
+    "provision_id": "SYSC 4.2.5",
+    "heading": "Composition of management",
+    "date": "03/01/2018",
+    "tag": "G",
+    "source_file": "sysc4_general_org_requirements.html",
+    "chunk_id": "sysc4_general_org_requirements::SYSC 4.2.5_0",
+    "text": "Where there are more than two individuals directing the business of a common platform firm , a management company , a full-scope UK AIFM or the UK branch of a third country firm , the FCA does not regard it as necessary for all of these individuals to be involved in all decisions relating to the determination of strategy and general direction. However, at least two individuals should be involved in all such decisions.",
+    "contains_table": false
+  },
+  {
+    "provision_id": "SYSC 4.2.5",
+    "heading": "Composition of management",
+    "date": "03/01/2018",
+    "tag": "G",
+    "source_file": "sysc4_general_org_requirements.html",
+    "chunk_id": "sysc4_general_org_requirements::SYSC 4.2.5_1",
+    "text": "Both individuals' judgement should be engaged so that major errors leading to difficulties for the firm are less likely to occur. Similarly, each individual should have sufficient experience and knowledge of the business and the necessary personal qualities and skills to detect and resist any imprudence, dishonesty or other irregularities by the other individual.",
+    "contains_table": false
+  },
+  {
+    "provision_id": "SYSC 4.2.5",
+    "heading": "Composition of management",
+    "date": "03/01/2018",
+    "tag": "G",
+    "source_file": "sysc4_general_org_requirements.html",
+    "chunk_id": "sysc4_general_org_requirements::SYSC 4.2.5_2",
+    "text": "Where a single individual, whether a chief executive, managing director or otherwise, is particularly dominant in such a firm this will raise doubts about whether SYSC 4.2.2 R is met.",
+    "contains_table": false
+  },
+  {
+    "provision_id": "SYSC 4.2.6",
+    "heading": "Alternative arrangements",
+    "date": "03/01/2018",
+    "tag": "R",
+    "source_file": "sysc4_general_org_requirements.html",
+    "chunk_id": "sysc4_general_org_requirements::SYSC 4.2.6_0",
+    "text": "If a common platform firm , (other than a credit institution or AIFM investment firm ) or the UK branch of a third country firm , is: (1) a natural person; or (2) a legal person managed by a single natural person; then: (3) it must have alternative arrangements in place which ensure: (a) sound and prudent management of the firm ; and (b) adequate consideration of the interests of clients and the integrity of the market; and (4) the natural persons concerned must be of sufficiently good repute, possess sufficient knowledge, skills and experience and commit sufficient time to perform their duties. it must have alternative arrangements in place which ensure sound and prudent management of the firm . [ Note : article 9(6) second paragraph of MiFID ]",
+    "contains_table": false
+  },
+  {
+    "provision_id": "SYSC 4.2.7",
+    "heading": "Alternative arrangements",
+    "date": "22/07/2013",
+    "tag": "R",
+    "source_file": "sysc4_general_org_requirements.html",
+    "chunk_id": "sysc4_general_org_requirements::SYSC 4.2.7_0",
+    "text": "A full-scope UK AIFM must notify the FCA of the names of the senior personnel of the firm and of every person succeeding them in office. [ Note : article 8(1)(c) of AIFMD ]",
+    "contains_table": false
+  },
+  {
+    "provision_id": "SYSC 4.2.8",
+    "heading": "Alternative arrangements",
+    "date": "01/10/2013",
+    "tag": "G",
+    "source_file": "sysc4_general_org_requirements.html",
+    "chunk_id": "sysc4_general_org_requirements::SYSC 4.2.8_0",
+    "text": "Where the senior personnel of a full-scope UK AIFM will carry out a FCA governing function and the firm has applied for the FCA's approval under section 59 of the Act , this will be considered sufficient to comply with SYSC 4.2.7 R .",
+    "contains_table": false
+  },
+  {
+    "provision_id": "SYSC 4.3.1",
+    "heading": "SYSC 4.3 Responsibility of senior personnel",
+    "date": "03/01/2018",
+    "tag": "R",
+    "source_file": "sysc4_general_org_requirements.html",
+    "chunk_id": "sysc4_general_org_requirements::SYSC 4.3.1_0",
+    "text": "A firm (with the exception of a common platform firm and a sole trader who does not employ any person who is required to be approved under section 59 of the Act (Approval for particular arrangements)), when allocating functions internally, must ensure that senior personnel and, where appropriate, the supervisory function , are responsible for ensuring that the firm complies with its obligations under the regulatory system .",
+    "contains_table": false
+  },
+  {
+    "provision_id": "SYSC 4.3.1",
+    "heading": "SYSC 4.3 Responsibility of senior personnel",
+    "date": "03/01/2018",
+    "tag": "R",
+    "source_file": "sysc4_general_org_requirements.html",
+    "chunk_id": "sysc4_general_org_requirements::SYSC 4.3.1_1",
+    "text": "In particular, senior personnel and, where appropriate, the supervisory function must assess and periodically review the effectiveness of the policies, arrangements and procedures put in place to comply with the firm's obligations under the regulatory system and take appropriate measures to address any deficiencies. [ Note : articles 9(1) and 9(3) of the UCITS implementing Directive ]",
+    "contains_table": false
+  },
+  {
+    "provision_id": "SYSC 4.3.2",
+    "heading": "SYSC 4.3 Responsibility of senior personnel",
+    "date": "09/12/2019",
+    "tag": "R",
+    "source_file": "sysc4_general_org_requirements.html",
+    "chunk_id": "sysc4_general_org_requirements::SYSC 4.3.2_0",
+    "text": "A firm that is a management company or an operator of an electronic system in relation to lending must ensure that: (1) its senior personnel receive on a frequent basis, and at least annually, written reports on the matters covered by SYSC 6.1.2 R to 6.1.5 R , SYSC 6.2.1 R , SYSC 7.1.2 R , SYSC 7.1.3 R and SYSC 7.1.5 R to 7.1.7 R , indicating in particular whether the appropriate remedial measures have been taken in the event of any deficiencies; and (2) the supervisory function , if any, receives on a regular basis written reports on the same matters. [ Note : articles 9(4) and 9(6) of the UCITS implementing Directive ]",
+    "contains_table": false
+  },
+  {
+    "provision_id": "SYSC 4.3.2A",
+    "heading": "SYSC 4.3 Responsibility of senior personnel",
+    "date": "03/01/2018",
+    "tag": "G",
+    "source_file": "sysc4_general_org_requirements.html",
+    "chunk_id": "sysc4_general_org_requirements::SYSC 4.3.2A_0",
+    "text": "Other firms should take account of the written reports rule ( SYSC 4.3.2 R ) as if it were guidance (and as if \"should\" appeared in that rule instead of \"must\") as explained in SYSC 1 Annex 1 3.3 R(1).",
+    "contains_table": false
+  },
+  {
+    "provision_id": "SYSC 4.3.3",
+    "heading": "SYSC 4.3 Responsibility of senior personnel",
+    "date": "01/04/2009",
+    "tag": "G",
+    "source_file": "sysc4_general_org_requirements.html",
+    "chunk_id": "sysc4_general_org_requirements::SYSC 4.3.3_0",
+    "text": "The supervisory function does not include a general meeting of the shareholders of a firm , or equivalent bodies, but could involve, for example, a separate supervisory board within a two-tier board structure or the establishment of a non-executive committee of a single-tier board structure.",
+    "contains_table": false
+  },
+  {
+    "provision_id": "SYSC 4.3A.1",
+    "heading": "Management body",
+    "date": "03/01/2018",
+    "tag": "R",
+    "source_file": "sysc4_general_org_requirements.html",
+    "chunk_id": "sysc4_general_org_requirements::SYSC 4.3A.1_0",
+    "text": "A common platform firm must ensure that the management body defines, oversees and is accountable for the implementation of governance arrangements that ensure effective and prudent management of the firm , including the segregation of duties in the organisation and the prevention of conflicts of interest, and in a manner that promotes the integrity of the market and the interests of clients .",
+    "contains_table": false
+  },
+  {
+    "provision_id": "SYSC 4.3A.1",
+    "heading": "Management body",
+    "date": "03/01/2018",
+    "tag": "R",
+    "source_file": "sysc4_general_org_requirements.html",
+    "chunk_id": "sysc4_general_org_requirements::SYSC 4.3A.1_1",
+    "text": "The firm must ensure that the management body : (1) has overall responsibility for the firm ; (2) approves and oversees implementation of the firm's strategic objectives, risk strategy and internal governance; (3) ensures the integrity of the firm's accounting and financial reporting systems, including financial and operational controls and compliance with the regulatory system .",
+    "contains_table": false
+  },
+  {
+    "provision_id": "SYSC 4.3A.1",
+    "heading": "Management body",
+    "date": "03/01/2018",
+    "tag": "R",
+    "source_file": "sysc4_general_org_requirements.html",
+    "chunk_id": "sysc4_general_org_requirements::SYSC 4.3A.1_2",
+    "text": "(4) oversees the process of disclosure and communications; (5) has responsibility for providing effective oversight of senior management ; (6) monitors and periodically assesses: (a) the adequacy and the implementation of the firm\u2019s strategic objectives in the provision of investment services and/or activities and ancillary services ; (b) the effectiveness of the firm's governance arrangements; and (c) the adequacy of the policies relating to the provision of services to clients , and takes appropriate steps to address any deficiencies; and (7) has adequate access to information and documents which are needed to oversee and monitor management decision-making. [ Note : article 88(1) of CRD and articles 9(1) and 9(3) of MiFID ]",
+    "contains_table": false
+  },
+  {
+    "provision_id": "SYSC 4.3A.1A",
+    "heading": "Management body",
+    "date": "03/01/2018",
+    "tag": "R",
+    "source_file": "sysc4_general_org_requirements.html",
+    "chunk_id": "sysc4_general_org_requirements::SYSC 4.3A.1A_0",
+    "text": "Without prejudice to SYSC 4.3A.1R , a common platform firm must ensure that the management body defines, approves and oversees: (1) the organisation of the firm for the provision of investment services and/or activities and ancillary services , including the skills, knowledge and expertise required by personnel, the resources, the procedures and the arrangements for the provision of services and activities, taking into account the nature, scale and complexity of its business and all the requirements the firm has to comply with; (2) a policy as to services, activities, products and operations offered or provided, in accordance with the risk tolerance of the firm and the characteristics and needs of the firm\u2019s clients to whom they will be offered or provided, including carrying out appropriate stress testing, where appropriate; and (3) a remuneration policy of persons involved in the provision of services to clients aiming to encourage responsible business conduct, fair treatment of clients as well as avoiding conflict of interest in the relationships with clients . [Note: article 9(3) of MiFID ]",
+    "contains_table": false
+  },
+  {
+    "provision_id": "SYSC 4.3A.2",
+    "heading": "Management body",
+    "date": "03/01/2018",
+    "tag": "R",
+    "source_file": "sysc4_general_org_requirements.html",
+    "chunk_id": "sysc4_general_org_requirements::SYSC 4.3A.2_0",
+    "text": "A common platform firm must ensure that the chairman of the firm's management body does not exercise simultaneously the PRA\u2019s Chief Executive function ( controlled function SMF1) or chief executive function within the same firm . [ Note : article 88(1)(e) of CRD and article 9(1) of MiFID ]",
+    "contains_table": false
+  },
+  {
+    "provision_id": "SYSC 4.3A.2A",
+    "heading": "Management body",
+    "date": "03/01/2018",
+    "tag": "G",
+    "source_file": "sysc4_general_org_requirements.html",
+    "chunk_id": "sysc4_general_org_requirements::SYSC 4.3A.2A_0",
+    "text": "A firm may apply to the FCA under section 138A of the Act to waive SYSC 4.3A.2R .",
+    "contains_table": false
+  },
+  {
+    "provision_id": "SYSC 4.3A.3",
+    "heading": "Management body",
+    "date": "03/01/2018",
+    "tag": "R",
+    "source_file": "sysc4_general_org_requirements.html",
+    "chunk_id": "sysc4_general_org_requirements::SYSC 4.3A.3_0",
+    "text": "A common platform firm must ensure that the members of the management body of the firm : (1) are of sufficiently good repute; (2) possess sufficient knowledge, skills and experience to perform their duties; (3) possess adequate collective knowledge, skills and experience to understand the firm's activities, including the main risks; (4) reflect an adequately broad range of experiences; (5) commit sufficient time to perform their functions in the firm ; and (6) act with honesty, integrity and independence of mind to effectively assess and challenge the decisions of senior management where necessary and to effectively oversee and monitor management decision-making. [ Note : article 91(1)-(2) and (7)-(8) of CRD and article 9(1) and 9(4) of MiFID ]",
+    "contains_table": false
+  },
+  {
+    "provision_id": "SYSC 4.3A.3A",
+    "heading": "Management body",
+    "date": "09/12/2019",
+    "tag": "G",
+    "source_file": "sysc4_general_org_requirements.html",
+    "chunk_id": "sysc4_general_org_requirements::SYSC 4.3A.3A_0",
+    "text": "(1) A firm should have procedures for monitoring the collective adequacy of the knowledge, skills and experience of its management body as well as of its individual members.",
+    "contains_table": false
+  },
+  {
+    "provision_id": "SYSC 4.3A.3A",
+    "heading": "Management body",
+    "date": "09/12/2019",
+    "tag": "G",
+    "source_file": "sysc4_general_org_requirements.html",
+    "chunk_id": "sysc4_general_org_requirements::SYSC 4.3A.3A_1",
+    "text": "(2) A firm may wish to use the \u201cTemplate for a matrix to assess the collective competence of members of the management body\u201d in Annex I of the joint ESMA and EBA publication titled \u201cGuidelines on the assessment of the suitability of members of the management body and key function holders under Directive 2013/36/EU and Directive 2014/65/EU\u201d when assessing collective competence. [ Note : https://www.esma.europa.eu/document/joint-esma-and-eba-guidelines-assessment-suitability-members-management-body-and-key-0 ]",
+    "contains_table": false
+  },
+  {
+    "provision_id": "SYSC 4.3A.4",
+    "heading": "Management body",
+    "date": "03/01/2018",
+    "tag": "R",
+    "source_file": "sysc4_general_org_requirements.html",
+    "chunk_id": "sysc4_general_org_requirements::SYSC 4.3A.4_0",
+    "text": "A common platform firm must devote adequate human and financial resources to the induction and training of members of the management body . [ Note : article 91(9) of CRD and article 9(1) of MiFID ]",
+    "contains_table": false
+  },
+  {
+    "provision_id": "SYSC 4.3A.5",
+    "heading": "Management body",
+    "date": "03/01/2018",
+    "tag": "R",
+    "source_file": "sysc4_general_org_requirements.html",
+    "chunk_id": "sysc4_general_org_requirements::SYSC 4.3A.5_0",
+    "text": "A common platform firm must ensure that the members of the management body of the firm do not hold more directorships than is appropriate taking into account individual circumstances and the nature, scale and complexity of the firm's activities. [ Note : article 91(3) of CRD and article 9(1) of MiFID ]",
+    "contains_table": false
+  },
+  {
+    "provision_id": "SYSC 4.3A.6",
+    "heading": "Management body",
+    "date": "01/01/2022",
+    "tag": "R",
+    "source_file": "sysc4_general_org_requirements.html",
+    "chunk_id": "sysc4_general_org_requirements::SYSC 4.3A.6_0",
+    "text": "(1) A common platform firm that is a significant SYSC firm must ensure that the members of the management body of the firm do not hold more than one of the following combinations of directorship in any organisation at the same time: (a) one executive directorship with two non-executive directorships; and (b) four non-executive directorships.",
+    "contains_table": false
+  },
+  {
+    "provision_id": "SYSC 4.3A.6",
+    "heading": "Management body",
+    "date": "01/01/2022",
+    "tag": "R",
+    "source_file": "sysc4_general_org_requirements.html",
+    "chunk_id": "sysc4_general_org_requirements::SYSC 4.3A.6_1",
+    "text": "(2) Paragraph (1) does not apply to members of the management body that represent the United Kingdom . [ Note : article 91(3) of CRD and article 9(1) of MiFID ]",
+    "contains_table": false
+  },
+  {
+    "provision_id": "SYSC 4.3A.7",
+    "heading": "Management body",
+    "date": "01/01/2021",
+    "tag": "R",
+    "source_file": "sysc4_general_org_requirements.html",
+    "chunk_id": "sysc4_general_org_requirements::SYSC 4.3A.7_0",
+    "text": "For the purposes of SYSC 4.3A.5 R and SYSC 4.3A.6 R : (1) directorships in organisations which do not pursue predominantly commercial objectives shall not count; and (2) the following shall count as a single directorship: (a) executive or non-executive directorships held within the same group ; or (b) executive or non-executive directorships held within: (i) [deleted] (ii) undertakings (including non-financial entities) in which the firm holds a qualifying holding . [ Note : article 91(4) and (5) of CRD and article 9(1) of MiFID ]",
+    "contains_table": false
+  },
+  {
+    "provision_id": "SYSC 4.3A.7A",
+    "heading": "Nomination Committee",
+    "date": "01/01/2022",
+    "tag": "R",
+    "source_file": "sysc4_general_org_requirements.html",
+    "chunk_id": "sysc4_general_org_requirements::SYSC 4.3A.7A_0",
+    "text": "SYSC 4.3A.8R does not apply to a common platform firm that is a MIFIDPRU investment firm .",
+    "contains_table": false
+  },
+  {
+    "provision_id": "SYSC 4.3A.7B",
+    "heading": "Nomination Committee",
+    "date": "01/01/2022",
+    "tag": "G",
+    "source_file": "sysc4_general_org_requirements.html",
+    "chunk_id": "sysc4_general_org_requirements::SYSC 4.3A.7B_0",
+    "text": "The regulatory requirement for certain MIFIDPRU investment firms to establish nomination committees is contained in MIFIDPRU 7.3.5R . However, all MIFIDPRU investment firms are still subject to SYSC 4.3A.9R and SYSC 4.3A.10R .",
+    "contains_table": false
+  },
+  {
+    "provision_id": "SYSC 4.3A.8",
+    "heading": "Nomination Committee",
+    "date": "01/01/2022",
+    "tag": "R",
+    "source_file": "sysc4_general_org_requirements.html",
+    "chunk_id": "sysc4_general_org_requirements::SYSC 4.3A.8_0",
+    "text": "A common platform firm that is a significant SYSC firm must: (1) establish a nomination committee composed of members of the management body who do not perform any executive function in the firm ; (2) ensure that the nomination committee is able to use any forms of resources the nomination committee deems appropriate, including external advice; and (3) ensure that the nomination committee receives appropriate funding. [ Note : article 88(2) of CRD and article 9(1) of MiFID ]",
+    "contains_table": false
+  },
+  {
+    "provision_id": "SYSC 4.3A.9",
+    "heading": "Nomination Committee",
+    "date": "03/01/2018",
+    "tag": "R",
+    "source_file": "sysc4_general_org_requirements.html",
+    "chunk_id": "sysc4_general_org_requirements::SYSC 4.3A.9_0",
+    "text": "A common platform firm that has a nomination committee must ensure that the nomination committee: (1) engages a broad set of qualities and competences when recruiting members to the management body and for that purpose puts in place a policy promoting diversity on the management body ; (2) identifies and recommends for approval, by the management body or by general meeting, candidates to fill management body vacancies, having evaluated the balance of knowledge, skills, diversity and experience of the management body ; (3) prepares a description of the roles and capabilities for a particular appointment, and assesses the time commitment required; (4) decides on a target for the representation of the underrepresented gender in the management body and prepares a policy on how to increase the number of the underrepresented gender in the management body in order to meet that target; (5) periodically, and at least annually, assesses the structure, size, composition and performance of the management body and makes recommendations to the management body with regard to any changes; (6) periodically, and at least annually, assesses the knowledge, skills and experience of individual members of the management body and of the management body collectively, and reports this to the management body ; (7) periodically reviews the policy of the management body for selection and appointment of senior management and makes recommendations to the management body ; and (8) in performing its duties, and to the extent possible, on an ongoing basis, takes account of the need to ensure that the management body's decision making is not dominated by any one individual or small group of individuals in a manner that is detrimental to the interest of the firm as a whole. [ Note : article 88(2) and article 91(10) of CRD and article 9(1) of MiFID ]",
+    "contains_table": false
+  },
+  {
+    "provision_id": "SYSC 4.3A.10",
+    "heading": "Nomination Committee",
+    "date": "03/01/2018",
+    "tag": "R",
+    "source_file": "sysc4_general_org_requirements.html",
+    "chunk_id": "sysc4_general_org_requirements::SYSC 4.3A.10_0",
+    "text": "A common platform firm that does not have a nomination committee must engage a broad set of qualities and competences when recruiting members to the management body . For that purpose a common platform firm that does not have a nomination committee must put in place a policy promoting diversity on the management body . [ Note : article 91(10) of CRD and article 9(1) of MiFID ]",
+    "contains_table": false
+  },
+  {
+    "provision_id": "SYSC 4.3A.11",
+    "heading": "Website",
+    "date": "01/01/2014",
+    "tag": "R",
+    "source_file": "sysc4_general_org_requirements.html",
+    "chunk_id": "sysc4_general_org_requirements::SYSC 4.3A.11_0",
+    "text": "A CRR firm that maintains a website must explain on the website how it complies with the requirements of SYSC 4.3A.1 R to SYSC 4.3A.3 R and SYSC 4.3A.4 R to SYSC 4.3A.11 R . [ Note : article 96 of CRD ]",
+    "contains_table": false
+  },
+  {
+    "provision_id": "SYSC 4.4.1A",
+    "heading": "Application",
+    "date": "07/12/2020",
+    "tag": "R",
+    "source_file": "sysc4_general_org_requirements.html",
+    "chunk_id": "sysc4_general_org_requirements::SYSC 4.4.1A_0",
+    "text": "(-2) This section applies to: (a) a limited scope SMCR firm other than: (i) a firm in SUP 10C Annex 1 7.10R (Table: Limited scope SMCR firms to which no controlled functions apply); and (ii) a limited scope SMCR benchmark firm ; and (b) an authorised professional firm that is a core SMCR firm . (-1) The application of this section is further limited by the rest of this rule .",
+    "contains_table": false
+  },
+  {
+    "provision_id": "SYSC 4.4.1A",
+    "heading": "Application",
+    "date": "07/12/2020",
+    "tag": "R",
+    "source_file": "sysc4_general_org_requirements.html",
+    "chunk_id": "sysc4_general_org_requirements::SYSC 4.4.1A_1",
+    "text": "(1) This section applies to an authorised professional firm as follows: (a) it only applies in respect of its non-mainstream regulated activities ; and (b) it does not apply if the firm : (i) is also conducting other regulated activities ; and (ii) has appointed approved persons to perform the FCA governing functions with equivalent responsibilities for the firm\u2019s non-mainstream regulated activities and other regulated activities .",
+    "contains_table": false
+  },
+  {
+    "provision_id": "SYSC 4.4.1A",
+    "heading": "Application",
+    "date": "07/12/2020",
+    "tag": "R",
+    "source_file": "sysc4_general_org_requirements.html",
+    "chunk_id": "sysc4_general_org_requirements::SYSC 4.4.1A_2",
+    "text": "(2) [deleted] (3) [deleted] (4) Only SYSC 4.4.5R(2) applies to an EEA SMCR firm . However, the limitation in this paragraph (4) does not apply to a firm within SYSC 23 Annex 1 6.13R (claims management).",
+    "contains_table": false
+  },
+  {
+    "provision_id": "SYSC 4.4.1A",
+    "heading": "Application",
+    "date": "07/12/2020",
+    "tag": "R",
+    "source_file": "sysc4_general_org_requirements.html",
+    "chunk_id": "sysc4_general_org_requirements::SYSC 4.4.1A_3",
+    "text": "(5) This section only applies to a sole trader if they: (a) have any person (other than themselves) who is required to be approved under section 59 of the Act (Approval for particular arrangements); or (b) are an authorised approved person employer (except where they are the only approved person concerned); or (c) have any certification employees .",
+    "contains_table": false
+  },
+  {
+    "provision_id": "SYSC 4.4.2",
+    "heading": "Application",
+    "date": "01/04/2009",
+    "tag": "G",
+    "source_file": "sysc4_general_org_requirements.html",
+    "chunk_id": "sysc4_general_org_requirements::SYSC 4.4.2_0",
+    "text": "This section does not apply to a common platform firm .",
+    "contains_table": false
+  },
+  {
+    "provision_id": "SYSC 4.4.3",
+    "heading": "Maintaining a clear and appropriate apportionment",
+    "date": "01/04/2009",
+    "tag": "R",
+    "source_file": "sysc4_general_org_requirements.html",
+    "chunk_id": "sysc4_general_org_requirements::SYSC 4.4.3_0",
+    "text": "A firm must take reasonable care to maintain a clear and appropriate apportionment of significant responsibilities among its directors and senior managers in such a way that: (1) it is clear who has which of those responsibilities; and (2) the business and affairs of the firm can be adequately monitored and controlled by the directors , relevant senior managers and governing body of the firm .",
+    "contains_table": false
+  },
+  {
+    "provision_id": "SYSC 4.4.5",
+    "heading": "Allocating functions of apportionment and oversight",
+    "date": "01/01/2021",
+    "tag": "R",
+    "source_file": "sysc4_general_org_requirements.html",
+    "chunk_id": "sysc4_general_org_requirements::SYSC 4.4.5_0",
+    "text": "A firm must appropriately allocate to one or more individuals, in accordance with the following table, the functions of: (1) dealing with the apportionment of responsibilities under SYSC 4.4.3 R ; and (2) overseeing the establishment and maintenance of systems and controls under SYSC 4.1.1 R .",
+    "contains_table": false
+  },
+  {
+    "provision_id": "SYSC 4.4.5",
+    "heading": "Allocating functions of apportionment and oversight",
+    "date": "01/01/2021",
+    "tag": "R",
+    "source_file": "sysc4_general_org_requirements.html",
+    "chunk_id": "sysc4_general_org_requirements::SYSC 4.4.5_table_0",
+    "text": "| 1: Firm type | 2: Allocation of both functions must be to the following individual, if any (see Note): | 3: Allocation to one or more individuals selected from this column is compulsory if there is no allocation to an individual in column 2, but is otherwise optional and additional: |\n| --- | --- | --- |\n| (1) A firm which is a body corporate and is a member of a group, other than a firm in row (2) | (1) the firm's chief executive (and all of them jointly, if more than one); or | the firm's and its group's: (1) directors; and (2) senior managers |\n| (2) a director or senior manager responsible for the overall management of: (a) the group; or (b) a group division within which some or all of the firm's regulated activities fall |  |\n| (2) An EEA SMCR firm (note: only the functions in SYSC 4.4.5R (2) must be allocated) | (not applicable) | the firm's and its group's: (1) directors; and (2) senior managers |\n| (3) Any other firm | the firm's chief executive (and all of them jointly, if more than one) | the firm's and its group's: (1) directors; and (2) senior managers |\n| Note: Column 2 does not require the involvement of the chief executive or other executive director or senior manager in an aspect of corporate governance if that would be contrary to generally accepted principles of good corporate governance. |",
+    "contains_table": true
+  },
+  {
+    "provision_id": "SYSC 4.4.6",
+    "heading": "Allocating functions of apportionment and oversight",
+    "date": "29/07/2022",
+    "tag": "G",
+    "source_file": "sysc4_general_org_requirements.html",
+    "chunk_id": "sysc4_general_org_requirements::SYSC 4.4.6_0",
+    "text": "Frequently asked questions about allocation of functions in SYSC 4.4.5 R",
+    "contains_table": false
+  },
+  {
+    "provision_id": "SYSC 4.4.6",
+    "heading": "Allocating functions of apportionment and oversight",
+    "date": "29/07/2022",
+    "tag": "G",
+    "source_file": "sysc4_general_org_requirements.html",
+    "chunk_id": "sysc4_general_org_requirements::SYSC 4.4.6_table_0",
+    "text": "| Question | Answer |\n| --- | --- |\n| 1 | Does an individual to whom a function is allocated under SYSC 4.4.5 R need to be an approved person ? | Yes. They will be performing the limited scope function. However, the limited scope function does not apply to an EEA SMCR firm (except claims management and funeral plan firms ) or an authorised professional firm that is a core SMCR firm. |\n| 2 | If the allocation is to more than one individual, can they perform the functions, or aspects of the functions, separately? | If the functions are allocated to joint chief executives under SYSC 4.4.5 R, column 2, they are expected to act jointly. If the functions are allocated to an individual under SYSC 4.4.5 R, column 2, in addition to individuals under SYSC 4.4.5 R, column 3, the former may normally be expected to perform a leading role in relation to the functions that reflects his position. Otherwise, yes. |\n| 3 | What is meant by \"appropriately allocate\" in this context? | The allocation of functions should be compatible with delivering compliance with Principle 3, SYSC 4.4.3 R and SYSC 4.1.1 R. The FCA considers that allocation to one or two individuals is likely to be appropriate for most firms. |\n| 4 | If a committee of management governs a firm or group, can the functions be allocated to every member of that committee? | Yes, as long as the allocation remains appropriate (see Question 3). If the firm also has an individual as chief executive, then the functions must be allocated to that individual as well under SYSC 4.4.5 R, column 2 (see Question 7). |\n| 5 | Does the definition of chief executive include the possessor of equivalent responsibilities with another title, such as a managing director or managing partner ? | Yes. |\n| 6 | Is it possible for a firm to have more than one individual as its chief executive ? | Although unusual, some firms may wish the responsibility of a chief executive to be held jointly by more than one individual. In that case, each of them will be a chief executive and the functions must be allocated to all of them under SYSC 4.4.5 R, column 2 (see also Questions 2 and 7). |\n| 7 | If a firm has an individual as chief executive, must the functions be allocated to that individual? | Normally, yes, under SYSC 4.4.5 R, column 2. But if the firm is a body corporate and a member of a group, the functions may, instead of being allocated to the firm's chief executive, be allocated to a director or senior manager from the group responsible for the overall management of the group or of a relevant group division, so long as this is appropriate (see Question 3). Such individuals may nevertheless require approval under section 59 (see Question 1). If the firm chooses to allocate the functions to a director or senior manager responsible for the overall management of a relevant group division, the FCA would expect that individual to be of a seniority equivalent to or greater than a chief executive of the firm for the allocation to be appropriate. See also Question 14. |\n| 8 | If a firm has a chief executive, can the functions be allocated to other individuals in addition to the chief executive ? | Yes. SYSC 4.4.5 R, column 3, permits a firm to allocate the functions, additionally, to the firm's (or where applicable the group's ) directors and senior managers as long as this is appropriate (see Question 3). |\n| 9 | What if a firm does not have a chief executive ? | Normally, the functions must be allocated to one or more individuals selected from the firm's (or where applicable the group's ) directors and senior managers under SYSC 4.4.5 R, column 3. But if the firm: (1) is a body corporate and a member of a group; and (2) the group has a director or senior manager responsible for the overall management of the group or of a relevant group division; then the functions must be allocated to that individual (together, optionally, with individuals from column 3 if appropriate) under SYSC 4.4.5 R, column 2. |\n| 10 | What do you mean by \" group division within which some or all of the firm's regulated activities fall\"? | A \"division\" in this context should be interpreted by reference to geographical operations, product lines or any other method by which the group's business is divided. If the firm's regulated activities fall within more than one division and the firm does not wish to allocate the functions to its chief executive, the allocation must, under SYSC 4.4.5 R, be to: (1) a director or senior manager responsible for the overall management of the group; or (2) a director or senior manager responsible for the overall management of one of those divisions; together, optionally, with individuals from column 3 if appropriate. (See also Questions 7 and 9.) |\n| 11 | How does the requirement to allocate the functions in SYSC 4.4.5 R apply to an overseas SMCR firm which is not an EEA SMCR firm ? | The firm must appropriately allocate those functions to one or more individuals, in accordance with SYSC 4.4.5 R, but: (1) The responsibilities that must be apportioned and the systems and controls that must be overseen are those relating to activities carried on from a UK establishment with certain exceptions (see SYSC 1 Annex 1 2.15R ). (2) The chief executive of an overseas firm is the person responsible for the conduct of the firm's business within the United Kingdom (see the definition of \" chief executive \"). This might, for example, be the manager of the firm's UK establishment, or it might be the chief executive of the firm as a whole, if he has that responsibility. (3) SYSC 4.4 does not apply to such a firm if it does not have a branch in the United Kingdom. |\n| 12 | How does the requirement to allocate the functions in SYSC 4.4.5 R apply to an EEA SMCR firm other than a claims management or funeral plan firm ? | (1) Such a firm is not required to allocate the function of dealing with apportionment in SYSC 4.4.5R (1). (2) Such a firm is required to allocate the function of oversight in SYSC 4.4.5R (2). (3) Such a firm need not allocate the function of oversight to its chief executive; it must allocate it to one or more directors and senior managers of the firm or the firm's group under SYSC 4.4.5 R, row (2). (4) SYSC 4.4 does not apply to an EEA PTV firm if it does not have a branch in the United Kingdom. See also Question 1. |\n| 13 | What about a firm that is a partnership or a limited liability partnership ? | The FCA envisages that most if not all partners or members will be either directors or senior managers, but this will depend on the constitution of the partnership (particularly in the case of a limited partnership ) or limited liability partnership. A partnership or limited liability partnership may also have a chief executive (see Question 5). A limited liability partnership is a body corporate and, if a member of a group, will fall within SYSC 4.4.5 R, row (1) or (2). |\n| 14 | What if generally accepted principles of good corporate governance recommend that the chief executive should not be involved in an aspect of corporate governance? | The Note to SYSC 4.4.5 R provides that the chief executive or other executive director or senior manager need not be involved in such circumstances. For example, the UK Corporate Governance Code recommends that the board of a listed company should establish an audit committee of independent, non-executive directors to be responsible (among other things) for overseeing the effectiveness of the audit process and the objectivity and independence of the external auditor. That aspect of the oversight function may therefore be allocated to the members of such a committee without involving the chief executive. Such individuals may require approval under section 59 in relation to that function (see Question 1). |\n| 15 | [deleted] |  |",
+    "contains_table": true
+  },
+  {
+    "provision_id": "SYSC 4.7.26",
+    "heading": "SYSC 4.7",
+    "date": "10/12/2018",
+    "tag": "G",
+    "source_file": "sysc4_general_org_requirements.html",
+    "chunk_id": "sysc4_general_org_requirements::SYSC 4.7.26_0",
+    "text": "[deleted [ result matched start Editor\u2019s note: result matched end The text of this provision has been moved to SYSC 24.3.9G ]",
+    "contains_table": false
+  }
+]

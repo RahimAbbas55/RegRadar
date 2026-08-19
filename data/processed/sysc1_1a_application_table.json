@@ -1,0 +1,46 @@
+{
+  "source_file": "sysc1_1a_application_table.html",
+  "provision_count": 4,
+  "provisions": [
+    {
+      "provision_id": "SYSC 1.1A.1",
+      "date": "31/03/2023",
+      "tag": "G",
+      "heading": "SYSC 1.1A Application",
+      "text": "The application of this sourcebook is summarised at a high level in the following table. The detailed application is cut back in SYSC 1 Annex 1 and in the text of each chapter. Firms that SYSC 19D applies to should also refer to the Remuneration part of the PRA Rulebook .",
+      "tables": [
+        "| Type of firm | Applicable chapters |\n| --- | --- |\n| Insurer, UK ISPV | Chapters 2, 3, 12 to 18, 19F.2, 21, 22, 23, 24, 25, 26, 27, 28, 28A |\n| Managing agent | Chapters 2, 3, 11, 12, 15A, 18, 19F.2, 21, 22, 23, 24, 25, 26, 27, 28, 28A |\n| Society | Chapters 2, 3, 12, 15A, 18, 19F.2, 21, 22, 23, 24, 25, 26, 27, 28, 28A |\n| Any other SMCR firm | Chapters 4 to 12, 15A, 18, 19D, 19F, 19G, 21, 22, 23, 24, 25, 26, 27, 28, 28A |\n| Every other firm | Chapters 4 to 12, 15A, 18, 19D, 19F, 19G, 21, 22, 28, 28A |"
+      ],
+      "contains_table": true
+    },
+    {
+      "provision_id": "SYSC 1.1A.1A",
+      "date": "31/03/2023",
+      "tag": "G",
+      "heading": "SYSC 1.1A Application",
+      "text": "The application of this sourcebook to specific firms that are not PRA-authorised persons is summarised at a high level in the following table. The detailed application is cut back in SYSC 1 Annex 1 and in the text of each chapter.",
+      "tables": [
+        "| Type of firm | Applicable chapters |\n| --- | --- |\n| Full-scope UK AIFM | Chapters 4 to 10, 12, 18, 19B, 19F.2, 21, 22, 23, 24, 25, 26, 27, 28, 28A |\n|  |  |\n| MIFIDPRU investment firm (including an overseas firm that would have been a MIFIDPRU investment firm if it had been a UK domestic firm, except that SYSC 19G does not apply to such a firm ) | Chapters 4 to 10, 12, 18, 19F, 19G, 21, 22, 23, 24, 25, 26, 27, 28, 28A |"
+      ],
+      "contains_table": true
+    },
+    {
+      "provision_id": "SYSC 1.1A.1B",
+      "date": "31/03/2022",
+      "tag": "G",
+      "heading": "SYSC 1.1A Application",
+      "text": "Chapter 15A of this sourcebook also applies to: (1) an electronic money institution , a payment institution and a registered account information service provider ; (2) a UK RIE . as set out in the text of that chapter.",
+      "tables": [],
+      "contains_table": false
+    },
+    {
+      "provision_id": "SYSC 1.1A.2",
+      "date": "01/01/2021",
+      "tag": "G",
+      "heading": "SYSC 1.1A Application",
+      "text": "The provisions in SYSC should be read in conjunction with GEN 2.2.23 R to GEN 2.2.25 G . In particular: (1) [deleted] (2) Provisions made by the FCA , and by the PRA in the PRA Rulebook, may be applied by both regulators to PRA-authorised persons . Such provisions are applied by each regulator to the extent of its powers and regulatory responsibilities. (3) For Solvency II firms , the FCA considers that the requirements and guidance in Chapters 2, 3, 12 to 18, 19F.2, 21, 22 and 28 of SYSC are not inconsistent with: (a) the parts of the PRA Rulebook which implemented the governance provisions in the Solvency II Directive (articles 40 to 49); (b) the Solvency II Regulation , or (c) EIOPA guidelines on systems of governance dated 28 January 2015 (EIOPA-BoS-14/253 EN). In most cases, there is no direct overlap with those provisions because the SYSC requirements are directed at FCA conduct requirements not expressly covered by or under provisions which implemented or supplemented the Solvency II Directive . Where there is a direct overlap with SYSC rules and guidance, the FCA will take requirements and guidelines which implemented or supplemented the Solvency II Directive into account. The definition of Solvency II firm includes (for SYSC ) large non-directive insurers because the PRA have applied certain Solvency II derived requirements to those firms . Where SYSC refers to the PRA Rulebook applicable to Solvency II firms , large non-directive insurers should read those references as if they were references to the corresponding part of the PRA Rulebook applicable to large non-directive insurers .",
+      "tables": [],
+      "contains_table": false
+    }
+  ]
+}

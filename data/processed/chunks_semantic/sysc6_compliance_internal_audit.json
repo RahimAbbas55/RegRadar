@@ -1,0 +1,332 @@
+[
+  {
+    "provision_id": "SYSC 6.1.1",
+    "heading": "Adequate policy and procedures",
+    "date": "03/01/2018",
+    "tag": "R",
+    "source_file": "sysc6_compliance_internal_audit.html",
+    "chunk_id": "sysc6_compliance_internal_audit::SYSC 6.1.1_0",
+    "text": "A firm must establish, implement and maintain adequate policies and procedures sufficient to ensure compliance of the firm including its managers, employees and appointed representatives (or where applicable, tied agents ) with its obligations under the regulatory system and for countering the risk that the firm might be used to further financial crime . [ Note: article 16(2) of MiFID and article 12(1)(a) of the UCITS Directive ]",
+    "contains_table": false
+  },
+  {
+    "provision_id": "SYSC 6.1.1A",
+    "heading": "Adequate policy and procedures",
+    "date": "13/12/2018",
+    "tag": "G",
+    "source_file": "sysc6_compliance_internal_audit.html",
+    "chunk_id": "sysc6_compliance_internal_audit::SYSC 6.1.1A_0",
+    "text": "The FCA provides guidance on steps that a firm can take to reduce the risk that it might be used to further financial crime in FCG (Financial Crime Guide: A firm\u2019s guide to countering financial crime risks) and FCTR (Financial Crime Thematic Reviews).",
+    "contains_table": false
+  },
+  {
+    "provision_id": "SYSC 6.1.2",
+    "heading": "Adequate policy and procedures",
+    "date": "01/01/2021",
+    "tag": "R",
+    "source_file": "sysc6_compliance_internal_audit.html",
+    "chunk_id": "sysc6_compliance_internal_audit::SYSC 6.1.2_0",
+    "text": "A firm that is a management company or an operator of an electronic system in relation to lending must, taking intoaccount the nature, scale and complexity of its business, and the nature and range of financial services and activities undertaken in the course of that business, establish, implement and maintain adequate policies and procedures designed to detect any risk of failure by the firm to comply with its obligations under the regulatory system , as well as associated risks, and put in place adequate measures and procedures designed to minimise such risks and to enable the FCA to exercise its powers effectively under the regulatory system . [ Note: article 10(1) of the UCITS implementing Directive ]",
+    "contains_table": false
+  },
+  {
+    "provision_id": "SYSC 6.1.2A",
+    "heading": "Adequate policy and procedures",
+    "date": "03/01/2018",
+    "tag": "G",
+    "source_file": "sysc6_compliance_internal_audit.html",
+    "chunk_id": "sysc6_compliance_internal_audit::SYSC 6.1.2A_0",
+    "text": "Other firms should take account of the adequate policies and procedures rule ( SYSC 6.1.2 R ) as if it were guidance (and as if should appeared in that rule instead of must) as explained in SYSC 1 Annex 1 3.3 R(1).",
+    "contains_table": false
+  },
+  {
+    "provision_id": "SYSC 6.1.3",
+    "heading": "Compliance function",
+    "date": "09/12/2019",
+    "tag": "R",
+    "source_file": "sysc6_compliance_internal_audit.html",
+    "chunk_id": "sysc6_compliance_internal_audit::SYSC 6.1.3_0",
+    "text": "A firm that is a management company or an operator of an electronic system in relation to lending must maintain a permanent and effective compliance function which operates independently and which has the following responsibilities: (1) to monitor and, on a regular basis, to assess the adequacy and effectiveness of the measures and procedures put in place in accordance with SYSC 6.1.2 R , and the actions taken to address any deficiencies in the firm's compliance with its obligations; and (2) to advise and assist the relevant persons responsible for carrying out regulated activities to comply with the firm's obligations under the regulatory system . [ Note: article 10(2) of the UCITS implementing Directive ]",
+    "contains_table": false
+  },
+  {
+    "provision_id": "SYSC 6.1.3A",
+    "heading": "Compliance function",
+    "date": "03/01/2018",
+    "tag": "G",
+    "source_file": "sysc6_compliance_internal_audit.html",
+    "chunk_id": "sysc6_compliance_internal_audit::SYSC 6.1.3A_0",
+    "text": "(1) Other firms should take account of the compliance function rule ( SYSC 6.1.3 R ) as if it were guidance (and as if should appeared in that rule instead of must) as explained in SYSC 1 Annex 1 3.3 R(1). (2) Notwithstanding SYSC 6.1.3 R , as it applies under (1), depending on the nature, scale and complexity of its business, it may be appropriate for a firm to have a separate compliance function.",
+    "contains_table": false
+  },
+  {
+    "provision_id": "SYSC 6.1.3A",
+    "heading": "Compliance function",
+    "date": "03/01/2018",
+    "tag": "G",
+    "source_file": "sysc6_compliance_internal_audit.html",
+    "chunk_id": "sysc6_compliance_internal_audit::SYSC 6.1.3A_1",
+    "text": "Where a firm has a separate compliance function the firm should also take into account SYSC 6.1.3 R and SYSC 6.1.4 R as guidance.",
+    "contains_table": false
+  },
+  {
+    "provision_id": "SYSC 6.1.4",
+    "heading": "Compliance function",
+    "date": "09/12/2019",
+    "tag": "R",
+    "source_file": "sysc6_compliance_internal_audit.html",
+    "chunk_id": "sysc6_compliance_internal_audit::SYSC 6.1.4_0",
+    "text": "In order to enable the compliance function to discharge its responsibilities properly and independently, a firm that is a management company or an operator of an electronic system in relation to lending must ensure that the following conditions are satisfied: (1) the compliance function must have the necessary authority, resources, expertise and access to all relevant information; (2) a compliance officer must be appointed and must be responsible for the compliance function and for any reporting as to compliance required by SYSC 4.3.2 R ; (3) the relevant persons involved in the compliance functions must not be involved in the performance of the services or activities they monitor; (4) the method of determining the remuneration of the relevant persons involved in the compliance function must not compromise their objectivity and must not be likely to do so. [ Note: article 10(3) of the UCITS implementing Directive ]",
+    "contains_table": false
+  },
+  {
+    "provision_id": "SYSC 6.1.4A",
+    "heading": "Compliance function",
+    "date": "26/07/2013",
+    "tag": "R",
+    "source_file": "sysc6_compliance_internal_audit.html",
+    "chunk_id": "sysc6_compliance_internal_audit::SYSC 6.1.4A_0",
+    "text": "(1) A firm which is not a common platform firm or management company and which carries on designated investment business with or for retail clients or professional clients must allocate to a director or senior manager the function of: (a) having responsibility for oversight of the firm's compliance; and (b) reporting to the governing body in respect of that responsibility.",
+    "contains_table": false
+  },
+  {
+    "provision_id": "SYSC 6.1.4A",
+    "heading": "Compliance function",
+    "date": "26/07/2013",
+    "tag": "R",
+    "source_file": "sysc6_compliance_internal_audit.html",
+    "chunk_id": "sysc6_compliance_internal_audit::SYSC 6.1.4A_1",
+    "text": "(2) In SYSC 6.1.4A R (1) compliance means compliance with the rules in: (a) COBS (Conduct of Business sourcebook); (b) COLL (Collective Investment Schemes sourcebook); (c) CASS (Client Assets sourcebook); and (d) ICOBS (Insurance: Conduct of Business sourcebook).",
+    "contains_table": false
+  },
+  {
+    "provision_id": "SYSC 6.1.4C",
+    "heading": "Compliance function",
+    "date": "09/12/2019",
+    "tag": "R",
+    "source_file": "sysc6_compliance_internal_audit.html",
+    "chunk_id": "sysc6_compliance_internal_audit::SYSC 6.1.4C_0",
+    "text": "(1) A firm in (2) or (3) must appoint a compliance officer to be responsible for ensuring the firm meets its obligations under SYSC 6.1.1R for any compliance function the firm has and for any reporting as to compliance which may be made under SYSC 4.3.2R . (2) This rule applies to: (a) a debt management firm ; and (b) a credit repair firm .",
+    "contains_table": false
+  },
+  {
+    "provision_id": "SYSC 6.1.4C",
+    "heading": "Compliance function",
+    "date": "09/12/2019",
+    "tag": "R",
+    "source_file": "sysc6_compliance_internal_audit.html",
+    "chunk_id": "sysc6_compliance_internal_audit::SYSC 6.1.4C_1",
+    "text": "(3) This rule also applies to a firm that meets the following conditions: (a) it is a Class 1 firm as defined in CMCOB 7.2.5R(1) ; and (b) SUP 10C (FCA senior managers regime for approved persons in SMCR firms) applies the compliance oversight function to it.",
+    "contains_table": false
+  },
+  {
+    "provision_id": "SYSC 6.1.5",
+    "heading": "Compliance function",
+    "date": "09/12/2019",
+    "tag": "R",
+    "source_file": "sysc6_compliance_internal_audit.html",
+    "chunk_id": "sysc6_compliance_internal_audit::SYSC 6.1.5_0",
+    "text": "A firm that is a management company or an operator of an electronic system in relation to lending need not comply with SYSC 6.1.4 R (3) or SYSC 6.1.4 R (4) if it is able to demonstrate that in view of the nature, scale and complexity of its business, and the nature and range of financial services and activities, the requirements under those rules are not proportionate and that its compliance function continues to be effective. [ Note : article 10(3) second paragraph of the UCITS implementing Directive ]",
+    "contains_table": false
+  },
+  {
+    "provision_id": "SYSC 6.1.5A",
+    "heading": "Compliance function",
+    "date": "23/10/2025",
+    "tag": "R",
+    "source_file": "sysc6_compliance_internal_audit.html",
+    "chunk_id": "sysc6_compliance_internal_audit::SYSC 6.1.5A_0",
+    "text": "A common platform firm need not comply with SYSC\u00a06.1.3-CR(4) or SYSC\u00a06.1.3-CR(5) if it is able to demonstrate that in view of the nature, scale and complexity of its business, and the nature and range of its designated investment business , the requirements under those rules are not proportionate and that its compliance function continues to be effective.",
+    "contains_table": false
+  },
+  {
+    "provision_id": "SYSC 6.1.5A",
+    "heading": "Compliance function",
+    "date": "23/10/2025",
+    "tag": "R",
+    "source_file": "sysc6_compliance_internal_audit.html",
+    "chunk_id": "sysc6_compliance_internal_audit::SYSC 6.1.5A_1",
+    "text": "In that case, a common platform firm must assess whether the effectiveness of the compliance function is compromised, and the assessment must be reviewed on a regular basis.",
+    "contains_table": false
+  },
+  {
+    "provision_id": "SYSC 6.1.6",
+    "heading": "Compliance function",
+    "date": "03/01/2018",
+    "tag": "G",
+    "source_file": "sysc6_compliance_internal_audit.html",
+    "chunk_id": "sysc6_compliance_internal_audit::SYSC 6.1.6_0",
+    "text": "Other firms should take account of the proportionality rule ( SYSC 6.1.5 R ) as if it were guidance (and as if should appeared in that rule instead of must) as explained in SYSC 1 Annex 1 3.3R(1).",
+    "contains_table": false
+  },
+  {
+    "provision_id": "SYSC 6.1.8",
+    "heading": "Compliance function",
+    "date": "09/12/2019",
+    "tag": "G",
+    "source_file": "sysc6_compliance_internal_audit.html",
+    "chunk_id": "sysc6_compliance_internal_audit::SYSC 6.1.8_0",
+    "text": "The exemptions in SYSC 6.1.5R are unlikely to apply to a firm that is an operator of an electronic system in relation to lending where that firm offers lenders a P2P portfolio with a target rate .",
+    "contains_table": false
+  },
+  {
+    "provision_id": "SYSC 6.2.1",
+    "heading": "SYSC 6.2 Internal audit",
+    "date": "23/10/2025",
+    "tag": "R",
+    "source_file": "sysc6_compliance_internal_audit.html",
+    "chunk_id": "sysc6_compliance_internal_audit::SYSC 6.2.1_0",
+    "text": "A firm that is a common platform firm or a management company or an operator of an electronic system in relation to lending management company must, where appropriate and proportionate in view of the nature, scale and complexity of its business and the nature and range of its financial services and activities or (if it is a common platform firm ) its designated investment business , undertaken in the course of that business, establish and maintain an internal audit function which is separate and independent from the other functions and activities of the firm and which has the following responsibilities: (1) to establish, implement and maintain an audit plan to examine and evaluate the adequacy and effectiveness of the firm's systems, internal control mechanisms and arrangements; (2) to issue recommendations based on the result of work carried out in accordance with (1); (3) to verify compliance with those recommendations; (4) to report in relation to internal audit matters in accordance with SYSC 4.3.2 R or (if it is a common platform firm ) SYSC 6.1.3-AR and SYSC 6.1.3-BR . [ Note : article 11 of the UCITS implementing Directive ]",
+    "contains_table": false
+  },
+  {
+    "provision_id": "SYSC 6.2.1A",
+    "heading": "SYSC 6.2 Internal audit",
+    "date": "03/01/2018",
+    "tag": "G",
+    "source_file": "sysc6_compliance_internal_audit.html",
+    "chunk_id": "sysc6_compliance_internal_audit::SYSC 6.2.1A_0",
+    "text": "Other firms should take account of the internal audit rule ( SYSC 6.2.1 R ) as if it were guidance (and as if should appeared in that rule instead of must) as explained in SYSC 1 Annex 1 3.3 R(1).",
+    "contains_table": false
+  },
+  {
+    "provision_id": "SYSC 6.2.1B",
+    "heading": "SYSC 6.2 Internal audit",
+    "date": "23/10/2025",
+    "tag": "G",
+    "source_file": "sysc6_compliance_internal_audit.html",
+    "chunk_id": "sysc6_compliance_internal_audit::SYSC 6.2.1B_0",
+    "text": "(1) This guidance is relevant to an SMCR firm required to establish and maintain an internal audit function under SYSC 6.2.1R . (2) Taking account of the nature, scale and complexity of its activities, the firm should have appropriate procedures to ensure that the removal or any other disciplinary sanctioning of the head of the internal audit function does not undermine the independence of the internal audit function.",
+    "contains_table": false
+  },
+  {
+    "provision_id": "SYSC 6.2.1B",
+    "heading": "SYSC 6.2 Internal audit",
+    "date": "23/10/2025",
+    "tag": "G",
+    "source_file": "sysc6_compliance_internal_audit.html",
+    "chunk_id": "sysc6_compliance_internal_audit::SYSC 6.2.1B_1",
+    "text": "(3) In the FCA's view, it will be appropriate, in many cases, for the removal or any other disciplinary sanctioning of the head of the internal audit function to require the approval of a majority of the management body , including at least a majority of its members who do not perform any executive function in the firm .",
+    "contains_table": false
+  },
+  {
+    "provision_id": "SYSC 6.2.2",
+    "heading": "SYSC 6.2 Internal audit",
+    "date": "23/10/2025",
+    "tag": "G",
+    "source_file": "sysc6_compliance_internal_audit.html",
+    "chunk_id": "sysc6_compliance_internal_audit::SYSC 6.2.2_0",
+    "text": "(1) The term 'internal audit function' in SYSC 6.2.1R (and SYSC 4.1.11G ), and for a common platform firm in SYSC 6.2.1R , refers to the generally understood concept of internal audit within a firm , that is, the function of assessing adherence to and the effectiveness of internal systems and controls, procedures and policies. (2) [deleted] (3) For an SMCR firm that is a PRA-authorised person ,the internal audit function is a PRA controlled function (SMF5). For an enhanced scope SMCR firm it is an FCA controlled function (SMF5).",
+    "contains_table": false
+  },
+  {
+    "provision_id": "SYSC 6.3.1",
+    "heading": "SYSC 6.3 Financial crime",
+    "date": "01/04/2009",
+    "tag": "R",
+    "source_file": "sysc6_compliance_internal_audit.html",
+    "chunk_id": "sysc6_compliance_internal_audit::SYSC 6.3.1_0",
+    "text": "A firm must ensure the policies and procedures established under SYSC 6.1.1 R include systems and controls that: (1) enable it to identify, assess, monitor and manage money laundering risk; and (2) are comprehensive and proportionate to the nature, scale and complexity of its activities.",
+    "contains_table": false
+  },
+  {
+    "provision_id": "SYSC 6.3.2",
+    "heading": "SYSC 6.3 Financial crime",
+    "date": "01/01/2007",
+    "tag": "G",
+    "source_file": "sysc6_compliance_internal_audit.html",
+    "chunk_id": "sysc6_compliance_internal_audit::SYSC 6.3.2_0",
+    "text": "\" Money laundering risk\" is the risk that a firm may be used to further money laundering . Failure by a firm to manage this risk effectively will increase the risk to society of crime and terrorism.",
+    "contains_table": false
+  },
+  {
+    "provision_id": "SYSC 6.3.3",
+    "heading": "SYSC 6.3 Financial crime",
+    "date": "01/04/2009",
+    "tag": "R",
+    "source_file": "sysc6_compliance_internal_audit.html",
+    "chunk_id": "sysc6_compliance_internal_audit::SYSC 6.3.3_0",
+    "text": "A firm must carry out a regular assessment of the adequacy of these systems and controls to ensure that they continue to comply with SYSC 6.3.1 R .",
+    "contains_table": false
+  },
+  {
+    "provision_id": "SYSC 6.3.4",
+    "heading": "SYSC 6.3 Financial crime",
+    "date": "13/09/2017",
+    "tag": "G",
+    "source_file": "sysc6_compliance_internal_audit.html",
+    "chunk_id": "sysc6_compliance_internal_audit::SYSC 6.3.4_0",
+    "text": "A firm may also have separate obligations to comply with relevant legal requirements, including the Terrorism Act 2000, the Proceeds of Crime Act 2002 and the Money Laundering Regulations . SYSC 6.1.1 R and SYSC 6.3.1 R to SYSC 6.3.10 G are not relevant for the purposes of regulation 76(6) or 86(2) of the Money Laundering Regulations , section 330(8) of the Proceeds of Crime Act 2002 or section 21A(6) of the Terrorism Act 2000.",
+    "contains_table": false
+  },
+  {
+    "provision_id": "SYSC 6.3.5",
+    "heading": "SYSC 6.3 Financial crime",
+    "date": "01/04/2013",
+    "tag": "G",
+    "source_file": "sysc6_compliance_internal_audit.html",
+    "chunk_id": "sysc6_compliance_internal_audit::SYSC 6.3.5_0",
+    "text": "The FCA , when considering whether a breach of its rules on systems and controls against money laundering has occurred, will have regard to whether a firm has followed relevant provisions in the guidance for the United Kingdom financial sector issued by the Joint Money Laundering Steering Group.",
+    "contains_table": false
+  },
+  {
+    "provision_id": "SYSC 6.3.6",
+    "heading": "SYSC 6.3 Financial crime",
+    "date": "01/04/2009",
+    "tag": "G",
+    "source_file": "sysc6_compliance_internal_audit.html",
+    "chunk_id": "sysc6_compliance_internal_audit::SYSC 6.3.6_0",
+    "text": "In identifying its money laundering risk and in establishing the nature of these systems and controls, a firm should consider a range of factors, including: (1) its customer, product and activity profiles; (2) its distribution channels; (3) the complexity and volume of its transactions; (4) its processes and systems; and (5) its operating environment.",
+    "contains_table": false
+  },
+  {
+    "provision_id": "SYSC 6.3.7",
+    "heading": "SYSC 6.3 Financial crime",
+    "date": "01/04/2009",
+    "tag": "G",
+    "source_file": "sysc6_compliance_internal_audit.html",
+    "chunk_id": "sysc6_compliance_internal_audit::SYSC 6.3.7_0",
+    "text": "A firm should ensure that the systems and controls include: (1) appropriate training for its employees in relation to money laundering ; (2) appropriate provision of information to its governing body and senior management, including a report at least annually by that firm's money laundering reporting officer ( MLRO ) on the operation and effectiveness of those systems and controls; (3) appropriate documentation of its risk management policies and risk profile in relation to money laundering , including documentation of its application of those policies (see SYSC 9 ); (4) appropriate measures to ensure that money laundering risk is taken into account in its day-to-day operation, including in relation to: (a) the development of new products; (b) the taking-on of new customers; and (c) changes in its business profile; and (5) appropriate measures to ensure that procedures for identification of new customers do not unreasonably deny access to its services to potential customers who cannot reasonably be expected to produce detailed evidence of identity.",
+    "contains_table": false
+  },
+  {
+    "provision_id": "SYSC 6.3.8",
+    "heading": "SYSC 6.3 Financial crime",
+    "date": "07/03/2016",
+    "tag": "R",
+    "source_file": "sysc6_compliance_internal_audit.html",
+    "chunk_id": "sysc6_compliance_internal_audit::SYSC 6.3.8_0",
+    "text": "(1) A firm must allocate to a director or senior manager (who may also be the money laundering reporting officer ) overall responsibility within the firm for the establishment and maintenance of effective anti- money laundering systems and controls. (2) A firm may not allocate overall responsibility under (1) to a person who is approved to perform the other overall responsibility function .",
+    "contains_table": false
+  },
+  {
+    "provision_id": "SYSC 6.3.9",
+    "heading": "The money laundering reporting officer",
+    "date": "01/04/2013",
+    "tag": "R",
+    "source_file": "sysc6_compliance_internal_audit.html",
+    "chunk_id": "sysc6_compliance_internal_audit::SYSC 6.3.9_0",
+    "text": "A firm (with the exception of a sole trader who has no employees) must: (1) appoint an individual as MLRO , with responsibility for oversight of its compliance with the FCA's rules on systems and controls against money laundering ; and (2) ensure that its MLRO has a level of authority and independence within the firm and access to resources and information sufficient to enable him to carry out that responsibility.",
+    "contains_table": false
+  },
+  {
+    "provision_id": "SYSC 6.3.10",
+    "heading": "The money laundering reporting officer",
+    "date": "01/04/2013",
+    "tag": "G",
+    "source_file": "sysc6_compliance_internal_audit.html",
+    "chunk_id": "sysc6_compliance_internal_audit::SYSC 6.3.10_0",
+    "text": "The job of the MLRO within a firm is to act as the focal point for all activity within the firm relating to anti- money laundering . The FCA expects that a firm's MLRO will be based in the United Kingdom .",
+    "contains_table": false
+  },
+  {
+    "provision_id": "SYSC 6.3.11",
+    "heading": "Financial crime guidance",
+    "date": "13/12/2018",
+    "tag": "G",
+    "source_file": "sysc6_compliance_internal_audit.html",
+    "chunk_id": "sysc6_compliance_internal_audit::SYSC 6.3.11_0",
+    "text": "The FCA provides guidance on steps that a firm can take to reduce the risk that it might be used to further financial crime in FCG (Financial Crime Guide: A firm\u2019s guide to countering financial crime risks) and FCTR (Financial Crime Thematic Reviews).",
+    "contains_table": false
+  }
+]

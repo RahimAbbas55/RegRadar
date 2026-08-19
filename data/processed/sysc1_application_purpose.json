@@ -1,0 +1,163 @@
+{
+  "source_file": "sysc1_application_purpose.html",
+  "provision_count": 17,
+  "provisions": [
+    {
+      "provision_id": "SYSC 1.1A.1",
+      "date": "31/03/2023",
+      "tag": "G",
+      "heading": "SYSC 1.1A Application",
+      "text": "The application of this sourcebook is summarised at a high level in the following table. The detailed application is cut back in SYSC 1 Annex 1 and in the text of each chapter. Firms that SYSC 19D applies to should also refer to the Remuneration part of the PRA Rulebook .",
+      "tables": [
+        "| Type of firm | Applicable chapters |\n| --- | --- |\n| Insurer, UK ISPV | Chapters 2, 3, 12 to 18, 19F.2, 21, 22, 23, 24, 25, 26, 27, 28, 28A |\n| Managing agent | Chapters 2, 3, 11, 12, 15A, 18, 19F.2, 21, 22, 23, 24, 25, 26, 27, 28, 28A |\n| Society | Chapters 2, 3, 12, 15A, 18, 19F.2, 21, 22, 23, 24, 25, 26, 27, 28, 28A |\n| Any other SMCR firm | Chapters 4 to 12, 15A, 18, 19D, 19F, 19G, 21, 22, 23, 24, 25, 26, 27, 28, 28A |\n| Every other firm | Chapters 4 to 12, 15A, 18, 19D, 19F, 19G, 21, 22, 28, 28A |"
+      ],
+      "contains_table": true
+    },
+    {
+      "provision_id": "SYSC 1.1A.1A",
+      "date": "31/03/2023",
+      "tag": "G",
+      "heading": "SYSC 1.1A Application",
+      "text": "The application of this sourcebook to specific firms that are not PRA-authorised persons is summarised at a high level in the following table. The detailed application is cut back in SYSC 1 Annex 1 and in the text of each chapter.",
+      "tables": [
+        "| Type of firm | Applicable chapters |\n| --- | --- |\n| Full-scope UK AIFM | Chapters 4 to 10, 12, 18, 19B, 19F.2, 21, 22, 23, 24, 25, 26, 27, 28, 28A |\n|  |  |\n| MIFIDPRU investment firm (including an overseas firm that would have been a MIFIDPRU investment firm if it had been a UK domestic firm, except that SYSC 19G does not apply to such a firm ) | Chapters 4 to 10, 12, 18, 19F, 19G, 21, 22, 23, 24, 25, 26, 27, 28, 28A |"
+      ],
+      "contains_table": true
+    },
+    {
+      "provision_id": "SYSC 1.1A.1B",
+      "date": "31/03/2022",
+      "tag": "G",
+      "heading": "SYSC 1.1A Application",
+      "text": "Chapter 15A of this sourcebook also applies to: (1) an electronic money institution , a payment institution and a registered account information service provider ; (2) a UK RIE . as set out in the text of that chapter.",
+      "tables": [],
+      "contains_table": false
+    },
+    {
+      "provision_id": "SYSC 1.1A.2",
+      "date": "01/01/2021",
+      "tag": "G",
+      "heading": "SYSC 1.1A Application",
+      "text": "The provisions in SYSC should be read in conjunction with GEN 2.2.23 R to GEN 2.2.25 G . In particular: (1) [deleted] (2) Provisions made by the FCA , and by the PRA in the PRA Rulebook, may be applied by both regulators to PRA-authorised persons . Such provisions are applied by each regulator to the extent of its powers and regulatory responsibilities. (3) For Solvency II firms , the FCA considers that the requirements and guidance in Chapters 2, 3, 12 to 18, 19F.2, 21, 22 and 28 of SYSC are not inconsistent with: (a) the parts of the PRA Rulebook which implemented the governance provisions in the Solvency II Directive (articles 40 to 49); (b) the Solvency II Regulation , or (c) EIOPA guidelines on systems of governance dated 28 January 2015 (EIOPA-BoS-14/253 EN). In most cases, there is no direct overlap with those provisions because the SYSC requirements are directed at FCA conduct requirements not expressly covered by or under provisions which implemented or supplemented the Solvency II Directive . Where there is a direct overlap with SYSC rules and guidance, the FCA will take requirements and guidelines which implemented or supplemented the Solvency II Directive into account. The definition of Solvency II firm includes (for SYSC ) large non-directive insurers because the PRA have applied certain Solvency II derived requirements to those firms . Where SYSC refers to the PRA Rulebook applicable to Solvency II firms , large non-directive insurers should read those references as if they were references to the corresponding part of the PRA Rulebook applicable to large non-directive insurers .",
+      "tables": [],
+      "contains_table": false
+    },
+    {
+      "provision_id": "SYSC 1.2.1",
+      "date": "07/03/2016",
+      "tag": "G",
+      "heading": "SYSC 1.2 Purpose",
+      "text": "The purposes of SYSC are: (1) to encourage firms' directors and senior managers to take appropriate practical responsibility for their firms' arrangements on matters likely to be of interest to the FCA because they impinge on the FCA\u2019s functions under the Act ; (2) to increase certainty by amplifying Principle 3, under which a firm must take reasonable care to organise and control its affairs responsibly and effectively, with adequate risk management systems; (3) to encourage firms to vest responsibility for effective and responsible organisation in specific directors and senior managers ; and (4) to create a common platform of organisational and systems and controls requirements for all firms . (5) [deleted]",
+      "tables": [],
+      "contains_table": false
+    },
+    {
+      "provision_id": "SYSC 1.4.1",
+      "date": "27/02/2026",
+      "tag": "G",
+      "heading": "What?",
+      "text": "The application of each of chapters SYSC 12 to SYSC 21 is set out in those chapters and in SYSC 1.4.1A R .",
+      "tables": [],
+      "contains_table": false
+    },
+    {
+      "provision_id": "SYSC 1.4.1A",
+      "date": "01/01/2022",
+      "tag": "R",
+      "heading": "What?",
+      "text": "SYSC 12 and SYSC 21 do not apply to a firm in relation to its carrying on of auction regulation bidding .",
+      "tables": [],
+      "contains_table": false
+    },
+    {
+      "provision_id": "SYSC 1.4.1B",
+      "date": "27/02/2026",
+      "tag": "G",
+      "heading": "What?",
+      "text": "Apart from SYSC 12 , and SYSC 21 which are disapplied by SYSC 1.4.1A R , the other chapters of SYSC 12 to SYSC 14 do not apply in relation to a firm's carrying on of auction regulation bidding because they only apply to an insurer . SYSC 18 provides guidance on the Public Interest Disclosure Act. Other chapters of SYSC may not apply to auction regulation bidding , for example because an exempt MiFID commodities firm will not be a MIFIDPRU investment firm .",
+      "tables": [],
+      "contains_table": false
+    },
+    {
+      "provision_id": "SYSC 1.4.2",
+      "date": "27/02/2026",
+      "tag": "R",
+      "heading": "Actions for damages",
+      "text": "A contravention of a rule in SYSC 12 to SYSC 14 , SYSC 18 to SYSC 21 , SYSC 22.8.1R , SYSC 22.9.1R or SYSC 23 to SYSC 28A does not give rise to a right of action by a private person under section 138D of the Act (and each of those rules is specified under section 138D(3) of the Act as a provision giving rise to no such right of action).",
+      "tables": [],
+      "contains_table": false
+    },
+    {
+      "provision_id": "SYSC 1.5.1",
+      "date": "01/01/2022",
+      "tag": "G",
+      "heading": "Purpose",
+      "text": "(1) The purpose of SYSC 1.5 is to set out the definition of a significant SYSC firm . (2) The following governance requirements in SYSC apply by reference to the term significant SYSC firm : (a) SYSC 4.3A.6R on the limitations in the number of directorships; (b) SYSC 4.3A.8R on the nomination committee; and (c) SYSC 7.1.18R and SYSC 7.1.18AAR on the risk committee. (3) MIFIDPRU investment firms are not subject to SYSC 4.3A.8R or SYSC 7.1.18R , and should refer instead to MIFIDPRU 7.3 . (4) The definition of significant SYSC firm is also relevant in determining whether a firm is an enhanced scope SMCR firm for the purposes of the senior managers and certification regime.",
+      "tables": [],
+      "contains_table": false
+    },
+    {
+      "provision_id": "SYSC 1.5.2",
+      "date": "01/01/2022",
+      "tag": "R",
+      "heading": "Definition of a significant SYSC firm",
+      "text": "A firm is a significant SYSC firm if it meets one or more of the following conditions: (1) its total assets exceed \u00a3530 million; (2) its total liabilities exceed \u00a3380 million; (3) the annual fees and commission income it receives in relation to the regulated activities carried on by the firm exceeds \u00a3160 million in the 12- month period immediately preceding the date the firm carries out the assessment under this rule ; (4) the client money that it receives or holds exceeds \u00a3425 million; and (5) the assets belonging to its clients that it holds in the course of, or in connection with, its regulated activities exceeds \u00a37.8 billion.",
+      "tables": [],
+      "contains_table": false
+    },
+    {
+      "provision_id": "SYSC 1.5.3",
+      "date": "29/05/2026",
+      "tag": "R",
+      "heading": "Definition of a significant SYSC firm",
+      "text": "(1) This rule defines some of the terms used in SYSC 1.5.2R . (2) \u201cTotal assets\u201d means the firm\u2019s total assets: (a) as set out in the most recent relevant report submitted to the FCA under SUP 16.12 (Integrated Regulatory Reporting); or (b) (where the firm carries out the assessment under SYSC 1.5.4R at any time after the date of its most recent report in (a)) as the firm would report to the FCA in accordance with the relevant report, as if the reporting period for that report ended on the date of the assessment. (3) \u201cTotal liabilities\u201d means the firm\u2019s total liabilities: (a) as set out in the most recent relevant report submitted to the FCA under SUP 16.12 (Integrated Regulatory Reporting); or (b) (where the firm carries out the assessment under SYSC 1.5.4R at any time after the date of its most recent report in (a)) as the firm would report to the FCA in accordance with the relevant report, as if the reporting period for that report ended on the date of the assessment. (4) \u201cclient money\u201d means client money that a firm receives or holds in the course of, or in connection with, all of the regulated activities that it carries on: (a) as set out in the most recent relevant report submitted to the FCA under SUP 16.12 (Integrated Regulatory Reporting); or (b) (where the firm carries out the assessment under SYSC 1.5.4R at any time after the date of its most recent report in (a)) as the firm would report to the FCA in accordance with the relevant report, as if the reporting period for that report ended on the date of the assessment. (5) \u201cAssets belonging to its clients \u201d means the assets to which the custody rules apply: (a) as set out in the most recent relevant report submitted to the FCA under SUP 16.12 (Integrated Regulatory Reporting); or (b) (if the firm carries out the assessment under SYSC 1.5.4R at any time after the date of its most recent report in (a)) as the firm would report to the FCA in accordance with the relevant report, as if the reporting period for that report ends on the date the assessment is carried out.",
+      "tables": [],
+      "contains_table": false
+    },
+    {
+      "provision_id": "SYSC 1.5.4",
+      "date": "01/01/2022",
+      "tag": "R",
+      "heading": "Definition of a significant SYSC firm",
+      "text": "A firm must assess regularly whether it becomes a significant SYSC firm .",
+      "tables": [],
+      "contains_table": false
+    },
+    {
+      "provision_id": "SYSC 1.5.5",
+      "date": "01/01/2022",
+      "tag": "R",
+      "heading": "Definition of a significant SYSC firm",
+      "text": "(1) If a firm , at any time, becomes aware that it is likely to become a significant SYSC firm , it must forthwith make arrangements to establish and have in place sound, effective and comprehensive strategies, processes and systems to achieve compliance with the requirements that apply to a significant SYSC firm . (2) The firm in (1) must comply with the requirements that apply to a significant SYSC firm on the expiry of a period of 3 months from the date it meets any one of the conditions in SYSC 1.5.2R .",
+      "tables": [],
+      "contains_table": false
+    },
+    {
+      "provision_id": "SYSC 1.5.6",
+      "date": "01/01/2022",
+      "tag": "R",
+      "heading": "Definition of a significant SYSC firm",
+      "text": "If a firm that is a significant SYSC firm ceases to meet any of the conditions in SYSC 1.5.2R , it must continue to comply with the rules and requirements applicable to a significant SYSC firm until the first anniversary of the date on which the firm ceased to be a significant SYSC firm .",
+      "tables": [],
+      "contains_table": false
+    },
+    {
+      "provision_id": "SYSC 1.5.7",
+      "date": "01/01/2022",
+      "tag": "G",
+      "heading": "Definition of a significant SYSC firm",
+      "text": "The FCA may, on a case-by-case basis, require a firm which does not meet any of the conditions in SYSC 1.5.2R to comply with the rules and requirements that apply to a significant SYSC firm if the FCA considers it appropriate to do so to meet its strategic objective or to advance one or more of its operational objectives under the Act .",
+      "tables": [],
+      "contains_table": false
+    },
+    {
+      "provision_id": "SYSC 1.5.8",
+      "date": "01/01/2022",
+      "tag": "G",
+      "heading": "Definition of a significant SYSC firm",
+      "text": "(1) A firm may apply to the FCA under section 138A of the Act to waive any one or more of the conditions in SYSC 1.5.2R if it believes that one or more of the governance requirements in (2) that apply to a significant SYSC firm may be disproportionate. In its application for a waiver , the FCA expects the firm to demonstrate that it should not be considered as significant, taking into account the size, nature, scope and complexity of its activities, any membership of a group and the internal organisation of that group . (2) The governance requirements referred to in (1) are: (a) SYSC 4.3A.6R on the limitations in the number of directorships; (b) SYSC 4.3A.8R on the nomination committee; or (c) SYSC 7.1.18 R on the risk committee. (3) The effect of such waiver is that the firm would not be a significant SYSC firm only for the purpose of the particular governance requirement in (2) that the waiver is expressed to apply to. For the avoidance of doubt, such a firm would still be a significant SYSC firm for the purpose of the other rules in the FCA Handbook that apply to a significant SYSC firm , except where expressly otherwise provided for.",
+      "tables": [],
+      "contains_table": false
+    }
+  ]
+}

@@ -1,0 +1,187 @@
+[
+  {
+    "id": "gd_001",
+    "question": "Does a firm need to have systems and controls to counter financial crime?",
+    "expected_provision_ids": [
+      "SYSC 3.2.6"
+    ],
+    "retrieved_provision_ids": [
+      "SYSC 3.2.6",
+      "SYSC 6.1.1",
+      "SYSC 3.2.6A",
+      "SYSC 6.3.7",
+      "SYSC 3.2.6G"
+    ],
+    "retrieved_texts": [
+      "A firm must take reasonable care to establish and maintain effective systems and controls for compliance with applicable requirements and standards under the regulatory system and for countering the risk that the firm might be used to further financial crime .",
+      "A firm must establish, implement and maintain adequate policies and procedures sufficient to ensure compliance of the firm including its managers, employees and appointed representatives (or where applicable, tied agents ) with its obligations under the regulatory system and for countering the risk that the firm might be used to further financial crime . [ Note: article 16(2) of MiFID and article 12(1)(a) of the UCITS Directive ]",
+      "A firm must ensure that these systems and controls: (1) enable it to identify, assess, monitor and manage money laundering risk; and (2) are comprehensive and proportionate to the nature, scale and complexity of its activities.",
+      "A firm should ensure that the systems and controls include: (1) appropriate training for its employees in relation to money laundering ; (2) appropriate provision of information to its governing body and senior management, including a report at least annually by that firm's money laundering reporting officer ( MLRO ) on the operation and effectiveness of those systems and controls; (3) appropriate documentation of its risk management policies and risk profile in relation to money laundering , including documentation of its application of those policies (see SYSC 9 ); (4) appropriate measures to ensure that money laundering risk is taken into account in its day-to-day operation, including in relation to: (a) the development of new products; (b) the taking-on of new customers; and (c) changes in its business profile; and (5) appropriate measures to ensure that procedures for identification of new customers do not unreasonably deny access to its services to potential customers who cannot reasonably be expected to produce detailed evidence of identity.",
+      "A firm should ensure that the systems and controls include: (1) appropriate training for its employees in relation to money laundering ; (2) appropriate provision of information to its governing body and senior management, including a report at least annually by that firm's money laundering reporting officer ( MLRO ) on the operation and effectiveness of those systems and controls; (3) appropriate documentation of its risk management policies and risk profile in relation to money laundering , including documentation of its application of those policies (see SYSC 3.2.20 R to SYSC 3.2.22 G ); (4) appropriate measures to ensure that money laundering risk is taken into account in its day-to-day operation, including in relation to: (a) the development of new products; (b) the taking-on of new customers; and (c) changes in its business profile; and (5) appropriate measures to ensure that procedures for identification of new customers do not unreasonably deny access to its services to potential customers who cannot reasonably be expected to produce detailed evidence of identity."
+    ],
+    "answer": "Firms are required to take reasonable care to establish and maintain effective systems and controls to ensure compliance with applicable requirements and standards under the regulatory system and to counter the risk of furthering financial crime [SYSC 3.2.6 R]. These systems and controls must enable the firm to identify, assess, monitor, and manage money laundering risk, and must be comprehensive and proportionate to the nature, scale, and complexity of its activities [SYSC 3.2.6A R].\n\nAdditionally, firms must establish, implement, and maintain adequate policies and procedures to ensure compliance of the firm, its managers, employees, and appointed representatives with its obligations under the regulatory system, particularly in relation to countering financial crime [SYSC 6.1.1 R].\n\nThe guidance suggests that firms should include systems and controls such as appropriate training for employees, provision of information to senior management, proper documentation of risk management policies and risk profile, and measures ensuring money laundering risk is considered in day-to-day operations and when onboarding new customers [SYSC 3.2.6G G, SYSC 6.3.7 G].",
+    "difficulty": "easy"
+  },
+  {
+    "id": "gd_002",
+    "question": "Is staff training on money laundering required or just recommended?",
+    "expected_provision_ids": [
+      "SYSC 6.3.7",
+      "SYSC 3.2.6G"
+    ],
+    "retrieved_provision_ids": [
+      "SYSC 6.3.7",
+      "SYSC 3.2.6G",
+      "SYSC 3.2.6D",
+      "SYSC 6.3.4",
+      "SYSC 3.2.6H"
+    ],
+    "retrieved_texts": [
+      "A firm should ensure that the systems and controls include: (1) appropriate training for its employees in relation to money laundering ; (2) appropriate provision of information to its governing body and senior management, including a report at least annually by that firm's money laundering reporting officer ( MLRO ) on the operation and effectiveness of those systems and controls; (3) appropriate documentation of its risk management policies and risk profile in relation to money laundering , including documentation of its application of those policies (see SYSC 9 ); (4) appropriate measures to ensure that money laundering risk is taken into account in its day-to-day operation, including in relation to: (a) the development of new products; (b) the taking-on of new customers; and (c) changes in its business profile; and (5) appropriate measures to ensure that procedures for identification of new customers do not unreasonably deny access to its services to potential customers who cannot reasonably be expected to produce detailed evidence of identity.",
+      "A firm should ensure that the systems and controls include: (1) appropriate training for its employees in relation to money laundering ; (2) appropriate provision of information to its governing body and senior management, including a report at least annually by that firm's money laundering reporting officer ( MLRO ) on the operation and effectiveness of those systems and controls; (3) appropriate documentation of its risk management policies and risk profile in relation to money laundering , including documentation of its application of those policies (see SYSC 3.2.20 R to SYSC 3.2.22 G ); (4) appropriate measures to ensure that money laundering risk is taken into account in its day-to-day operation, including in relation to: (a) the development of new products; (b) the taking-on of new customers; and (c) changes in its business profile; and (5) appropriate measures to ensure that procedures for identification of new customers do not unreasonably deny access to its services to potential customers who cannot reasonably be expected to produce detailed evidence of identity.",
+      "A firm may also have separate obligations to comply with relevant legal requirements, including the Terrorism Act 2000, the Proceeds of Crime Act 2002 and the Money Laundering Regulations . SYSC 3.2.6 R to SYSC 3.2.6J G are not relevant for the purposes of regulation 76(6) or 86(2) of the Money Laundering Regulations , section 330(8) of the Proceeds of Crime Act 2002 or section 21A(6) of the Terrorism Act 2000.",
+      "A firm may also have separate obligations to comply with relevant legal requirements, including the Terrorism Act 2000, the Proceeds of Crime Act 2002 and the Money Laundering Regulations . SYSC 6.1.1 R and SYSC 6.3.1 R to SYSC 6.3.10 G are not relevant for the purposes of regulation 76(6) or 86(2) of the Money Laundering Regulations , section 330(8) of the Proceeds of Crime Act 2002 or section 21A(6) of the Terrorism Act 2000.",
+      "A firm must allocate to a director or senior manager (who may also be the money laundering reporting officer ) overall responsibility within the firm for the establishment and maintenance of effective anti- money laundering systems and controls."
+    ],
+    "answer": "The context provided includes guidance that a firm should ensure appropriate training for its employees in relation to money laundering [SYSC 6.3.7] (Guidance) and [SYSC 3.2.6G] (Guidance). However, this is guidance and not a rule; thus, it is advised but not legally mandated.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "gd_003",
+    "question": "Who must be appointed to oversee a firm's anti-money laundering compliance?",
+    "expected_provision_ids": [
+      "SYSC 6.3.9",
+      "SYSC 3.2.6H"
+    ],
+    "retrieved_provision_ids": [
+      "SYSC 3.2.6I",
+      "SYSC 6.3.9",
+      "SYSC 3.2.6H",
+      "SYSC 6.3.8",
+      "SYSC 6.1.4C"
+    ],
+    "retrieved_texts": [
+      "A firm must: (1) appoint an individual as MLRO , with responsibility for oversight of its compliance with the FCA's rules on systems and controls against money laundering ; and (2) ensure that its MLRO has a level of authority and independence within the firm and access to resources and information sufficient to enable him to carry out that responsibility.",
+      "A firm (with the exception of a sole trader who has no employees) must: (1) appoint an individual as MLRO , with responsibility for oversight of its compliance with the FCA's rules on systems and controls against money laundering ; and (2) ensure that its MLRO has a level of authority and independence within the firm and access to resources and information sufficient to enable him to carry out that responsibility.",
+      "A firm must allocate to a director or senior manager (who may also be the money laundering reporting officer ) overall responsibility within the firm for the establishment and maintenance of effective anti- money laundering systems and controls.",
+      "(1) A firm must allocate to a director or senior manager (who may also be the money laundering reporting officer ) overall responsibility within the firm for the establishment and maintenance of effective anti- money laundering systems and controls. (2) A firm may not allocate overall responsibility under (1) to a person who is approved to perform the other overall responsibility function .",
+      "(1) A firm in (2) or (3) must appoint a compliance officer to be responsible for ensuring the firm meets its obligations under SYSC 6.1.1R for any compliance function the firm has and for any reporting as to compliance which may be made under SYSC 4.3.2R . (2) This rule applies to: (a) a debt management firm ; and (b) a credit repair firm ."
+    ],
+    "answer": "For anti-money laundering compliance oversight in financial firms, the requirements are as follows:\n\n1. A firm must appoint an individual as the Money Laundering Reporting Officer (MLRO) with responsibility for oversight of the firm's compliance with the FCA's rules on systems and controls against money laundering. The firm must ensure that the MLRO has a level of authority and independence within the firm, and access to resources and information sufficient to carry out that responsibility [SYSC 3.2.6I] (R), [SYSC 6.3.9] (R).\n\n2. A firm must allocate to a director or senior manager (who may be the MLRO) overall responsibility for establishing and maintaining effective anti-money laundering systems and controls. However, a firm may not allocate this overall responsibility to a person who is approved to perform the other overall responsibility function [SYSC 3.2.6H] (R), [SYSC 6.3.8] (R).",
+    "difficulty": "medium"
+  },
+  {
+    "id": "gd_004",
+    "question": "Can a firm avoid responsibility for compliance by outsourcing a function to another company?",
+    "expected_provision_ids": [
+      "SYSC 3.2.4"
+    ],
+    "retrieved_provision_ids": [
+      "SYSC 3.2.4",
+      "SYSC 3.2.8",
+      "SYSC 4.4.1A",
+      "SYSC 6.1.4C",
+      "SYSC 4.2.4"
+    ],
+    "retrieved_texts": [
+      "(1) The guidance relevant to delegation within the firm is also relevant to external delegation ('outsourcing'). A firm cannot contract out its regulatory obligations. So, for example, under Principle 3 a firm should take reasonable care to supervise the discharge of outsourced functions by its contractor. (2) A firm should take steps to obtain sufficient information from its contractor to enable it to assess the impact of outsourcing on its systems and controls.",
+      "(1) A firm , other than an UK ISPV , must allocate to a director or senior manager the function of: (a) having responsibility for oversight of the firm's compliance; and (b) reporting to the governing body in respect of that responsibility. (2) In (1) \"compliance\" means compliance with the firm\u2019s obligations under the regulatory system in relation to which the FCA has responsibility.",
+      "(1) This section applies to an authorised professional firm as follows: (a) it only applies in respect of its non-mainstream regulated activities ; and (b) it does not apply if the firm : (i) is also conducting other regulated activities ; and (ii) has appointed approved persons to perform the FCA governing functions with equivalent responsibilities for the firm\u2019s non-mainstream regulated activities and other regulated activities .",
+      "(3) This rule also applies to a firm that meets the following conditions: (a) it is a Class 1 firm as defined in CMCOB 7.2.5R(1) ; and (b) SUP 10C (FCA senior managers regime for approved persons in SMCR firms) applies the compliance oversight function to it.",
+      "At least two independent minds should be applied to the formulation and implementation of the policies of a common platform firm , a management company , a full-scope UK AIFM and the UK branch of a third country firm . Where a firm nominates just two individuals to direct its business, the FCA will not regard them as both effectively directing the business where one of them makes some, albeit significant, decisions relating to only a few aspects of the business."
+    ],
+    "answer": "No, outsourcing a function to a third party does not absolve a firm of its compliance responsibilities under FCA regulations. The firm cannot contract out its regulatory obligations and should take reasonable care to supervise the discharge of outsourced functions by its contractor [SYSC 3.2.4 (G)].",
+    "difficulty": "medium"
+  },
+  {
+    "id": "gd_005",
+    "question": "Which SYSC chapters apply to an insurer?",
+    "expected_provision_ids": [
+      "SYSC 1.1A.1"
+    ],
+    "retrieved_provision_ids": [
+      "SYSC 1.4.1B",
+      "SYSC 1.1A.2",
+      "SYSC 1.1A.1",
+      "SYSC 10.1A.1",
+      "SYSC 3.1.7A"
+    ],
+    "retrieved_texts": [
+      "Apart from SYSC 12 , and SYSC 21 which are disapplied by SYSC 1.4.1A R , the other chapters of SYSC 12 to SYSC 14 do not apply in relation to a firm's carrying on of auction regulation bidding because they only apply to an insurer . SYSC 18 provides guidance on the Public Interest Disclosure Act. Other chapters of SYSC may not apply to auction regulation bidding , for example because an exempt MiFID commodities firm will not be a MIFIDPRU investment firm .",
+      "The definition of Solvency II firm includes (for SYSC ) large non-directive insurers because the PRA have applied certain Solvency II derived requirements to those firms . Where SYSC refers to the PRA Rulebook applicable to Solvency II firms , large non-directive insurers should read those references as if they were references to the corresponding part of the PRA Rulebook applicable to large non-directive insurers .",
+      "| Type of firm | Applicable chapters |\n| --- | --- |\n| Insurer, UK ISPV | Chapters 2, 3, 12 to 18, 19F.2, 21, 22, 23, 24, 25, 26, 27, 28, 28A |\n| Managing agent | Chapters 2, 3, 11, 12, 15A, 18, 19F.2, 21, 22, 23, 24, 25, 26, 27, 28, 28A |\n| Society | Chapters 2, 3, 12, 15A, 18, 19F.2, 21, 22, 23, 24, 25, 26, 27, 28, 28A |\n| Any other SMCR firm | Chapters 4 to 12, 15A, 18, 19D, 19F, 19G, 21, 22, 23, 24, 25, 26, 27, 28, 28A |\n| Every other firm | Chapters 4 to 12, 15A, 18, 19D, 19F, 19G, 21, 22, 28, 28A |",
+      "This section applies, in addition to rules in SYSC 10.1 , to a firm when carrying on insurance distribution in relation to insurance-based investment products . Where a firm carries on other insurance distribution activities in relation to a life policy or non-investment insurance contract , the requirements in SYSC 10.1 will apply.",
+      "SYSC 28 contains rules and guidance on knowledge and competence in relation to insurance distribution activities undertaken by a firm ."
+    ],
+    "answer": "The applicable SYSC chapters for an insurer are Chapters 2, 3, 12 to 18, 19F.2, 21, 22, 23, 24, 25, 26, 27, 28, and 28A [SYSC 1.1A.1].",
+    "difficulty": "medium"
+  },
+  {
+    "id": "gd_006",
+    "question": "What must a firm's compliance function be responsible for?",
+    "expected_provision_ids": [
+      "SYSC 6.1.3",
+      "SYSC 3.2.7"
+    ],
+    "retrieved_provision_ids": [
+      "SYSC 3.2.8",
+      "SYSC 6.1.3",
+      "SYSC 6.3.9",
+      "SYSC 3.2.6I",
+      "SYSC 3.2.7"
+    ],
+    "retrieved_texts": [
+      "(1) A firm , other than an UK ISPV , must allocate to a director or senior manager the function of: (a) having responsibility for oversight of the firm's compliance; and (b) reporting to the governing body in respect of that responsibility. (2) In (1) \"compliance\" means compliance with the firm\u2019s obligations under the regulatory system in relation to which the FCA has responsibility.",
+      "A firm that is a management company or an operator of an electronic system in relation to lending must maintain a permanent and effective compliance function which operates independently and which has the following responsibilities: (1) to monitor and, on a regular basis, to assess the adequacy and effectiveness of the measures and procedures put in place in accordance with SYSC 6.1.2 R , and the actions taken to address any deficiencies in the firm's compliance with its obligations; and (2) to advise and assist the relevant persons responsible for carrying out regulated activities to comply with the firm's obligations under the regulatory system . [ Note: article 10(2) of the UCITS implementing Directive ]",
+      "A firm (with the exception of a sole trader who has no employees) must: (1) appoint an individual as MLRO , with responsibility for oversight of its compliance with the FCA's rules on systems and controls against money laundering ; and (2) ensure that its MLRO has a level of authority and independence within the firm and access to resources and information sufficient to enable him to carry out that responsibility.",
+      "A firm must: (1) appoint an individual as MLRO , with responsibility for oversight of its compliance with the FCA's rules on systems and controls against money laundering ; and (2) ensure that its MLRO has a level of authority and independence within the firm and access to resources and information sufficient to enable him to carry out that responsibility.",
+      "(1) Depending on the nature, scale and complexity of its business, it may be appropriate for a firm to have a separate compliance function. The organisation and responsibilities of a compliance function should be documented. A compliance function should be staffed by an appropriate number of competent staff who are sufficiently independent to perform their duties objectively."
+    ],
+    "answer": "The responsibilities of a firm's compliance function, as outlined in the FCA regulations, include:\n\n1. Monitoring and regularly assessing the adequacy and effectiveness of the measures and procedures put in place to address deficiencies in the firm's compliance with its obligations under the regulatory system [SYSC 6.1.3(1)].\n\n2. Advising and assisting relevant persons responsible for carrying out regulated activities to comply with the firm's obligations under the regulatory system [SYSC 6.1.3(2)].",
+    "difficulty": "medium"
+  },
+  {
+    "id": "gd_007",
+    "question": "What is the maximum penalty for insider trading under UK law?",
+    "expected_provision_ids": [],
+    "retrieved_provision_ids": [
+      "SYSC 3.2.11A",
+      "SYSC 3.2.6E",
+      "SYSC 1.5.2",
+      "SYSC 3.1.3",
+      "SYSC 6.3.5"
+    ],
+    "retrieved_texts": [
+      "(2) Risks of regulatory concern are those risks which relate to the fair treatment of the firm's customers , to the protection of consumers , to effective competition and to the integrity of the UK financial system . Risks which are relevant to the integrity of the UK financial system include risks which relate to its soundness, stability and resilience and to the use of the system in connection with financial crime .",
+      "The FCA , when considering whether a breach of its rules on systems and controls against money laundering has occurred, will have regard to whether a firm has followed relevant provisions in the guidance for the UK financial sector issued by the Joint Money Laundering Steering Group.",
+      "A firm is a significant SYSC firm if it meets one or more of the following conditions: (1) its total assets exceed \u00a3530 million; (2) its total liabilities exceed \u00a3380 million; (3) the annual fees and commission income it receives in relation to the regulated activities carried on by the firm exceeds \u00a3160 million in the 12- month period immediately preceding the date the firm carries out the assessment under this rule ; (4) the client money that it receives or holds exceeds \u00a3425 million; and (5) the assets belonging to its clients that it holds in the course of, or in connection with, its regulated activities exceeds \u00a37.8 billion.",
+      "Where the UK Corporate Governance Code is relevant to a firm , the appropriate regulator , in considering whether the firm's obligations under SYSC 3.1.1 R have been met, will give it due credit for following corresponding provisions in the code.",
+      "The FCA , when considering whether a breach of its rules on systems and controls against money laundering has occurred, will have regard to whether a firm has followed relevant provisions in the guidance for the United Kingdom financial sector issued by the Joint Money Laundering Steering Group."
+    ],
+    "answer": "The context provided does not contain information about the maximum financial penalty for insider trading under UK regulatory law. Therefore, I am unable to answer this question based on the provided context.",
+    "difficulty": "out_of_scope"
+  },
+  {
+    "id": "gd_008",
+    "question": "What should a firm consider when delegating tasks to employees?",
+    "expected_provision_ids": [
+      "SYSC 3.2.3"
+    ],
+    "retrieved_provision_ids": [
+      "SYSC 3.2.3",
+      "SYSC 3.2.11A",
+      "SYSC 4.1.1",
+      "SYSC 4.4.3",
+      "SYSC 4.3A.1"
+    ],
+    "retrieved_texts": [
+      "(1) A firm's governing body is likely to delegate many functions and tasks for the purpose of carrying out its business. When functions or tasks are delegated, either to employees or to appointed representatives or, where applicable, its tied agents , appropriate safeguards should be put in place. (2) When there is delegation, a firm should assess whether the recipient is suitable to carry out the delegated function or task, taking into account the degree of responsibility involved.",
+      "(1) A firm's arrangements should be such as to furnish its governing body with the information it needs to play its part in identifying, measuring, managing and controlling risks of regulatory concern. Three factors will be the relevance, reliability and timeliness of that information.",
+      "(1) A firm must have robust governance arrangements, which include a clear organisational structure with well defined, transparent and consistent lines of responsibility, effective processes to identify, manage, monitor and report the risks it is or might be exposed to, and internal control mechanisms, including sound administrative and accounting procedures and effective control and safeguard arrangements for information processing systems.",
+      "A firm must take reasonable care to maintain a clear and appropriate apportionment of significant responsibilities among its directors and senior managers in such a way that: (1) it is clear who has which of those responsibilities; and (2) the business and affairs of the firm can be adequately monitored and controlled by the directors , relevant senior managers and governing body of the firm .",
+      "A common platform firm must ensure that the management body defines, oversees and is accountable for the implementation of governance arrangements that ensure effective and prudent management of the firm , including the segregation of duties in the organisation and the prevention of conflicts of interest, and in a manner that promotes the integrity of the market and the interests of clients ."
+    ],
+    "answer": "When delegating responsibilities to employees, a firm should assess whether the recipient is suitable to carry out the delegated function or task, taking into account the degree of responsibility involved. Additionally, appropriate safeguards should be put in place when functions or tasks are delegated [SYSC 3.2.3] (G).",
+    "difficulty": "easy"
+  }
+]

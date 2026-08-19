@@ -1,0 +1,686 @@
+[
+  {
+    "chunk_id": "SYSC 10.1.1_0",
+    "provision_id": "SYSC 10.1.1",
+    "heading": "General application",
+    "date": "01/01/2021",
+    "tag": "R",
+    "text": "(1) This section applies to a firm which provides services to its clients in the course of carrying on regulated activities or ancillary activities or providing ancillary services (but only where the ancillary services constitute MiFID business ). (2) This section also applies to a UK UCITS management company . [ Note: The provisions in SYSC 10.1 also implement articles 27 and 28 of the IDD , articles 74(1) and 88 of CRD and as applied under the discretion in the third paragraph of article 95(2)",
+    "source_file": "sysc10_conflicts_of_interest.html"
+  },
+  {
+    "chunk_id": "SYSC 10.1.1_1",
+    "provision_id": "SYSC 10.1.1",
+    "heading": "General application",
+    "date": "01/01/2021",
+    "tag": "R",
+    "text": "and as applied under the discretion in the third paragraph of article 95(2) of the UK CRR , BCD article 22 and BCD Annex V paragraph 1]",
+    "source_file": "sysc10_conflicts_of_interest.html"
+  },
+  {
+    "chunk_id": "SYSC 10.1.1A_0",
+    "provision_id": "SYSC 10.1.1A",
+    "heading": "General application",
+    "date": "01/01/2021",
+    "tag": "R",
+    "text": "This section also applies to: (1) a full-scope UK AIFM of: (a) a UK AIF ; and (b) [deleted] (c) a non-UK AIF ; and (2) [deleted]",
+    "source_file": "sysc10_conflicts_of_interest.html"
+  },
+  {
+    "chunk_id": "SYSC 10.1.2_0",
+    "provision_id": "SYSC 10.1.2",
+    "heading": "Requirements only apply if a service is provided",
+    "date": "23/10/2025",
+    "tag": "G",
+    "text": "(1) The requirements in this section only apply where a service is provided by a firm . The status of the client to whom the service is provided (as a retail client , professional client or eligible counterparty ) is irrelevant for this purpose. (2) For the avoidance of doubt, a reference to \u201cservice\u201d in this section includes all insurance distribution activities .",
+    "source_file": "sysc10_conflicts_of_interest.html"
+  },
+  {
+    "chunk_id": "SYSC 10.1.2A_0",
+    "provision_id": "SYSC 10.1.2A",
+    "heading": "SRD requirements",
+    "date": "10/06/2019",
+    "tag": "R",
+    "text": "The requirements in this section apply to an SRD asset manager with regard to its engagement activities covered by the SRD . [ Note: article 3g(3) of SRD ]",
+    "source_file": "sysc10_conflicts_of_interest.html"
+  },
+  {
+    "chunk_id": "SYSC 10.1.3_0",
+    "provision_id": "SYSC 10.1.3",
+    "heading": "Identifying conflicts",
+    "date": "01/10/2018",
+    "tag": "R",
+    "text": "A firm must take all appropriate steps to identify and to prevent or manage conflicts of interest between: (1) the firm , including its managers, employees and appointed representatives (or where applicable, tied agents ), or any person directly or indirectly linked to them by control , and a client of the firm ; or (2) one client of the firm and another client ; that arise or may arise in the course of the firm providing any service referred to in SYSC 10.1.1R including those caused by the rece",
+    "source_file": "sysc10_conflicts_of_interest.html"
+  },
+  {
+    "chunk_id": "SYSC 10.1.3_1",
+    "provision_id": "SYSC 10.1.3",
+    "heading": "Identifying conflicts",
+    "date": "01/10/2018",
+    "tag": "R",
+    "text": " any service referred to in SYSC 10.1.1R including those caused by the receipt of inducements from third parties or by the firm\u2019s own remuneration and other incentive structures. [ Note: article 23(1) of MiFID and articles 27 and 28(1) of the IDD ]",
+    "source_file": "sysc10_conflicts_of_interest.html"
+  },
+  {
+    "chunk_id": "SYSC 10.1.4_0",
+    "provision_id": "SYSC 10.1.4",
+    "heading": "Types of conflicts",
+    "date": "23/10/2025",
+    "tag": "R",
+    "text": "For the purposes of identifying the types of conflict of interest that arise, or may arise, in the course of providing a service and whose existence may damage the interests of a client , a firm must take into account, as a minimum, whether the firm or a relevant person , or a person directly or indirectly linked by control to the firm : (1) is likely to make a financial gain, or avoid a financial loss, at the expense of the client ; (2) has an interest in the outcome of a service provided to th",
+    "source_file": "sysc10_conflicts_of_interest.html"
+  },
+  {
+    "chunk_id": "SYSC 10.1.4_1",
+    "provision_id": "SYSC 10.1.4",
+    "heading": "Types of conflicts",
+    "date": "23/10/2025",
+    "tag": "R",
+    "text": "the client ; (2) has an interest in the outcome of a service provided to the client or of a transaction carried out on behalf of the client , which is distinct from the client's interest in that outcome; (2A) in the case of a management company providing collective portfolio management services for a UCITS scheme , (2) also applies where the service is provided to, or the transaction is carried out on behalf of, a client other than the UCITS scheme ; (3) has a financial or other incentive to fav",
+    "source_file": "sysc10_conflicts_of_interest.html"
+  },
+  {
+    "chunk_id": "SYSC 10.1.4_2",
+    "provision_id": "SYSC 10.1.4",
+    "heading": "Types of conflicts",
+    "date": "23/10/2025",
+    "tag": "R",
+    "text": "other than the UCITS scheme ; (3) has a financial or other incentive to favour the interest of another client or group of clients over the interests of the client ; (4) carries on the same business as the client ; or in the case of a management company , carries on the same activities for the UCITS scheme and for another client or clients which are not UCITS schemes ; (5) (except in the case of a common platform firm or MiFID optional exemption firm ) receives or will receive from a person other",
+    "source_file": "sysc10_conflicts_of_interest.html"
+  },
+  {
+    "chunk_id": "SYSC 10.1.4_3",
+    "provision_id": "SYSC 10.1.4",
+    "heading": "Types of conflicts",
+    "date": "23/10/2025",
+    "tag": "R",
+    "text": "iFID optional exemption firm ) receives or will receive from a person other than the client an inducement in relation to a service provided to the client , in the form of monies, goods or services, other than the standard commission or fee for that service; or (6) (in the case of a common platform firm or a MiFID optional exemption firm ) rece ives or will receive from a person other than the client an inducement in relation to a service provided to the client , in the form of monetary or non-mo",
+    "source_file": "sysc10_conflicts_of_interest.html"
+  },
+  {
+    "chunk_id": "SYSC 10.1.4_4",
+    "provision_id": "SYSC 10.1.4",
+    "heading": "Types of conflicts",
+    "date": "23/10/2025",
+    "tag": "R",
+    "text": "ion to a service provided to the client , in the form of monetary or non-monetary benefits or services . The conflict of interest may result from the firm or person providing a service referred to in SYSC 10.1.1 R or engaging in any other activity or, in the case of a management company , whether as a result of providing collective portfolio management services or otherwise. [ Note: article 17(1) of the UCITS implementing Directive ]",
+    "source_file": "sysc10_conflicts_of_interest.html"
+  },
+  {
+    "chunk_id": "SYSC 10.1.4_5",
+    "provision_id": "SYSC 10.1.4",
+    "heading": "Types of conflicts",
+    "date": "23/10/2025",
+    "tag": "R",
+    "text": " Directive ]",
+    "source_file": "sysc10_conflicts_of_interest.html"
+  },
+  {
+    "chunk_id": "SYSC 10.1.4A_0",
+    "provision_id": "SYSC 10.1.4A",
+    "heading": "Types of conflicts",
+    "date": "23/10/2025",
+    "tag": "G",
+    "text": "Other firms (except common platform firms , MIFID optional exemption firms , third country firms , UCITS management companies and insurance intermediaries ) should take account of the rule on the types of conflicts (see SYSC 10.1.4 R ) in accordance with SYSC 1 Annex 1 3.3R .",
+    "source_file": "sysc10_conflicts_of_interest.html"
+  },
+  {
+    "chunk_id": "SYSC 10.1.4B_0",
+    "provision_id": "SYSC 10.1.4B",
+    "heading": "Types of conflicts",
+    "date": "29/07/2022",
+    "tag": "R",
+    "text": "For the purposes of identifying the types of conflict of interest that arise, or may arise, in the course of carrying on insurance distribution activities or funeral plan distributions funeral plan distributions and whose existence may damage the interests of a client (\u201cA\u201d), a firm must assess whether: (1) the firm or a relevant person , or a person directly or indirectly linked by control to the firm ; or (2) (in the case of conflicts between A and another client ) the other client , has an int",
+    "source_file": "sysc10_conflicts_of_interest.html"
+  },
+  {
+    "chunk_id": "SYSC 10.1.4B_1",
+    "provision_id": "SYSC 10.1.4B",
+    "heading": "Types of conflicts",
+    "date": "29/07/2022",
+    "tag": "R",
+    "text": "e of conflicts between A and another client ) the other client , has an interest in the outcome of the insurance distribution activities or funeral plan distribution , which meets the following criteria: (3) it is distinct from A\u2019s interest in the outcome of the insurance distribution activities or funeral plan distributions ; and (4) it has the potential to influence the outcome of the activities to the detriment of A.",
+    "source_file": "sysc10_conflicts_of_interest.html"
+  },
+  {
+    "chunk_id": "SYSC 10.1.4C_0",
+    "provision_id": "SYSC 10.1.4C",
+    "heading": "Types of conflicts",
+    "date": "01/10/2018",
+    "tag": "R",
+    "text": "For the purpose of carrying out the assessment in SYSC 10.1.4BR , a firm must take into account, as a minimum, whether the firm or a relevant person , or a person directly or indirectly linked by control to the firm : (1) is likely to make a financial gain, or avoid a financial loss, at the expense of the client ; (2) has a financial or other incentive to favour the interest of another client or group of clients over the interest of the client ; (3) carries on the same business as the client ; (",
+    "source_file": "sysc10_conflicts_of_interest.html"
+  },
+  {
+    "chunk_id": "SYSC 10.1.4C_1",
+    "provision_id": "SYSC 10.1.4C",
+    "heading": "Types of conflicts",
+    "date": "01/10/2018",
+    "tag": "R",
+    "text": "interest of the client ; (3) carries on the same business as the client ; (4) receives or will receive from a person other than the client an inducement in relation to a service provided to the client , in the form of monies, goods or services, other than the standard commission or fee for that service; or (5) is substantially involved in the management or development of policies , in particular where such a person has an influence on the pricing of those policies or their distribution costs.",
+    "source_file": "sysc10_conflicts_of_interest.html"
+  },
+  {
+    "chunk_id": "SYSC 10.1.4C_2",
+    "provision_id": "SYSC 10.1.4C",
+    "heading": "Types of conflicts",
+    "date": "01/10/2018",
+    "tag": "R",
+    "text": " influence on the pricing of those policies or their distribution costs.",
+    "source_file": "sysc10_conflicts_of_interest.html"
+  },
+  {
+    "chunk_id": "SYSC 10.1.5_0",
+    "provision_id": "SYSC 10.1.5",
+    "heading": "Types of conflicts",
+    "date": "23/10/2025",
+    "tag": "G",
+    "text": "The circumstances which should be treated as giving rise to a conflict of interest cover cases where there is a conflict between the interests of the firm or certain persons connected to the firm or the firm's group and the duty the firm owes to a client ; or between the differing interests of two or more of its clients , to whom the firm owes in each case a duty. It is not enough that the firm may gain a benefit if there is not also a possible disadvantage to a client , or that one client to wh",
+    "source_file": "sysc10_conflicts_of_interest.html"
+  },
+  {
+    "chunk_id": "SYSC 10.1.5_1",
+    "provision_id": "SYSC 10.1.5",
+    "heading": "Types of conflicts",
+    "date": "23/10/2025",
+    "tag": "G",
+    "text": " is not also a possible disadvantage to a client , or that one client to whom the firm owes a duty may make a gain or avoid a loss without there being a concomitant possible loss to another such client .",
+    "source_file": "sysc10_conflicts_of_interest.html"
+  },
+  {
+    "chunk_id": "SYSC 10.1.6_0",
+    "provision_id": "SYSC 10.1.6",
+    "heading": "Record of conflicts",
+    "date": "23/10/2025",
+    "tag": "R",
+    "text": "A firm must keep and regularly update a record of the kinds of service or activity carried out by or on behalf of that firm in which a conflict of interest entailing a material risk of damage , or for a common platform firm or a MiFID optional exemption firm , a risk of damage, to the interests of one or more clients has arisen or, in the case of an ongoing service or activity, may arise. [ Note: article 20(1) of the UCITS implementing Directive ]",
+    "source_file": "sysc10_conflicts_of_interest.html"
+  },
+  {
+    "chunk_id": "SYSC 10.1.6A_0",
+    "provision_id": "SYSC 10.1.6A",
+    "heading": "Record of conflicts",
+    "date": "23/10/2025",
+    "tag": "G",
+    "text": "Other firms (other than common platform firms , MiFID optional exemption firms , third country firms and insurance intermediaries ) should also take account of the rule on records of conflicts (see SYSC 10.1.6 R ) in accordance with SYSC 1 Annex 1 3.3R).",
+    "source_file": "sysc10_conflicts_of_interest.html"
+  },
+  {
+    "chunk_id": "SYSC 10.1.6B_0",
+    "provision_id": "SYSC 10.1.6B",
+    "heading": "Record of conflicts",
+    "date": "23/10/2025",
+    "tag": "G",
+    "text": "Where SYSC 10.4.6AAR applies as guidance to a firm in accordance with SYSC 1 Annex 1.3.3R , a firm should read SYSC 10.1.6AAR as if \u201cshould\u201d appeared in that rule instead of \u201cmust\u201d.",
+    "source_file": "sysc10_conflicts_of_interest.html"
+  },
+  {
+    "chunk_id": "SYSC 10.1.7_0",
+    "provision_id": "SYSC 10.1.7",
+    "heading": "Managing conflicts",
+    "date": "01/10/2018",
+    "tag": "R",
+    "text": "A firm must maintain and operate effective organisational and administrative arrangements with a view to taking all reasonable steps to prevent conflicts of interest as defined in SYSC 10.1.3 R from adversely affecting the interests of its clients . [ Note: article 16(3) of MiFID and article 27 of the IDD ]",
+    "source_file": "sysc10_conflicts_of_interest.html"
+  },
+  {
+    "chunk_id": "SYSC 10.1.7A_0",
+    "provision_id": "SYSC 10.1.7A",
+    "heading": "Proportionality \u2013 insurance distribution activities",
+    "date": "01/10/2018",
+    "tag": "R",
+    "text": "Where a firm carries on insurance distribution activities , the arrangements in SYSC 10.1.7R must be proportionate to the activities performed, the policies sold and the type of insurance distributor the firm is or uses. [ Note: article 27 of the IDD ]",
+    "source_file": "sysc10_conflicts_of_interest.html"
+  },
+  {
+    "chunk_id": "SYSC 10.1.8_0",
+    "provision_id": "SYSC 10.1.8",
+    "heading": "Disclosure of conflicts",
+    "date": "23/10/2025",
+    "tag": "R",
+    "text": "(1) If arrangements made by a firm under SYSC 10.1.7 R are not sufficient to ensure, with reasonable confidence, that risks of damage to the interests of a client will be prevented, the firm must clearly disclose the following to the client before undertaking business for the client : (a) the general nature or sources of conflicts of interest, or both; and (b) the steps taken to mitigate those risks. (2) The disclosure must: (a) be made in a durable medium ; (b) clearly state that the organisati",
+    "source_file": "sysc10_conflicts_of_interest.html"
+  },
+  {
+    "chunk_id": "SYSC 10.1.8_1",
+    "provision_id": "SYSC 10.1.8",
+    "heading": "Disclosure of conflicts",
+    "date": "23/10/2025",
+    "tag": "R",
+    "text": "st: (a) be made in a durable medium ; (b) clearly state that the organisational and administrative arrangements established by the firm to prevent or manage that conflict are not sufficient to ensure, with reasonable confidence, that the risks of damage to the interests of the client will be prevented; (c) include specific description of the conflicts of interest that arise in the provision of services, taking into account the nature of the client to whom the disclosure is being made; (d) explai",
+    "source_file": "sysc10_conflicts_of_interest.html"
+  },
+  {
+    "chunk_id": "SYSC 10.1.8_2",
+    "provision_id": "SYSC 10.1.8",
+    "heading": "Disclosure of conflicts",
+    "date": "23/10/2025",
+    "tag": "R",
+    "text": "t the nature of the client to whom the disclosure is being made; (d) explain the risks to the client that arise as a result of the conflicts of interest; and (e) include sufficient detail, taking into account the nature of the client , to enable that client to take an informed decision with respect to the service in the context of which the conflict of interest arises. (3) This rule does not apply to the extent that SYSC 10.1.21 R applies. [ Note: 23(2) and (3) of MiFID and article 28(2) and (3)",
+    "source_file": "sysc10_conflicts_of_interest.html"
+  },
+  {
+    "chunk_id": "SYSC 10.1.8_3",
+    "provision_id": "SYSC 10.1.8",
+    "heading": "Disclosure of conflicts",
+    "date": "23/10/2025",
+    "tag": "R",
+    "text": "10.1.21 R applies. [ Note: 23(2) and (3) of MiFID and article 28(2) and (3) of the IDD ]",
+    "source_file": "sysc10_conflicts_of_interest.html"
+  },
+  {
+    "chunk_id": "SYSC 10.1.9_0",
+    "provision_id": "SYSC 10.1.9",
+    "heading": "Disclosure of conflicts",
+    "date": "03/01/2018",
+    "tag": "G",
+    "text": "Firms should aim to identify and manage the conflicts of interest arising in relation to their various business lines and their group's activities under a comprehensive conflicts of interest policy . In particular, the disclosure of conflicts of interest by a firm should not exempt it from the obligation to maintain and operate the effective organisational and administrative arrangements under SYSC 10.1.7 R . While disclosure of specific conflicts of interest is required by SYSC 10.1.8 R , an ov",
+    "source_file": "sysc10_conflicts_of_interest.html"
+  },
+  {
+    "chunk_id": "SYSC 10.1.9_1",
+    "provision_id": "SYSC 10.1.9",
+    "heading": "Disclosure of conflicts",
+    "date": "03/01/2018",
+    "tag": "G",
+    "text": "sure of specific conflicts of interest is required by SYSC 10.1.8 R , an over-reliance on disclosure without adequate consideration as to how conflicts may appropriately be managed is not permitted.",
+    "source_file": "sysc10_conflicts_of_interest.html"
+  },
+  {
+    "chunk_id": "SYSC 10.1.9A_0",
+    "provision_id": "SYSC 10.1.9A",
+    "heading": "Disclosure of conflicts",
+    "date": "23/10/2025",
+    "tag": "R",
+    "text": "A firm must treat disclosure of conflicts pursuant to SYSC 10.1.8R as a measure of last resort to be used only where the effective organisational and administrative arrangements established by the firm to prevent or manage its conflicts of interest in accordance with SYSC 10.1.3R and SYSC 10.1.7R are not sufficient to ensure, with reasonable confidence, that risks of damage to the interests of the client will be prevented.",
+    "source_file": "sysc10_conflicts_of_interest.html"
+  },
+  {
+    "chunk_id": "SYSC 10.1.10_0",
+    "provision_id": "SYSC 10.1.10",
+    "heading": "Conflicts policy",
+    "date": "23/10/2025",
+    "tag": "R",
+    "text": "(1) A firm must establish, implement and maintain an effective conflicts of interest policy that is set out in writing and is appropriate to the size and organisation of the firm and the nature, scale and complexity of its business. (2) Where the firm is a member of a group , the policy must also take into account any circumstances, of which the firm is or should be aware, which may give rise to a conflict of interest arising as a result of the structure and business activities of other members ",
+    "source_file": "sysc10_conflicts_of_interest.html"
+  },
+  {
+    "chunk_id": "SYSC 10.1.10_1",
+    "provision_id": "SYSC 10.1.10",
+    "heading": "Conflicts policy",
+    "date": "23/10/2025",
+    "tag": "R",
+    "text": "sing as a result of the structure and business activities of other members of the group . [ Note: article 18(1) of the UCITS implementing Directive ]",
+    "source_file": "sysc10_conflicts_of_interest.html"
+  },
+  {
+    "chunk_id": "SYSC 10.1.11_0",
+    "provision_id": "SYSC 10.1.11",
+    "heading": "Contents of policy",
+    "date": "23/10/2025",
+    "tag": "R",
+    "text": "(1) The conflicts of interest policy must include the following content: (a) it must identify in accordance with SYSC 10.1.3 R , SYSC 10.1.4 R , SYSC 10.1.4BR and SYSC 10.1.4CR (as applicable), by reference to the specific services and activities carried out by or on behalf of the firm , the circumstances which constitute or may give rise to a conflict of interest entailing a material risk of damage, or for a common platform firm or a MiFID optional exemption firm a risk of damage, to the intere",
+    "source_file": "sysc10_conflicts_of_interest.html"
+  },
+  {
+    "chunk_id": "SYSC 10.1.11_1",
+    "provision_id": "SYSC 10.1.11",
+    "heading": "Contents of policy",
+    "date": "23/10/2025",
+    "tag": "R",
+    "text": "orm firm or a MiFID optional exemption firm a risk of damage, to the interests of one or more clients ; and (b) it must specify procedures to be followed and measures to be adopted by a firm in order to manage, or for a common platform firm or MiFID optional exemption firm to prevent or manage, such conflicts. (2) The procedures and measures provided for in paragraph (1)(b) must: (a) be designed to ensure that relevant person s engaged in different business activities involving a conflict of int",
+    "source_file": "sysc10_conflicts_of_interest.html"
+  },
+  {
+    "chunk_id": "SYSC 10.1.11_2",
+    "provision_id": "SYSC 10.1.11",
+    "heading": "Contents of policy",
+    "date": "23/10/2025",
+    "tag": "R",
+    "text": "rson s engaged in different business activities involving a conflict of interest of the kind specified in paragraph (1)(a) carry on those activities at a level of independence appropriate to the size and activities of the firm and of the group to which either of them respectively belongs, and to the materiality of the risk of damage to the interests of clients ; (aa) (for an insurance intermediary or a firm carrying on funeral plan distribution ) be designed to ensure that the insurance distribu",
+    "source_file": "sysc10_conflicts_of_interest.html"
+  },
+  {
+    "chunk_id": "SYSC 10.1.11_3",
+    "provision_id": "SYSC 10.1.11",
+    "heading": "Contents of policy",
+    "date": "23/10/2025",
+    "tag": "R",
+    "text": "neral plan distribution ) be designed to ensure that the insurance distribution activities or funeral plan distribution are carried out in accordance with the best interests of the client and are not biased due to conflicting interests of the insurance intermediary , the firm carrying on funeral plan distribution or another client ; and (b) include, for a firm , where appropriate, the following, and for a management company , such of the following as are necessary and appropriate for the managem",
+    "source_file": "sysc10_conflicts_of_interest.html"
+  },
+  {
+    "chunk_id": "SYSC 10.1.11_4",
+    "provision_id": "SYSC 10.1.11",
+    "heading": "Contents of policy",
+    "date": "23/10/2025",
+    "tag": "R",
+    "text": "ny , such of the following as are necessary and appropriate for the management company to ensure the requisite degree of independence: (i) effective procedures to prevent or control the exchange of information between relevant person s engaged in activities involving a risk of a conflict of interest where the exchange of that information may harm the interests of one or more clients ; (ii) the separate supervision of relevant person s whose principal functions involve carrying out activities on ",
+    "source_file": "sysc10_conflicts_of_interest.html"
+  },
+  {
+    "chunk_id": "SYSC 10.1.11_5",
+    "provision_id": "SYSC 10.1.11",
+    "heading": "Contents of policy",
+    "date": "23/10/2025",
+    "tag": "R",
+    "text": "vant person s whose principal functions involve carrying out activities on behalf of, or providing services to, clients whose interests may conflict, or who otherwise represent different interests that may conflict, including those of the firm ; (iii) the removal of any direct link between the remuneration of relevant person s principally engaged in one activity and the remuneration of, or revenues generated by, different relevant person s principally engaged in another activity, where a conflic",
+    "source_file": "sysc10_conflicts_of_interest.html"
+  },
+  {
+    "chunk_id": "SYSC 10.1.11_6",
+    "provision_id": "SYSC 10.1.11",
+    "heading": "Contents of policy",
+    "date": "23/10/2025",
+    "tag": "R",
+    "text": " relevant person s principally engaged in another activity, where a conflict of interest may arise in relation to those activities; (iv) measures to prevent or limit any person from exercising inappropriate influence over the way in which a relevant person carries out services or activities; (v) measures to prevent or control the simultaneous or sequential involvement of a relevant person in separate services or activities where such involvement may impair the proper management of conflicts of i",
+    "source_file": "sysc10_conflicts_of_interest.html"
+  },
+  {
+    "chunk_id": "SYSC 10.1.11_7",
+    "provision_id": "SYSC 10.1.11",
+    "heading": "Contents of policy",
+    "date": "23/10/2025",
+    "tag": "R",
+    "text": "s where such involvement may impair the proper management of conflicts of interest; and (vi) (for insurance intermediaries or firms carrying on funeral plan distribution ) a gifts and benefits policy which determines clearly under which conditions gifts and benefits can be accepted or granted and which steps are to be taken when accepting and granting gifts and benefits. (3) If the adoption or the practice of one or more of those measures and procedures does not ensure the requisite level of ind",
+    "source_file": "sysc10_conflicts_of_interest.html"
+  },
+  {
+    "chunk_id": "SYSC 10.1.11_8",
+    "provision_id": "SYSC 10.1.11",
+    "heading": "Contents of policy",
+    "date": "23/10/2025",
+    "tag": "R",
+    "text": "of those measures and procedures does not ensure the requisite level of independence, a management company must adopt such alternative or additional measures and procedures as are necessary and appropriate for the purposes of paragraph (1)(b). (4) If one or more of the measures and procedures in paragraph (2) is not appropriate for the purposes of paragraph (2)(aa), an insurance intermediary or a firm carrying on funeral plan distribution must adopt such alternative measures and procedures as ar",
+    "source_file": "sysc10_conflicts_of_interest.html"
+  },
+  {
+    "chunk_id": "SYSC 10.1.11_9",
+    "provision_id": "SYSC 10.1.11",
+    "heading": "Contents of policy",
+    "date": "23/10/2025",
+    "tag": "R",
+    "text": "plan distribution must adopt such alternative measures and procedures as are necessary and appropriate. (5) The procedures and measures provided for in paragraph (1)(b) must be appropriate to the size and activities of an insurance intermediary or a firm carrying on funeral plan distribution , the group to which it may belong and to the risk of damage to the interests of the client . [ Note: articles 18(2), 19(1) and 19(2) of the UCITS implementing Directive ]",
+    "source_file": "sysc10_conflicts_of_interest.html"
+  },
+  {
+    "chunk_id": "SYSC 10.1.11_10",
+    "provision_id": "SYSC 10.1.11",
+    "heading": "Contents of policy",
+    "date": "23/10/2025",
+    "tag": "R",
+    "text": ") of the UCITS implementing Directive ]",
+    "source_file": "sysc10_conflicts_of_interest.html"
+  },
+  {
+    "chunk_id": "SYSC 10.1.11A_0",
+    "provision_id": "SYSC 10.1.11A",
+    "heading": "Contents of policy",
+    "date": "23/10/2025",
+    "tag": "G",
+    "text": "Other firms (except common platform firms , UCITS management companies , MiFID optional exemption firms , third-country firms , insurance intermediaries and firms carrying on funeral plan distribution ) should take account of the rules relating to conflicts of interest policies (see SYSC 10.1.10 R and SYSC 10.1.11 R ) in accordance with SYSC 1 Annex 1 3.3R.",
+    "source_file": "sysc10_conflicts_of_interest.html"
+  },
+  {
+    "chunk_id": "SYSC 10.1.11B_0",
+    "provision_id": "SYSC 10.1.11B",
+    "heading": "Contents of policy",
+    "date": "29/07/2022",
+    "tag": "G",
+    "text": "A firm (other than a common platform firm , an insurance intermediary and a firm carrying on funeral plan distribution ) should read SYSC 10.1.11AAR as if \u201cshould\u201d appeared in that rule instead of \u201cmust\u201d.",
+    "source_file": "sysc10_conflicts_of_interest.html"
+  },
+  {
+    "chunk_id": "SYSC 10.1.12_0",
+    "provision_id": "SYSC 10.1.12",
+    "heading": "Contents of policy",
+    "date": "23/10/2025",
+    "tag": "G",
+    "text": "In drawing up a conflicts of interest policy which identifies circumstances which constitute or may give rise to a conflict of interest, a firm should pay special attention to the activities of investment research and advice, proprietary trading, portfolio management and corporate finance business, including underwriting or selling in an offering of securities and advising on mergers and acquisitions. In particular, such special attention is appropriate where the firm or a person directly or ind",
+    "source_file": "sysc10_conflicts_of_interest.html"
+  },
+  {
+    "chunk_id": "SYSC 10.1.12_1",
+    "provision_id": "SYSC 10.1.12",
+    "heading": "Contents of policy",
+    "date": "23/10/2025",
+    "tag": "G",
+    "text": "special attention is appropriate where the firm or a person directly or indirectly linked by control to the firm performs a combination of two or more of those activities.",
+    "source_file": "sysc10_conflicts_of_interest.html"
+  },
+  {
+    "chunk_id": "SYSC 10.1.16_0",
+    "provision_id": "SYSC 10.1.16",
+    "heading": "Application of conflicts of interest rules to non-common platform firms when producing investment research or non-independent research",
+    "date": "03/01/2018",
+    "tag": "R",
+    "text": "The rules relating to: (1) types of conflict (see SYSC 10.1.4 R ); (2) records of conflicts (see SYSC 10.1.6 R ); and (3) conflicts of interest policies (see SYSC 10.1.10 R and SYSC 10.1.11 R ); also apply to a firm which is not a common platform firm when it produces, or arranges for the production of, investment research that is intended or likely to be subsequently disseminated to clients of the firm or to the public, and when it produces or disseminates non-independent research , in accordan",
+    "source_file": "sysc10_conflicts_of_interest.html"
+  },
+  {
+    "chunk_id": "SYSC 10.1.16_1",
+    "provision_id": "SYSC 10.1.16",
+    "heading": "Application of conflicts of interest rules to non-common platform firms when producing investment research or non-independent research",
+    "date": "03/01/2018",
+    "tag": "R",
+    "text": "and when it produces or disseminates non-independent research , in accordance with COBS 12.2 .",
+    "source_file": "sysc10_conflicts_of_interest.html"
+  },
+  {
+    "chunk_id": "SYSC 10.1.17_0",
+    "provision_id": "SYSC 10.1.17",
+    "heading": "Additional requirements for a management company",
+    "date": "01/01/2021",
+    "tag": "R",
+    "text": "A UK UCITS management company , when identifying the types of conflict of interests for the purposes of SYSC 10.1.4 R , must take into account: (1) the interests of the firm , including those deriving from its belonging to a group or from the performance of services and activities, the interests of the clients and the duty of the firm towards the UCITS scheme it manages; and (2) where it manages two or more UCITS schemes , the interests of all of them. [ Note: article 17(2) of the UCITS implemen",
+    "source_file": "sysc10_conflicts_of_interest.html"
+  },
+  {
+    "chunk_id": "SYSC 10.1.17_1",
+    "provision_id": "SYSC 10.1.17",
+    "heading": "Additional requirements for a management company",
+    "date": "01/01/2021",
+    "tag": "R",
+    "text": ", the interests of all of them. [ Note: article 17(2) of the UCITS implementing Directive ]",
+    "source_file": "sysc10_conflicts_of_interest.html"
+  },
+  {
+    "chunk_id": "SYSC 10.1.18_0",
+    "provision_id": "SYSC 10.1.18",
+    "heading": "Additional requirements for a management company",
+    "date": "01/01/2021",
+    "tag": "G",
+    "text": "For a UK UCITS management company , references to client in SYSC 10.1.4 R and in the other rules in this section should be construed as referring to any UCITS scheme managed by that firm or which it intends to manage, and with or for the benefit of which the relevant activity is to be carried on.",
+    "source_file": "sysc10_conflicts_of_interest.html"
+  },
+  {
+    "chunk_id": "SYSC 10.1.19_0",
+    "provision_id": "SYSC 10.1.19",
+    "heading": "Structure and organisation of a management company",
+    "date": "01/01/2021",
+    "tag": "R",
+    "text": "A UK UCITS management company must be structured and organised in such a way as to minimise the risk of a UCITS scheme's or client's interests being prejudiced by conflicts of interest between the UK UCITS management company and its clients , between two of its clients , between one of its clients and a UCITS scheme , or between two such schemes . [ Note: articles 12(1)(b) and 14(1)(d) of the UCITS Directive ]",
+    "source_file": "sysc10_conflicts_of_interest.html"
+  },
+  {
+    "chunk_id": "SYSC 10.1.20_0",
+    "provision_id": "SYSC 10.1.20",
+    "heading": "Avoidance of conflicts of interest for a management company",
+    "date": "01/01/2021",
+    "tag": "R",
+    "text": "A UK UCITS management company must try to avoid conflicts of interest and, when they cannot be avoided, ensure that the UCITS schemes it manages are fairly treated. [ Note: articles 12(1)(b) and 14(1)(d) of the UCITS Directive ]",
+    "source_file": "sysc10_conflicts_of_interest.html"
+  },
+  {
+    "chunk_id": "SYSC 10.1.21_0",
+    "provision_id": "SYSC 10.1.21",
+    "heading": "Disclosure of conflicts of interest for a management company",
+    "date": "01/01/2021",
+    "tag": "R",
+    "text": "(1) Where the organisational or administrative arrangements made by a UK UCITS management company for the management of conflicts of interest are not sufficient to ensure, with reasonable confidence, that risks of damage to the interests of the UCITS scheme it manages or of its Unitholders will be prevented, the senior personnel or other competent internal body of the firm must be promptly informed in order for them to take any necessary decision to ensure that in all cases the firm acts in the ",
+    "source_file": "sysc10_conflicts_of_interest.html"
+  },
+  {
+    "chunk_id": "SYSC 10.1.21_1",
+    "provision_id": "SYSC 10.1.21",
+    "heading": "Disclosure of conflicts of interest for a management company",
+    "date": "01/01/2021",
+    "tag": "R",
+    "text": "ke any necessary decision to ensure that in all cases the firm acts in the best interests of the scheme and of its Unitholders . (2) A UK UCITS management company must report situations referred to in (1) to the Unitholders of the UCITS scheme it manages by any appropriate durable medium and give reasons for its decision. [ Note: articles 20(2) and 20(3) of the UCITS implementing Directive ]",
+    "source_file": "sysc10_conflicts_of_interest.html"
+  },
+  {
+    "chunk_id": "SYSC 10.1.22_0",
+    "provision_id": "SYSC 10.1.22",
+    "heading": "Collective portfolio management investment firms",
+    "date": "22/07/2013",
+    "tag": "R",
+    "text": "A collective portfolio management investment firm which manages investments other than for an AIF or UCITS for which it has been appointed as manager, must obtain approval from its client before it invests all or part of the client's portfolio in units or shares of an AIF or UCITS it manages. [ Note : article 12(2)(a) of the UCITS Directive and article 12(2)(a) of AIFMD ]",
+    "source_file": "sysc10_conflicts_of_interest.html"
+  },
+  {
+    "chunk_id": "SYSC 10.1.23_0",
+    "provision_id": "SYSC 10.1.23",
+    "heading": "Additional requirements for an AIFM",
+    "date": "22/07/2013",
+    "tag": "R",
+    "text": "An AIFM must take all reasonable steps to identify conflicts of interest that arise, in the course of managing AIFs , between: (1) the AIFM , including its managers, employees or any person directly or indirectly linked to the AIFM by control , and an AIF managed by the AIFM or the investors in that AIF ; or (2) an AIF or the investors in that AIF , and another AIF or the investors in that AIF ; or (3) an AIF or the investors in that AIF , and another client of the AIFM ; or (4) an AIF or the in",
+    "source_file": "sysc10_conflicts_of_interest.html"
+  },
+  {
+    "chunk_id": "SYSC 10.1.23_1",
+    "provision_id": "SYSC 10.1.23",
+    "heading": "Additional requirements for an AIFM",
+    "date": "22/07/2013",
+    "tag": "R",
+    "text": "tors in that AIF , and another client of the AIFM ; or (4) an AIF or the investors in that AIF , and a UCITS managed by the AIFM or the investors in that UCITS ; or (5) two clients of the AIFM . [ Note : article 14(1) first paragraph of AIFMD ]",
+    "source_file": "sysc10_conflicts_of_interest.html"
+  },
+  {
+    "chunk_id": "SYSC 10.1.24_0",
+    "provision_id": "SYSC 10.1.24",
+    "heading": "Additional requirements for an AIFM",
+    "date": "22/07/2013",
+    "tag": "R",
+    "text": "An AIFM must take all reasonable steps to avoid conflicts of interest and, when they cannot be avoided, manage, monitor and (where applicable) disclose those conflicts of interest in order to prevent them from adversely affecting the interests of the AIFs and their investors, and to ensure that the AIFs it manages are fairly treated. [ Note : article 12(1)d of AIFMD ]",
+    "source_file": "sysc10_conflicts_of_interest.html"
+  },
+  {
+    "chunk_id": "SYSC 10.1.25_0",
+    "provision_id": "SYSC 10.1.25",
+    "heading": "Additional requirements for an AIFM",
+    "date": "22/07/2013",
+    "tag": "R",
+    "text": "An AIFM must: (1) maintain and operate effective organisational and administrative arrangements, with a view to taking all reasonable steps designed to identify, prevent, manage and monitor conflicts of interest in order to prevent them from adversely affecting the interests of the AIFs and their investors; (2) segregate, within its own operating environment, tasks and responsibilities which may be regarded as incompatible with each other or which may potentially generate systematic conflicts of",
+    "source_file": "sysc10_conflicts_of_interest.html"
+  },
+  {
+    "chunk_id": "SYSC 10.1.25_1",
+    "provision_id": "SYSC 10.1.25",
+    "heading": "Additional requirements for an AIFM",
+    "date": "22/07/2013",
+    "tag": "R",
+    "text": "e with each other or which may potentially generate systematic conflicts of interest; and (3) assess whether its operating conditions may involve any other material conflicts of interest and disclose them to the AIF's investors. [ Note : article 14(1) second and third paragraphs of AIFMD ]",
+    "source_file": "sysc10_conflicts_of_interest.html"
+  },
+  {
+    "chunk_id": "SYSC 10.1.26_0",
+    "provision_id": "SYSC 10.1.26",
+    "heading": "Additional requirements for an AIFM",
+    "date": "22/07/2013",
+    "tag": "R",
+    "text": "If the organisational arrangements made by the AIFM to identify, prevent, manage and monitor conflicts of interest are not sufficient to ensure, with reasonable confidence, that risks of damage to investors' interests will be prevented, the AIFM must: (1) clearly disclose the general nature or sources of conflicts of interest to the investors before undertaking business on their behalf; and (2) develop appropriate policies and procedures. [ Note : article 14(2) of AIFMD ]",
+    "source_file": "sysc10_conflicts_of_interest.html"
+  },
+  {
+    "chunk_id": "SYSC 10.1.27_0",
+    "provision_id": "SYSC 10.1.27",
+    "heading": "Subordinate measures for alternative investment fund managers",
+    "date": "22/07/2013",
+    "tag": "G",
+    "text": "Articles 30 to 37 of the AIFMD level 2 regulation provide detailed rules supplementing the provisions of article 14 of AIFMD .",
+    "source_file": "sysc10_conflicts_of_interest.html"
+  },
+  {
+    "chunk_id": "SYSC 10.2.1_0",
+    "provision_id": "SYSC 10.2.1",
+    "heading": "Application",
+    "date": "01/04/2009",
+    "tag": "R",
+    "text": "This section applies to any firm .",
+    "source_file": "sysc10_conflicts_of_interest.html"
+  },
+  {
+    "chunk_id": "SYSC 10.2.2_0",
+    "provision_id": "SYSC 10.2.2",
+    "heading": "Control of information",
+    "date": "03/07/2016",
+    "tag": "R",
+    "text": "(1) When a firm establishes and maintains a Chinese wall (that is, an arrangement that requires information held by a person in the course of carrying on one part of the business to be withheld from, or not to be used for, persons with or for whom it acts in the course of carrying on another part of its business) it may: (a) withhold or not use the information held; and (b) for that purpose, permit persons employed in the first part of its business to withhold the information held from those emp",
+    "source_file": "sysc10_conflicts_of_interest.html"
+  },
+  {
+    "chunk_id": "SYSC 10.2.2_1",
+    "provision_id": "SYSC 10.2.2",
+    "heading": "Control of information",
+    "date": "03/07/2016",
+    "tag": "R",
+    "text": " first part of its business to withhold the information held from those employed in that other part of the business; but only to the extent that the business of one of those parts involves the carrying on of regulated activities , ancillary activities or, in the case of MiFID business , the provision of ancillary services . (2) Information may also be withheld or not used by a firm when this is required by an established arrangement maintained between different parts of the business (of any kind",
+    "source_file": "sysc10_conflicts_of_interest.html"
+  },
+  {
+    "chunk_id": "SYSC 10.2.2_2",
+    "provision_id": "SYSC 10.2.2",
+    "heading": "Control of information",
+    "date": "03/07/2016",
+    "tag": "R",
+    "text": "arrangement maintained between different parts of the business (of any kind) in the same group . This provision does not affect any requirement to transmit or use information that may arise apart from the rules in COBS . (3) For the purpose of this rule , \"maintains\" includes taking reasonable steps to ensure that the arrangements remain effective and are adequately monitored, and must be interpreted accordingly. (4) [deleted]",
+    "source_file": "sysc10_conflicts_of_interest.html"
+  },
+  {
+    "chunk_id": "SYSC 10.2.2_3",
+    "provision_id": "SYSC 10.2.2",
+    "heading": "Control of information",
+    "date": "03/07/2016",
+    "tag": "R",
+    "text": "eted]",
+    "source_file": "sysc10_conflicts_of_interest.html"
+  },
+  {
+    "chunk_id": "SYSC 10.2.3_0",
+    "provision_id": "SYSC 10.2.3",
+    "heading": "Effect of rules",
+    "date": "03/07/2016",
+    "tag": "G",
+    "text": "SYSC 10.2.2 R is made under section 137P of the Act (Control of information rules). It has the following effect: (1) acting in conformity with SYSC 10.2.2 R (1) provides a defence against proceedings brought under sections89(2), 90(1) and 91(1) of the Financial Services Act 2012 (Misleading statements, Misleading impressions and Misleading statements etc. in relation to benchmarks) - see sections 89(3)(b), 90(9)(c) and 91(3)(b); and (2) [deleted] (3) acting in conformity with SYSC 10.2.2 R (1) p",
+    "source_file": "sysc10_conflicts_of_interest.html"
+  },
+  {
+    "chunk_id": "SYSC 10.2.3_1",
+    "provision_id": "SYSC 10.2.3",
+    "heading": "Effect of rules",
+    "date": "03/07/2016",
+    "tag": "G",
+    "text": "(3)(b); and (2) [deleted] (3) acting in conformity with SYSC 10.2.2 R (1) provides a defence for a firm against FCA enforcement action, or an action for damages under section 138D of the Act , based on a breach of a relevant requirement to disclose or use this information.",
+    "source_file": "sysc10_conflicts_of_interest.html"
+  },
+  {
+    "chunk_id": "SYSC 10.2.4_0",
+    "provision_id": "SYSC 10.2.4",
+    "heading": "Attribution of knowledge",
+    "date": "01/04/2009",
+    "tag": "R",
+    "text": "When any of the rules of COBS or CASS apply to a firm that acts with knowledge, the firm will not be taken to act with knowledge for the purposes of that rule if none of the relevant individuals involved on behalf of the firm acts with that knowledge as a result of arrangements established under SYSC 10.2.2 R .",
+    "source_file": "sysc10_conflicts_of_interest.html"
+  },
+  {
+    "chunk_id": "SYSC 10.2.5_0",
+    "provision_id": "SYSC 10.2.5",
+    "heading": "Attribution of knowledge",
+    "date": "01/04/2009",
+    "tag": "G",
+    "text": "When a firm manages a conflict of interest using the arrangements in SYSC 10.2.2 R which take the form of a Chinese wall , individuals on the other side of the wall will not be regarded as being in possession of knowledge denied to them as a result of the Chinese wall .",
+    "source_file": "sysc10_conflicts_of_interest.html"
+  }
+]
