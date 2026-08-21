@@ -45,12 +45,25 @@ jobs:
     needs: build-and-push
     runs-on: ubuntu-latest
     steps:
+      - name: Decode SSH key
+        run: |
+          echo "${{ secrets.EC2_SSH_PRIVATE_KEY_B64 }}" | base64 -d > /tmp/deploy_key.pem
+          chmod 600 /tmp/deploy_key.pem
+
       - name: Deploy to EC2
         uses: appleboy/ssh-action@v1.0.3
         with:
           host: ${{ secrets.EC2_HOST }}
           username: ${{ secrets.EC2_USER }}
-          key: ${{ secrets.EC2_SSH_PRIVATE_KEY }}
+          key_path: /tmp/deploy_key.pem
           script: |
             aws ecr get-login-password --region us-east-1 | sudo docker login --username AWS --password-stdin 666729139927.dkr.ecr.us-east-1.amazonaws.com
             sudo docker pull 666729139927.dkr.ecr.us-east-1.amazonaws.com/regradar-backend:latest
+            sudo docker rm -f regradar-backend
+            sudo docker run -d --name regradar-backend \
+              --network regradar-net \
+              --restart unless-stopped \
+              -p 8000:8000 \
+              --env-file ~/regradar.env \
+              -e QDRANT_HOST=regradar-qdrant \
+              666729139927.dkr.ecr.us-east-1.amazonaws.com/regradar-backend:latest
