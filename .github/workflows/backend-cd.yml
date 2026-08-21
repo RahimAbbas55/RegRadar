@@ -53,6 +53,12 @@ jobs:
           echo "$KEY" >> "$GITHUB_OUTPUT"
           echo "EOF" >> "$GITHUB_OUTPUT"
 
+      - name: Debug key length (no secret exposed)
+        run: |
+          echo "Decoded key length: ${#KEY_CHECK}"
+        env:
+          KEY_CHECK: ${{ steps.decode-key.outputs.key }}
+
       - name: Deploy to EC2
         uses: appleboy/ssh-action@v1.0.3
         with:
