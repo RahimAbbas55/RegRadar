@@ -40,3 +40,17 @@ jobs:
             ${{ steps.ecr-login.outputs.registry }}/regradar-backend:${{ github.sha }}
           cache-from: type=gha
           cache-to: type=gha,mode=max
+
+  deploy:
+    needs: build-and-push
+    runs-on: ubuntu-latest
+    steps:
+      - name: Deploy to EC2
+        uses: appleboy/ssh-action@v1.0.3
+        with:
+          host: ${{ secrets.EC2_HOST }}
+          username: ${{ secrets.EC2_USER }}
+          key: ${{ secrets.EC2_SSH_PRIVATE_KEY }}
+          script: |
+            aws ecr get-login-password --region us-east-1 | sudo docker login --username AWS --password-stdin 666729139927.dkr.ecr.us-east-1.amazonaws.com
+            sudo docker pull 666729139927.dkr.ecr.us-east-1.amazonaws.com/regradar-backend:latest
