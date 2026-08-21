@@ -45,26 +45,12 @@ jobs:
     needs: build-and-push
     runs-on: ubuntu-latest
     steps:
-      - name: Decode SSH key
-        id: decode-key
-        run: |
-          KEY=$(echo "${{ secrets.EC2_SSH_PRIVATE_KEY_B64 }}" | base64 -d)
-          echo "key<<EOF" >> "$GITHUB_OUTPUT"
-          echo "$KEY" >> "$GITHUB_OUTPUT"
-          echo "EOF" >> "$GITHUB_OUTPUT"
-
-      - name: Debug key length (no secret exposed)
-        run: |
-          echo "Decoded key length: ${#KEY_CHECK}"
-        env:
-          KEY_CHECK: ${{ steps.decode-key.outputs.key }}
-
       - name: Deploy to EC2
         uses: appleboy/ssh-action@v1.0.3
         with:
           host: ${{ secrets.EC2_HOST }}
           username: ${{ secrets.EC2_USER }}
-          key: ${{ steps.decode-key.outputs.key }}
+          key: ${{ secrets.EC2_SSH_PRIVATE_KEY }}
           script: |
             aws ecr get-login-password --region us-east-1 | sudo docker login --username AWS --password-stdin 666729139927.dkr.ecr.us-east-1.amazonaws.com
             sudo docker pull 666729139927.dkr.ecr.us-east-1.amazonaws.com/regradar-backend:latest
